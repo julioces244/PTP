@@ -12,12 +12,12 @@
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="QBOOTSTRAP.COM" />
 
-  <!-- 
+  <!--
 	//////////////////////////////////////////////////////
 
-	FREE HTML5 TEMPLATE 
+	FREE HTML5 TEMPLATE
 	DESIGNED & DEVELOPED by QBOOTSTRAP.COM
-		
+
 	Website: 		http://qbootstrap.com/
 	Email: 			info@qbootstrap.com
 	Twitter: 		http://twitter.com/Q_bootstrap
@@ -38,7 +38,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -54,7 +54,7 @@
 	<link rel="stylesheet" href="css/flexslider.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-	
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -62,13 +62,13 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	
+
 
 	</head>
 	<body>
-		
+
 	<div class="qbootstrap-loader"></div>
-	
+
 	<div id="page">
 
 		<!-- COMIENZO DEL RECYCLE VIEW -->
@@ -81,16 +81,16 @@
 						<div class="top">
 							<div class="row">
 								<div class="col-md-4 col-md-push-4 text-center">
-									<!-- 
+									<!--
 									<div id="qbootstrap-logo"><a href="index.html"><i class="icon-plus-outline"></i>Med<span>care</span></a></div>
 									<div><img src="./images/talentopiscologo.png" height="100px" width="350px"></div>-->
 								</div>
 								<div class="col-md-4 col-md-pull-4">
 									<img src="./images/talentopiscologo.png" height="150px" width="500px">
-									
+
 									<div class="num"><!--
 										<img src="./images/icons/ic_key.png" height="32px" width="32px">
-										 
+
 										<span class="icon"><i class="icon-phone"></i></span>
 										<p><a href="#">111-222-333</a><br><a href="#">99-222-333</a></p>-->
 									</div>
@@ -98,7 +98,7 @@
 								<div class="col-md-4">
 
 									<img src="./images/logosptp/logocamisea.jpg" height="150px" width="400px">
-									<!-- 
+									<!--
 									<div class="loc">
 										<span class="icon"><i class="icon-location"></i></span>
 										<p><a href="#">Santiago de Surco, Chacarilla, Av. del Pinar 124</a></p>
@@ -121,7 +121,7 @@
 								</li>
 								<li>
 									<a href="doctors.html">Pisco Aprendizaje</a>
-									
+
 								</li>
 
 								<li>
@@ -131,7 +131,7 @@
 									<a href="ptecnologia.html">Pisco Tecnología</a>
 								</li>
 
-								<!-- 
+								<!--
 								<li class="has-dropdown">
 									<a href="blog.html">Blog</a>
 									<ul class="dropdown">
@@ -142,7 +142,7 @@
 								<li class="btn-cta has-dropdown">
 									<a href="#"><span>Ingresar <i class="icon-calendar3"></i></span></a>
 									<ul class="dropdown">
-										<li><a href="#">PlusPetrol</a></li>
+										<li><a href="{{ url('login')}}">PlusPetrol</a></li>
 										<li><a href="#">GORI</a></li>
 										<li><a href="#">Alumnos</a></li>
 										<li><a href="#">Padres</a></li>
@@ -152,11 +152,11 @@
 							</ul>
 						</div>
 					</div>
-					
+
 				</div>
 		</div>
 	</nav>
-	
+
 	<aside id="qbootstrap-hero">
 		<div class="flexslider">
 			<ul class="slides">
@@ -169,7 +169,7 @@
 			   					<h1><strong> "Programa Talento Pisco"</strong></h1>
 			   					<img src="images/LogosPTP/talentopiscologo.png">
 									<h2 class="doc-holder">Mejorando la calidad en la educación peruana</h2>
-									<!-- 
+									<!--
 									<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
 									<p><a class="btn btn-primary btn-lg" href="appointment.html">Make an Appointment</a></p>-->
 			   				</div>
@@ -183,10 +183,10 @@
 		   			<div class="row">
 			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
 			   				<div class="slider-text-inner">
-			   					
+
 			   					<img src="images/LogosPTP/piscoaprendizajelogo.png">
 									<h1><strong> "Pisco Aprendizaje"</strong></h1>
-									<!-- 
+									<!--
 									<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
 									<p><a class="btn btn-primary btn-lg" href="appointment.html">Make an Appointment</a></p>-->
 			   				</div>
@@ -200,10 +200,10 @@
 		   			<div class="row">
 			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
 			   				<div class="slider-text-inner">
-			   					
+
 			   					<img src="images/LogosPTP/piscodigitallogo.png">
 			   					<h1><strong> "Pisco Digital"</strong></h1>
-			   						<!-- 
+			   						<!--
 									<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
 									<p><a class="btn btn-primary btn-lg btn-learn" href="appointment.html">Make an Appointment</a></p>-->
 			   				</div>
@@ -217,22 +217,22 @@
 		   			<div class="row">
 			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
 			   				<div class="slider-text-inner">
-			   					
+
 			   					<img src="images/LogosPTP/piscotecnologíalogo.png">
 			   					<h1><strong> "Pisco Tecnología"</strong></h1>
-			   						<!-- 
+			   						<!--
 									<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
 									<p><a class="btn btn-primary btn-lg btn-learn" href="appointment.html">Make an Appointment</a></p>-->
 			   				</div>
 			   			</div>
 			   		</div>
 		   		</div>
-		   	</li>		   	
+		   	</li>
 		  	</ul>
 	  	</div>
 	</aside>
 
-	<!-- 
+	<!--
 	<div id="qbootstrap-intro">
 		<div class="row">
 			<div class="intro animate-box">
@@ -253,7 +253,7 @@
 					<h3>Pisco Tecnología</h3>
 					<p>
 						Programa estudiantil diseñado para alumnos de 3er grado de secundaria de los colegios en Pisco.
-						
+
 						<span>Monday – Friday: 08.00 am – 06.00 pm</span><br>
 						<span>Saturday – Sunday: 08.00 am – 04.00 pm</span><br>
 						<span>Sunday: 08.00 am – 02.00 pm</span>
@@ -267,7 +267,7 @@
 	<!-- TERMINA RECYCLE VIEW -->
 
 
-	<!-- 
+	<!--
 	<div id="qbootstrap-services">
 		<div class="container">
 			<div class="row animate-box">
@@ -311,7 +311,7 @@
 					</div>
 				</div>
 
-			
+
 			</div>
 		</div>
 	</div>-->
@@ -350,7 +350,7 @@
 
 
 
-	<!-- 
+	<!--
 	<div id="qbootstrap-choose">
 		<div class="container-fluid" >
 			<div class="row" >
@@ -420,9 +420,9 @@
 		</div>
 	</div>
 
-	
 
-	<!-- 
+
+	<!--
 	<div id="qbootstrap-choose">
 		<div class="container-fluid">
 			<div class="row">
@@ -471,7 +471,7 @@
 
 
 	<div class="blank">
-		
+
 	</div>
 
 
@@ -491,7 +491,7 @@
 						<h3><a href="#">Pisco Aprendizaje</a></h3>
 						<span>Pisco aprendizaje es un programa diseñado para alumnos de 1er y 2do grado de secundaria con el objetivo de mejorar
 						las cualidades del estudiante en áreas de comprensión lectora y matemáticas.</span>
-						<!-- 
+						<!--
 						<ul class="qbootstrap-social">
 							<li><a href="#"><i class="icon-facebook2"></i></a></li>
 							<li><a href="#"><i class="icon-twitter2"></i></a></li>
@@ -507,7 +507,7 @@
 						<span>Pisco digital es un programa diseñado para alumnos de 3er grado de secundaria con el objetivo de mejorar
 						las cualidades del estudiante en áreas TIC's, Windows, Gestión de correos, Microsoft Word, Microsoft Excel, Micrososft
 						Power Point.</span>
-						<!-- 
+						<!--
 						<ul class="qbootstrap-social">
 							<li><a href="#"><i class="icon-facebook2"></i></a></li>
 							<li><a href="#"><i class="icon-twitter2"></i></a></li>
@@ -522,7 +522,7 @@
 						<h3><a href="#">Pisco Tecnología</a></h3>
 						<span>Pisco tecnología es un programa diseñado para alumnos de 4to y 5to grado de secundaria con el objetivo de mejorar
 						las cualidades del estudiante en áreas de Electricidad, Electrónica, Computación.</span>
-						<!-- 
+						<!--
 						<ul class="qbootstrap-social">
 							<li><a href="#"><i class="icon-facebook2"></i></a></li>
 							<li><a href="#"><i class="icon-twitter2"></i></a></li>
@@ -531,14 +531,14 @@
 						</ul>-->
 					</div>
 				</div>
-				<!-- 
+				<!--
 				<div class="col-md-3 animate-box text-center">
 					<div class="doctor">
 						<div class="staff-img" style="background-image: url(images/small_photo4.jpg);"></div>
 						<h3><a href="#">Plataforma para la excelencia formativa y empleo</a></h3>
 						<span>Esta plataforma virtual tiene como objetivo "poner en vitrina" a los estudiantes certificados con potenciales empleadores
 						de Pisco, de la región Ica, del sur y del país principalmente.</span>
-						
+
 						<ul class="qbootstrap-social">
 							<li><a href="#"><i class="icon-facebook2"></i></a></li>
 							<li><a href="#"><i class="icon-twitter2"></i></a></li>
@@ -566,7 +566,7 @@
 							<span class="icon"><i class="icon-group-outline"></i></span>
 							<span class="qbootstrap-counter js-counter" data-from="0" data-to="3297" data-speed="5000" data-refresh-interval="50"></span>
 							<span class="qbootstrap-counter-label">Estudiantes</span>
-							
+
 						</div>
 						<div class="col-md-3 col-sm-6 text-center animate-box">
 							<span class="icon"><i class="icon-home-outline"></i></span>
@@ -589,7 +589,7 @@
 		</div>
 	</div>
 
-	<!-- 
+	<!--
 	<div id="qbootstrap-blog">
 		<div class="container">
 			<div class="row animate-box">
@@ -639,7 +639,7 @@
 		</div>
 	</div>
 	-->
-	
+
 
 
 	<!-- COMIENZA EL FOOTER -->
@@ -650,9 +650,9 @@
 				<div class="col-md-10 col-md-offset-1 animate-box">
 					<div class="date-counter text-center">
 						<h2>Somos <strong class="color">Programa Talento Pisco!</strong></h2>
-						<!-- 
+						<!--
 						<h3>By Dr. <strong>Mary Smith</strong></h3>-->
-						<!-- 
+						<!--
 						<p class="countdown">
 							<span id="days"></span>
 							<span id="hours"></span>
@@ -761,7 +761,7 @@
 						</ul>
 					</div>
 				</div>
-				<!-- 
+				<!--
 				<div class="col-md-3 animate-box text-center">
 					<div class="doctor">
 						<div class="staff-img" style="background-image: url(images/staff-1.jpg);"></div>
@@ -779,7 +779,7 @@
 		</div>
 	</div>
 
-	<!-- 
+	<!--
 	<div id="qbootstrap-testimonial" class="qbootstrap-bg-section">
 		<div class="container">
 			<div class="row animate-box">
@@ -875,7 +875,7 @@
 		<div class="row copyright">
 			<div class="col-md-12 text-center">
 				<p>
-                    <small class="block">&copy; 2017 Free HTML5. All Rights Reserved.</small> 
+                    <small class="block">&copy; 2017 Free HTML5. All Rights Reserved.</small>
                     <small class="block">Designed by <a href="https://qbootstrap.com/" target="_blank">QBootstrap.com</a> Avaiable on <a href="https://themefisher.com/free-bootstrap-templates" class="">Themefisher.com</a></small>
                 </p>
 			</div>
@@ -889,7 +889,7 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
-	
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -915,7 +915,7 @@
 	<script src="js/main.js"></script>
 	<script src="js/menu.js"></script>
 	<script type="text/javascript">
-		// When the user scrolls the page, execute myFunction 
+		// When the user scrolls the page, execute myFunction
 		window.onscroll = function() {myFunction()};
 
 		// Get the navbar
@@ -937,4 +937,3 @@
 
 	</body>
 </html>
-

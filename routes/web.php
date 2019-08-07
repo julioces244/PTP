@@ -18,3 +18,20 @@ Route::get('/', function () {
 Route::get('/index', function () {
     return view('index');
 });
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('intraplus', function () {
+    return view('intraplus');
+});
+
+Route::post('login', 'Auth\LoginController@authenticate');
+
+Route::get('/test', 'ArchiveController@index')->middleware('guest');
+Route::get('/test', function () {
+    return view('test');
+});
+
+Route::resource('archives','ArchiveController');
