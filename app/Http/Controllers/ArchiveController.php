@@ -41,11 +41,6 @@ class ArchiveController extends Controller
      */
     public function store(Request $request)
     {
-        //
-        /*
-
-        return 'saved';
-        */
         $filename = "";
 
         if($request->hasFile('archive')){
@@ -61,8 +56,6 @@ class ArchiveController extends Controller
         $archive->filename = $request->input('filename');
         $archive->archive = $filename;
         $archive->save();
-
-
         $archives = Archive::all();
         return view('test', compact('archives'));
 

@@ -19,19 +19,39 @@ Route::get('/index', function () {
     return view('index');
 });
 
+Route::get('/bienvenido', function () {
+    return view('bienvenido');
+});
+
+Route::get('/pisco_digital', function () {
+    return view('pdigital');
+});
+
+Route::get('/ptecnologia', function () {
+    return view('ptecnologia');
+});
+
+Route::get('/talentopisco', function () {
+    return view('talentopisco');
+});
+
+Route::get('/contacto', function () {
+    return view('contact');
+});
+
+
 Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('intraplus', function () {
-    return view('intraplus');
-});
+
 
 Route::post('login', 'Auth\LoginController@authenticate');
 
 Route::get('/test', 'ArchiveController@index')->middleware('guest');
-Route::get('/test', function () {
-    return view('test');
-});
 
-Route::resource('archives','ArchiveController');
+Route::resource('admarchive','admarchiveController');
+Route::resource('admarchive', 'admarchiveController')->names([
+    'create' => 'intraplus'
+]);
+//Route::resource('archives','ArchiveController');

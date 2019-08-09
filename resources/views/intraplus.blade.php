@@ -1,10 +1,10 @@
-@extends('.layouts/layout')
+@extends('.layouts/slidemenu')
 
 @section('content')
 <div class="container">
   <h3>Administrador</h3>
 
-    <form class="form-group" action="/archives" method="post" enctype="multipart/form-data" files=true>
+    <form class="form-group" action="/admarchive  " method="post" enctype="multipart/form-data" files=true>
       @csrf
       <div class="form-group">
         <label for="">Nombre</label>
