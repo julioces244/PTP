@@ -3,6 +3,171 @@
 
 @section('content')
 
+<nav class="qbootstrap-nav" role="navigation">
+	<div class="top-menu" >
+
+
+
+		<div class="container">
+			<div class="row" >
+				<div class="col-xs-12">
+					<div class="top">
+						<div class="row">
+							<div class="col-md-4 col-md-push-4 text-center">
+
+							</div>
+							<div class="col-md-4 col-md-pull-4">
+								<img src="./images/talentopiscologo.png" height="150px" width="500px">
+
+								<div class="num">
+								</div>
+							</div>
+							<div class="col-md-4">
+
+								<img src="./images/logosptp/logocamisea.jpg" height="150px" width="400px">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+
+
+
+			<div class="row" id="navbar" style="border-color: red">
+				<div class="col-xs-12 text-center" >
+					<div class="menu-1">
+						<ul>
+							<li class="active"><a href="{{ url('index')}}">Inicio</a></li>
+							<li><a href="{{ url('bienvenido')}}">Bienvenido</a></li>
+
+							<li class="btn-cta has-dropdown">
+								<a href="{{ url('talentopisco')}}">Talento Pisco</a>
+								<ul class="dropdown">
+									<li><a href="{{ url('talentopisco')}}">Programa Talento Pisco</a></li>
+									<li><a href="{{ url('pisco_aprendizaje')}}">Pisco Aprendizaje</a></li>
+									<li><a href="{{ url('pisco_digital')}}">Pisco Digital</a></li>
+									<li><a href="{{ url('pisco_tecnologia')}}">Pisco Tecnología</a></li>
+								</ul>
+							</li>
+
+							<li>
+								<a href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a>
+							</li>
+							<li>
+								<a href="{{ url('oportunidades_empleo')}}">Oportunidad del Empleo</a>
+							</li>
+							<li>
+								<a href="ptecnologia.html">Estudiante</a>
+							</li>
+							<li>
+								<a href="ptecnologia.html">Padres</a>
+							</li>
+							<li>
+								<a href="ptecnologia.html">Docentes</a>
+							</li>
+							<li>
+								<a href="{{ url('login')}}">Camisea</a>
+							</li>
+
+							<li><a href="{{ url('contacto')}}">Contacto</a></li>
+							<!--
+							<li class="btn-cta has-dropdown">
+								<a href="#"><span>Ingresar <i class="icon-calendar3"></i></span></a>
+								<ul class="dropdown">
+									<li><a href="{{ url('login')}}">PlusPetrol</a></li>
+									<li><a href="#">GORI</a></li>
+									<li><a href="#">Alumnos</a></li>
+									<li><a href="#">Padres</a></li>
+									<li><a href="#">Profesores</a></li>
+								</ul>
+							</li>-->
+						</ul>
+					</div>
+				</div>
+			</div>
+
+	</div>
+</nav>
+
+<aside id="qbootstrap-hero">
+	<div class="flexslider">
+		<ul class="slides" style="vertical-align:middle;">
+			<li style="background-image: url(images/bg_talento_pisco.jpg);">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center slider-text">
+							<div class="slider-text-inner">
+
+								<img src="images/LogosPTP/pisco_tal.png">
+								<h1 class="doc-holder"><strong>"Mejorando la calidad en la educación peruana"</strong></h1>
+								<!--
+								<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
+								<p><a class="btn btn-primary btn-lg" href="appointment.html">Make an Appointment</a></p>-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li style="background-image: url(images/bg_pisco_aprendizaje.jpg);">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center slider-text">
+							<div class="slider-text-inner">
+
+								<img src="images/LogosPTP/pisco_apr.png">
+
+								<!--
+								<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
+								<p><a class="btn btn-primary btn-lg" href="appointment.html">Make an Appointment</a></p>-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li style="background-image: url(images/bg_pisco_digital.jpg);">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center slider-text">
+							<div class="slider-text-inner">
+
+								<img src="images/LogosPTP/pisco_dig.png">
+
+									<!--
+								<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
+								<p><a class="btn btn-primary btn-lg btn-learn" href="appointment.html">Make an Appointment</a></p>-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+
+			<li style="background-image: url(images/bg_pisco_tecnologia.jpg);">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center slider-text">
+							<div class="slider-text-inner">
+
+								<img src="images/LogosPTP/pisco_tec.png">
+
+									<!--
+								<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
+								<p><a class="btn btn-primary btn-lg btn-learn" href="appointment.html">Make an Appointment</a></p>-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			</ul>
+		</div>
+</aside>
+
 
 	<div id="qbootstrap-intro">
 		<div class="row">
@@ -46,8 +211,9 @@
 					<div class="half features-wrap">
 						<div class="qbootstrap-heading animate-box">
 							<h2>¿Qué es el Programa Talento Pisco?</h2>
-							<p>Es un programa de Camisea que busca mejorar la educación secundaria de los estudiantes de esta provincia de Ica,
-								 dotándolos de nuevas habilidades y de una visión global que les permita tener mayores oportunidades de empleo y desarrollo. </p>
+							<p>Es un programa de Camisea que busca mejorar la educación secundaria de los
+								estudiantes de esta provincia de Ica, dotándolos de nuevas habilidades y de
+								 una visión global que les permita tener mayores oportunidades de empleo y desarrollo. </p>
 						</div>
 						<div class="features animate-box">
 							<span class="icon text-center"><i><img src="images/logosptp/pisco_apr.png" height=50% width=90%></i></span>
@@ -85,16 +251,18 @@
 		<div class="container-fluid">
 			<div class="row animate-box">
 				<div class="col-md-6 col-md-offset-3 text-center qbootstrap-heading">
-					<h2>Programa Talento Pisco</h2>
-					<p>El Programa Talento Pisco está conformado por los siguientes proyectos sociales y la plataforma para la Excelencia
-					Formativa y el Empleo.</p>
+					<h2><img src="images/logosptp/pisco_tal.png" height=auto width=50% alt=""></h2>
+					<p>En este proceso participan tres instituciones innovadoras, pioneras y líderes en el campo tecnológico y educativo del país: El Centro para la Competitividad y Desarrollo (CCD),
+						 la Universidad Nacional de Ingeniería (UNI) y el Centro Tecnológico Minero (CETEMIN).</p>
+					<p>En el programa participan de manera conjunta los estudiantes, los padres de familia, los directores y docentes, el Gobierno Regional de Ica,
+						 la UGEL Pisco y Camisea cuyo operador es Pluspetrol, una de las empresas más importantes en exploración y producción de petróleo y gas de Latinoamérica, y la principal empresa de producción de hidrocarburos del país.</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4 animate-box text-center">
 					<div class="doctor">
 						<div class="staff-img" style="background-image: url(images/bg_pisco_aprendizaje.jpg);"></div>
-						<h3><a href=""><img src="images/logosptp/pisco_apr.png" height=50% width=50%></a></h3>
+						<h3><a href="{{ url('pisco_aprendizaje')}}"><img src="images/logosptp/pisco_apr.png" height=50% width=50%></a></h3>
 						<span></span>
 
 					</div>
@@ -102,7 +270,7 @@
 				<div class="col-md-4 animate-box text-center">
 					<div class="doctor">
 						<div class="staff-img" style="background-image: url(images/bg_pisco_digital.jpg);"></div>
-						<h3><a href=""><img src="images/logosptp/pisco_dig.png" height=30% width=35%></a></h3>
+						<h3><a href="{{ url('pisco_digital')}}"><img src="images/logosptp/pisco_dig.png" height=30% width=35%></a></h3>
 						<span></span>
 
 					</div>
@@ -110,7 +278,7 @@
 				<div class="col-md-4 animate-box text-center">
 					<div class="doctor">
 						<div class="staff-img" style="background-image: url(images/bg_pisco_tecnologia.jpg);"></div>
-						<h3><a href=""><img src="images/logosptp/pisco_tec.png" height=50% width=50%></a></h3>
+						<h3><a href="{{ url('pisco_tecnologia')}}"><img src="images/logosptp/pisco_tec.png" height=50% width=50%></a></h3>
 						<span></span>
 
 					</div>
@@ -190,6 +358,7 @@
 			<div class="row animate-box">
 				<div class="col-md-6 col-md-offset-3 text-center qbootstrap-heading">
 					<h2>Involucrados</h2>
+					<!-- -->
 					<p>La Universidad Nacional de Ingreniería (UNI), el Centro para la Competitividad y el Desarrollo (CCD) y el Centro
 					   Tecnológico Minero (CETEMIN), 3 instituciones innovadoras, pionera y líderes en materia de logros de aprendizaje.
 					   Así mismo se cuenta con el apoyo del Gobierno Regional de Ica, la Unidad de Gestión Educativa Local (UGEL ICA) y
@@ -302,48 +471,47 @@
 		<div class="container">
 			<div class="row row-pb-md">
 				<div class="col-md-3 qbootstrap-widget">
-					<h3>About</h3>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<h3>Sobre Talento Pisco</h3>
+					<p>Es un programa de Camisea que busca mejorar la educación secundaria de los
+						estudiantes de esta provincia de Ica.</p>
 				</div>
 				<div class="col-md-2 col-sm-4 col-xs-6 qbootstrap-widget">
-					<h3>Links</h3>
+					<h3>Enlaces</h3>
 					<ul class="qbootstrap-footer-links">
-						<li><a href="#">Department</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Terms</a></li>
-						<li><a href="#">Shop</a></li>
+						<li><a href="{{ url('index')}}">Inicio</a></li>
+						<li><a href="{{ url('bienvenido')}}">Bienvenido</a></li>
+						<li><a href="{{ url('talentopisco')}}">Talento Pisco</a></li>
+						<li><a href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a></li>
+						<li><a href="{{ url('oportunidades_empleo')}}">Oportunidad de Empleo</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-2 col-sm-4 col-xs-6 qbootstrap-widget">
-					<h3>Our Services</h3>
+					<h3>Proyectos Sociales</h3>
 					<ul class="qbootstrap-footer-links">
-						<li><a href="#">Heart Surgery</a></li>
-						<li><a href="#">Surgical Treatment</a></li>
-						<li><a href="#">General Treatment</a></li>
-						<li><a href="#">Medical Treatment</a></li>
-						<li><a href="#">Help Desk</a></li>
+						<li><a href="{{ url('pisco_aprendizaje')}}">Pisco Aprendizaje</a></li>
+						<li><a href="{{ url('pisco_digital')}}">Pisco Digital</a></li>
+						<li><a href="{{ url('pisco_tecnologia')}}">Pisco Tecnología</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-5 col-sm-4 col-xs-12 qbootstrap-widget">
-					<h3>Let's Talk</h3>
+					<h3>Escríbenos</h3>
 					<form class="contact-form">
 						<div class="form-group">
-							<label for="name" class="sr-only">Name</label>
-							<input type="name" class="form-control" id="name" placeholder="Name">
+							<label for="name" class="sr-only">Nombre</label>
+							<input type="name" class="form-control" id="name" placeholder="Nombre">
 						</div>
 						<div class="form-group">
-							<label for="email" class="sr-only">Email</label>
-							<input type="email" class="form-control" id="email" placeholder="Email">
+							<label for="email" class="sr-only">Correo</label>
+							<input type="email" class="form-control" id="email" placeholder="Correo">
 						</div>
 						<div class="form-group">
-							<label for="message" class="sr-only">Message</label>
-							<textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+							<label for="message" class="sr-only">Mensaje</label>
+							<textarea class="form-control" id="message" rows="3" placeholder="Mensaje"></textarea>
 						</div>
 						<div class="form-group">
-							<input type="submit" id="btn-submit" class="btn btn-primary btn-send-message btn-md" value="Send Message">
+							<input type="submit" id="btn-submit" class="btn btn-primary btn-send-message btn-md" value="Enviar">
 						</div>
 					</form>
 				</div>

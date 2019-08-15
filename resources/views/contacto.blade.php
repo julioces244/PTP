@@ -6,18 +6,18 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Medcare &mdash; 100% Free Fully Responsive HTML5 Template by qbootstrap.com</title>
+	<title>Programa Talento Pisco</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by QBOOTSTRAP.COM" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="QBOOTSTRAP.COM" />
 
-  <!-- 
+  <!--
 	//////////////////////////////////////////////////////
 
-	FREE HTML5 TEMPLATE 
+	FREE HTML5 TEMPLATE
 	DESIGNED & DEVELOPED by QBOOTSTRAP.COM
-		
+
 	Website: 		http://qbootstrap.com/
 	Email: 			info@qbootstrap.com
 	Twitter: 		http://twitter.com/Q_bootstrap
@@ -38,7 +38,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -64,161 +64,174 @@
 
 	</head>
 	<body>
-		
-	<div class="qbootstrap-loader"></div>
-	
-	<div id="page">
-	<nav class="qbootstrap-nav" role="navigation">
-		<div class="top-menu" >
-			<div class="container"  >
-				<div class="row" >
-					<div class="col-xs-12">
-						<div class="top">
-							<div class="row">
-								<div class="col-md-4 col-md-push-4 text-center">
-									<!-- 
-									<div id="qbootstrap-logo"><a href="index.html"><i class="icon-plus-outline"></i>Med<span>care</span></a></div>
-									<div><img src="./images/talentopiscologo.png" height="100px" width="350px"></div>-->
-								</div>
-								<div class="col-md-4 col-md-pull-4">
-									<img src="./images/talentopiscologo.png" height="150px" width="500px">
-									
-									<div class="num"><!--
-										<img src="./images/icons/ic_key.png" height="32px" width="32px">
-										 
-										<span class="icon"><i class="icon-phone"></i></span>
-										<p><a href="#">111-222-333</a><br><a href="#">99-222-333</a></p>-->
-									</div>
-								</div>
-								<div class="col-md-4">
 
-									<img src="./images/logosptp/logocamisea.jpg" height="150px" width="400px">
-									<!-- 
-									<div class="loc">
-										<span class="icon"><i class="icon-location"></i></span>
-										<p><a href="#">Santiago de Surco, Chacarilla, Av. del Pinar 124</a></p>
-									</div>-->
+	<div class="qbootstrap-loader"></div>
+
+	<div id="page">
+		<nav class="qbootstrap-nav" role="navigation">
+			<div class="top-menu" >
+
+
+
+				<div class="container">
+					<div class="row" >
+						<div class="col-xs-12">
+							<div class="top">
+								<div class="row">
+									<div class="col-md-4 col-md-push-4 text-center">
+
+									</div>
+									<div class="col-md-4 col-md-pull-4">
+										<img src="./images/talentopiscologo.png" height="150px" width="500px">
+
+										<div class="num">
+										</div>
+									</div>
+									<div class="col-md-4">
+
+										<img src="./images/logosptp/logocamisea.jpg" height="150px" width="400px">
+
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				</div>
+					</div>
 
-				<div class="row" id="navbar" style="border-color: red">
-					<div class="col-xs-12 text-center" >
-						<div class="menu-1">
-							<ul>
-								<li><a href="index.html">Inicio</a></li>
-								<li><a href="services.html">Bienvenido</a></li>
-								<li>
-									<a href="departments.html">Programas</a>
-								</li>
-								<li class="has-dropdown">
-									<a href="doctors.html">Pisco Aprendizaje</a>
-									<ul class="dropdown">
-										<li><a href="departments-single.html">Pisco Aprendizaje</a></li>
-										<li><a href="departments-single.html">Pisco Digital</a></li>
-										<li><a href="departments-single.html">Pisco Tecnología</a></li>
-									</ul>
-								</li>
 
-								<li>
-									<a href="pdigital.html">Pisco Digital</a>
-								</li>
-								<li>
-									<a href="ptecnologia.html">Pisco Tecnología</a>
-								</li>
 
-								<!-- 
-								<li class="has-dropdown">
-									<a href="blog.html">Blog</a>
-									<ul class="dropdown">
-										<li><a href="blog-single.html">Single Blog</a></li>
-									</ul>
-								</li>-->
-								<li class="active"><a href="contact.html">Contacto</a></li>
-								<li class="btn-cta"><a href="#"><span>Ingresar <i class="icon-calendar3"></i></span></a></li>
-							</ul>
+					<div class="row" id="navbar" style="border-color: red">
+						<div class="col-xs-12 text-center" >
+							<div class="menu-1">
+								<ul>
+									<li><a href="{{ url('index')}}">Inicio</a></li>
+									<li><a href="{{ url('bienvenido')}}">Bienvenido</a></li>
+
+									<li class="btn-cta has-dropdown">
+										<a href="{{ url('talentopisco')}}">Talento Pisco</a>
+										<ul class="dropdown">
+											<li><a href="{{ url('talentopisco')}}">Programa Talento Pisco</a></li>
+											<li><a href="{{ url('pisco_aprendizaje')}}">Pisco Aprendizaje</a></li>
+											<li><a href="{{ url('pisco_digital')}}">Pisco Digital</a></li>
+											<li><a href="{{ url('pisco_tecnologia')}}">Pisco Tecnología</a></li>
+										</ul>
+									</li>
+
+									<li>
+										<a href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a>
+									</li>
+									<li>
+										<a href="{{ url('oportunidades_empleo')}}">Oportunidad del Empleo</a>
+									</li>
+									<li>
+										<a href="ptecnologia.html">Estudiante</a>
+									</li>
+									<li>
+										<a href="ptecnologia.html">Padres</a>
+									</li>
+									<li>
+										<a href="ptecnologia.html">Docentes</a>
+									</li>
+									<li>
+										<a href="{{ url('login')}}">Camisea</a>
+									</li>
+
+									<li class="active"><a href="{{ url('contacto')}}">Contacto</a></li>
+									<!--
+									<li class="btn-cta has-dropdown">
+										<a href="#"><span>Ingresar <i class="icon-calendar3"></i></span></a>
+										<ul class="dropdown">
+											<li><a href="{{ url('login')}}">PlusPetrol</a></li>
+											<li><a href="#">GORI</a></li>
+											<li><a href="#">Alumnos</a></li>
+											<li><a href="#">Padres</a></li>
+											<li><a href="#">Profesores</a></li>
+										</ul>
+									</li>-->
+								</ul>
+							</div>
 						</div>
 					</div>
-					
+
+			</div>
+		</nav>
+
+		<aside id="qbootstrap-hero">
+			<div class="flexslider">
+				<ul class="slides" style="vertical-align:middle;">
+					<li style="background-image: url(images/bg_talento_pisco.jpg);">
+						<div class="overlay"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 text-center slider-text">
+									<div class="slider-text-inner">
+
+										<img src="images/LogosPTP/pisco_tal.png">
+										<h1 class="doc-holder"><strong>"Mejorando la calidad en la educación peruana"</strong></h1>
+										<!--
+										<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
+										<p><a class="btn btn-primary btn-lg" href="appointment.html">Make an Appointment</a></p>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li style="background-image: url(images/bg_pisco_aprendizaje.jpg);">
+						<div class="overlay"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 text-center slider-text">
+									<div class="slider-text-inner">
+
+										<img src="images/LogosPTP/pisco_apr.png">
+
+										<!--
+										<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
+										<p><a class="btn btn-primary btn-lg" href="appointment.html">Make an Appointment</a></p>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li style="background-image: url(images/bg_pisco_digital.jpg);">
+						<div class="overlay"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 text-center slider-text">
+									<div class="slider-text-inner">
+
+										<img src="images/LogosPTP/pisco_dig.png">
+
+											<!--
+										<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
+										<p><a class="btn btn-primary btn-lg btn-learn" href="appointment.html">Make an Appointment</a></p>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li style="background-image: url(images/bg_pisco_tecnologia.jpg);">
+						<div class="overlay"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 text-center slider-text">
+									<div class="slider-text-inner">
+
+										<img src="images/LogosPTP/pisco_tec.png">
+
+											<!--
+										<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
+										<p><a class="btn btn-primary btn-lg btn-learn" href="appointment.html">Make an Appointment</a></p>-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					</ul>
 				</div>
-		</div>
-	</nav>
-	
-	<aside id="qbootstrap-hero">
-		<div class="flexslider">
-			<ul class="slides">
-		   	<li style="background-image: url(images/bg_student1.jpg);">
-		   		<div class="overlay"></div>
-		   		<div class="container">
-		   			<div class="row">
-			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
-			   				<div class="slider-text-inner">
-			   					<h1><strong> "Programa Talento Pisco"</strong></h1>
-			   					<img src="images/LogosPTP/talentopiscologo.png">
-									<h2 class="doc-holder">Mejorando la calidad en la educación peruana</h2>
-									<!-- 
-									<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
-									<p><a class="btn btn-primary btn-lg" href="appointment.html">Make an Appointment</a></p>-->
-			   				</div>
-			   			</div>
-			   		</div>
-		   		</div>
-		   	</li>
-		   	<li style="background-image: url(images/bg_student2.jpg);">
-		   		<div class="overlay"></div>
-		   		<div class="container">
-		   			<div class="row">
-			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
-			   				<div class="slider-text-inner">
-			   					<img src="images/LogosPTP/piscoaprendizajelogo.png">
-			   					<h1><strong> Pisco Aprendizaje</strong></h1>
-									
-									<!-- 
-									<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
-									<p><a class="btn btn-primary btn-lg" href="appointment.html">Make an Appointment</a></p>-->
-			   				</div>
-			   			</div>
-			   		</div>
-		   		</div>
-		   	</li>
-		   	<li style="background-image: url(images/bg_student3.jpg);">
-		   		<div class="overlay"></div>
-		   		<div class="container">
-		   			<div class="row">
-			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
-			   				<div class="slider-text-inner">
-			   					<img src="images/LogosPTP/piscodigitallogo.png">
-			   					<h1><strong>Pisco Digital</strong></h1>
-			   						<!-- 
-									<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
-									<p><a class="btn btn-primary btn-lg btn-learn" href="appointment.html">Make an Appointment</a></p>-->
-			   				</div>
-			   			</div>
-			   		</div>
-		   		</div>
-		   	</li>
-		   	<li style="background-image: url(images/bg_student4.jpg);">
-		   		<div class="overlay"></div>
-		   		<div class="container">
-		   			<div class="row">
-			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
-			   				<div class="slider-text-inner">
-			   					<img src="images/LogosPTP/piscotecnologíalogo.png">
-			   					<h1><strong>Pisco Tecnología</strong></h1>
-			   						<!-- 
-									<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
-									<p><a class="btn btn-primary btn-lg btn-learn" href="appointment.html">Make an Appointment</a></p>-->
-			   				</div>
-			   			</div>
-			   		</div>
-		   		</div>
-		   	</li>		   	
-		  	</ul>
-	  	</div>
-	</aside>
+		</aside>
 
 	<div id="qbootstrap-intro">
 		<div class="row">
@@ -240,7 +253,7 @@
 					<h3>Pisco Tecnología</h3>
 					<p>
 						Programa estudiantil diseñado para alumnos de 3er grado de secundaria de los colegios en Pisco.
-						<!-- 
+						<!--
 						<span>Monday – Friday: 08.00 am – 06.00 pm</span><br>
 						<span>Saturday – Sunday: 08.00 am – 04.00 pm</span><br>
 						<span>Sunday: 08.00 am – 02.00 pm</span>-->
@@ -267,7 +280,7 @@
 						<div class="col-md-3">
 							<p><span><i class="icon-mail"></i></span> <a href="mailto:info@yoursite.com">fatima@competitividadccd.com</a></p>
 						</div>
-						<!-- 
+						<!--
 						<div class="col-md-3">
 							<p><span><i class="icon-globe-outline"></i></span> <a href="https://qbootstrap.com/">QBootstrap.com</a></p>
 						</div>-->
@@ -311,16 +324,16 @@
 							<input type="submit" value="Enviar Mensaje" class="btn btn-primary">
 						</div>
 
-					</form>		
+					</form>
 				</div>
 			</div>
-			
+
 		</div>
 	</div>
-	
+
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.9958621234778!2d-76.99139458457466!3d-12.112435346424968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7ec9124d10b%3A0x2a27a88a61ba5adb!2sAv.+del+Pinar+124%2C+Lima+15038!5e0!3m2!1ses-419!2spe!4v1564774304949!5m2!1ses-419!2spe" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
-	
-	<!-- 
+
+	<!--
 	<div id="qbootstrap-register" style="background-image: url(images/bg_student4.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
@@ -328,9 +341,9 @@
 				<div class="col-md-10 col-md-offset-1 animate-box">
 					<div class="date-counter text-center">
 						<h2>Somos <strong class="color">Programa Talento Pisco!</strong></h2>
-						
+
 						<h3>By Dr. <strong>Mary Smith</strong></h3>-->
-						<!-- 
+						<!--
 						<p class="countdown">
 							<span id="days"></span>
 							<span id="hours"></span>
@@ -350,48 +363,47 @@
 		<div class="container">
 			<div class="row row-pb-md">
 				<div class="col-md-3 qbootstrap-widget">
-					<h3>About</h3>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<h3>Sobre Talento Pisco</h3>
+					<p>Es un programa de Camisea que busca mejorar la educación secundaria de los
+						estudiantes de esta provincia de Ica.</p>
 				</div>
 				<div class="col-md-2 col-sm-4 col-xs-6 qbootstrap-widget">
-					<h3>Links</h3>
+					<h3>Enlaces</h3>
 					<ul class="qbootstrap-footer-links">
-						<li><a href="#">Department</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Terms</a></li>
-						<li><a href="#">Shop</a></li>
+						<li><a href="{{ url('index')}}">Inicio</a></li>
+						<li><a href="{{ url('bienvenido')}}">Bienvenido</a></li>
+						<li><a href="{{ url('talentopisco')}}">Talento Pisco</a></li>
+						<li><a href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a></li>
+						<li><a href="{{ url('oportunidades_empleo')}}">Oportunidad de Empleo</a></li>
 					</ul>
-				</div> 
+				</div>
 
 				<div class="col-md-2 col-sm-4 col-xs-6 qbootstrap-widget">
-					<h3>Our Services</h3>
+					<h3>Proyectos Sociales</h3>
 					<ul class="qbootstrap-footer-links">
-						<li><a href="#">Heart Surgery</a></li>
-						<li><a href="#">Surgical Treatment</a></li>
-						<li><a href="#">General Treatment</a></li>
-						<li><a href="#">Medical Treatment</a></li>
-						<li><a href="#">Help Desk</a></li>
+						<li><a href="{{ url('pisco_aprendizaje')}}">Pisco Aprendizaje</a></li>
+						<li><a href="{{ url('pisco_digital')}}">Pisco Digital</a></li>
+						<li><a href="{{ url('pisco_tecnologia')}}">Pisco Tecnología</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-5 col-sm-4 col-xs-12 qbootstrap-widget">
-					<h3>Let's Talk</h3>
+					<h3>Escríbenos</h3>
 					<form class="contact-form">
 						<div class="form-group">
-							<label for="name" class="sr-only">Name</label>
+							<label for="name" class="sr-only">Nombre</label>
 							<input type="name" class="form-control" id="name" placeholder="Nombre">
 						</div>
 						<div class="form-group">
-							<label for="email" class="sr-only">Email</label>
+							<label for="email" class="sr-only">Correo</label>
 							<input type="email" class="form-control" id="email" placeholder="Correo">
 						</div>
 						<div class="form-group">
-							<label for="message" class="sr-only">Message</label>
+							<label for="message" class="sr-only">Mensaje</label>
 							<textarea class="form-control" id="message" rows="3" placeholder="Mensaje"></textarea>
 						</div>
 						<div class="form-group">
-							<input type="submit" id="btn-submit" class="btn btn-primary btn-send-message btn-md" value="Enviar Mensaje">
+							<input type="submit" id="btn-submit" class="btn btn-primary btn-send-message btn-md" value="Enviar">
 						</div>
 					</form>
 				</div>
@@ -400,9 +412,9 @@
 		<div class="row copyright">
 			<div class="col-md-12 text-center">
 				<p>
-                    <small class="block">&copy; 2017 Free HTML5. All Rights Reserved.</small> 
-                    <small class="block">Designed by <a href="https://qbootstrap.com/" target="_blank">QBootstrap.com</a> Avaiable on <a href="https://themefisher.com/free-bootstrap-templates" class="">Themefisher.com</a></small>
-                </p>
+										<small class="block">&copy; 2017 Free HTML5. All Rights Reserved.</small>
+										<small class="block">Designed by <a href="https://qbootstrap.com/" target="_blank">QBootstrap.com</a> Avaiable on <a href="https://themefisher.com/free-bootstrap-templates" class="">Themefisher.com</a></small>
+								</p>
 			</div>
 		</div>
 	</footer>
@@ -411,7 +423,7 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
-	
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -440,7 +452,7 @@
 	<script src="js/main.js"></script>
 
 	<script type="text/javascript">
-		// When the user scrolls the page, execute myFunction 
+		// When the user scrolls the page, execute myFunction
 		window.onscroll = function() {myFunction()};
 
 		// Get the navbar
@@ -462,4 +474,3 @@
 
 	</body>
 </html>
-

@@ -112,8 +112,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Page</a>
                             </li>-->
+
                             <li class="nav-item">
-                              <a href="{{ url('login')}}">
+                              <a href="{{ url('logout')}}">
                               <button  type="button" class="btn btn-danger">Salir</button></a>
                             </li>
                         </ul>

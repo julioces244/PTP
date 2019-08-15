@@ -12,8 +12,8 @@
 		<form class="" action="{{url('login')}}" method="post">
 			@csrf
 			<center><img src="images/talentopiscologo.png" alt=""></center>
-			<input type="text" name="email" value="" placeholder="Ingrese usuario">
-			<input type="password" name="password" value="" placeholder="Ingrese contraseña">
+			<input type="text" name="email" value="" placeholder="Ingrese usuario" required>
+			<input type="password" name="password" value="" placeholder="Ingrese contraseña" required>
 			<button class="btn" type="submit" name="button" >Ingresar</button>
 
 		</form>

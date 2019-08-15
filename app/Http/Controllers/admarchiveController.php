@@ -8,6 +8,16 @@ use Illuminate\Http\Request;
 
 class admarchiveController extends Controller
 {
+
+/*
+  public function __construct()
+{
+  $this->middleware('auth');
+  $this->middleware('guest');
+}*/
+
+
+
     /**
      * Display a listing of the resource.
      *
@@ -16,6 +26,8 @@ class admarchiveController extends Controller
     public function index()
     {
         //
+        $archives = Archive::all();
+        return view('showarchives', compact('archives'));
     }
 
     /**
@@ -26,7 +38,6 @@ class admarchiveController extends Controller
     public function create()
     {
         //
-
         return view ('intraplus');
     }
 
@@ -41,12 +52,9 @@ class admarchiveController extends Controller
       $filename = "";
 
       if($request->hasFile('archive')){
-        $archive = $request->file('archive');
-        $filename = time().$archive->getClientOriginalName();
-        $archive->move(public_path().'/documents/',$filename);
-        //dd($filename);
-        //return $filename;
-
+            $archive = $request->file('archive');
+            $filename = time().$archive->getClientOriginalName();
+            $archive->move(public_path().'/documents/',$filename);
       }
 
       $archive = new Archive();
@@ -96,8 +104,22 @@ class admarchiveController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($idArchive)
     {
         //
+        $archive = Archive::find($idArchive);
+        $archive->delete();
+
+        return redirect()->route('admarchive.index')->with('success','Eliminado correctamente');
+
+        /*
+        dd("GO");
+        $archive = Archive::findOrFail($idArchive);
+        dd($archive);
+        $archive->delete();
+        dd("Go2");+
+        return view ('intraplus');*/
+
+
     }
 }

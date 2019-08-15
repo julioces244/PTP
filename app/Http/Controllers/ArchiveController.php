@@ -13,6 +13,8 @@ class ArchiveController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    
     public function index()
     {
 
@@ -107,4 +109,8 @@ class ArchiveController extends Controller
     {
         //
     }
+    /*
+    public function _construct(){
+      $this->middleware('auth');
+    }*/
 }
