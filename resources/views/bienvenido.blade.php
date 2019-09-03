@@ -48,9 +48,9 @@
 								<a href="{{ url('talentopisco')}}">Talento Pisco</a>
 								<ul class="dropdown">
 									<li><a href="{{ url('talentopisco')}}">Programa Talento Pisco</a></li>
-									<li><a href="{{ url('')}}">Pisco Aprendizaje</a></li>
+									<li><a href="{{ url('pisco_aprendizaje')}}">Pisco Aprendizaje</a></li>
 									<li><a href="{{ url('pisco_digital')}}">Pisco Digital</a></li>
-									<li><a href="{{ url('ptecnologia')}}">Pisco Tecnología</a></li>
+									<li><a href="{{ url('pisco_tecnologia')}}">Pisco Tecnología</a></li>
 								</ul>
 							</li>
 
@@ -73,7 +73,9 @@
 								<a href="{{ url('login')}}">Camisea</a>
 							</li>
 
-							<li><a href="contact.html">Contacto</a></li>
+							<li><a href="{{ url('noticias')}}">Noticias</a></li>
+
+							<li><a href="{{ url('contacto')}}">Contacto</a></li>
 							<!--
 							<li class="btn-cta has-dropdown">
 								<a href="#"><span>Ingresar <i class="icon-calendar3"></i></span></a>
@@ -203,14 +205,35 @@
 	</div>-->
 
 
+	<section class="section bg-cover" data-background="images/bg_student4.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-sm-4 position-relative success-video">
+				<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="100%" height="400px" type="text/html" src="https://www.youtube.com/embed/5OE_uzqEerE?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"></iframe>
+
+
+      </div>
+      <div class="col-lg-4 col-sm-8">
+        <div class="bg-white p-5">
+          <h2><a>BIENVENIDO</a></h2>
+          <p>Pluspetrol, una de las empresas más importantes en exploración y producción de petróleo y gas de Latinoamérica, y la principal empresa de producción de hidrocarburos del país en el marco de mejorar la calidad de educación en la provincia de Pisco ha decidido promover tres "Proyectos Sociales - Pisco"
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 	<div id="qbootstrap-doctor" style="padding-bottom: -300px;" class="qbootstrap-bg-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 image-content">
 					<div class="doctor animate-box">
 
-						<h2><a>Bienvenido</a></h2>
-						<br>
+						<h2><a>Objetivos:</a></h2>
+
 						<!--
 						<span>Dental Hygienist</span>
 						<ul class="qbootstrap-social">
@@ -220,7 +243,7 @@
 							<li><a href="#"><i class="icon-google2"></i></a></li>
 						</ul>-->
 						<div class="desc">
-							<p>Pluspetrol, una de las empresas más importantes en exploración y producción de petróleo y gas de Latinoamérica, y la principal empresa de producción de hidrocarburos del país en el marco de mejorar la calidad de educación en la provincia de Pisco ha decidido promover tres "Proyectos Sociales - Pisco"</p><br>
+							<p></p><br>
 							<ul>
 								<li type="1">"Mejora de logros de aprendizaje para estudiantes de 1ro y 2do de Educación Secundaria."</li>
 								<br>
@@ -230,13 +253,8 @@
 								<li type="1">"Educación para el Trabajo Técnico Escolar para alumnos del 4to y 5to de secundaria de Pisco, con certificación del Ministerio de Educación."</li>
 							</ul>
 							<br>
-							<p>En ese contexto, la Universidad Nacional de Ingeniería (UNI), el Centro para la Competitividad y Desarrollo (CCD) y el Centro Tecnológico Minero (CETEMIN), 3 instituciones innovadoras, pioneras y líderes en materia de logros de aprendizaje y tecnología del país, luego de una evaluación exhaustiva y multidisciplinaria de los TdRs correspondientes, vislumbran enormes posibilidades de hacer sinergias entre los 3 proyectos y al mismo tiempo desarrollar un enfoque integral a partir de la implementación de los "Proyectos Sociales - Pisco."</p>
 
 							<div class="blank"></div>
-
-
-
-
 
 								<div class="container-fluid">
 									<div class="row">
@@ -262,10 +280,6 @@
 								</div>
 							<br>
 							<br>
-
-
-
-
 							</div>
 
 
@@ -584,6 +598,20 @@
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row row-pb-md">
+
+				<div class="col-md-1 qbootstrap-widget">
+					<center><img src="images/socialnetworks/ic_facebook.png" alt="" height=50px width=50px></center>
+
+				<a><br></a>
+				  <center><img src="images/socialnetworks/ic_twitter.png" alt=""></center>
+
+				<a><br></a>
+				<center><img src="images/socialnetworks/ic_instagram.png" alt="" height=53px width=53px></center>
+
+				<a><br></a>
+				<center><img src="images/socialnetworks/ic_youtube.png" alt="" height=50px width=50px></center>
+				</div>
+
 				<div class="col-md-3 qbootstrap-widget">
 					<h3>Sobre Talento Pisco</h3>
 					<p>Es un programa de Camisea que busca mejorar la educación secundaria de los
@@ -609,7 +637,7 @@
 					</ul>
 				</div>
 
-				<div class="col-md-5 col-sm-4 col-xs-12 qbootstrap-widget">
+				<div class="col-md-4 col-sm-4 col-xs-12 qbootstrap-widget">
 					<h3>Escríbenos</h3>
 					<form class="contact-form">
 						<div class="form-group">
@@ -631,14 +659,17 @@
 				</div>
 			</div>
 		</div>
+		<!--
 		<div class="row copyright">
 			<div class="col-md-12 text-center">
 				<p>
-										<small class="block">&copy; 2017 Free HTML5. All Rights Reserved.</small>
-										<small class="block">Designed by <a href="https://qbootstrap.com/" target="_blank">QBootstrap.com</a> Avaiable on <a href="https://themefisher.com/free-bootstrap-templates" class="">Themefisher.com</a></small>
-								</p>
+                    <small class="block">&copy; 2017 Free HTML5. All Rights Reserved.</small>
+
+                    <small class="block">Designed by <a href="https://qbootstrap.com/" target="_blank">QBootstrap.com</a> Avaiable on <a href="https://themefisher.com/free-bootstrap-templates" class="">Themefisher.com</a></small>
+
+                </p>
 			</div>
-		</div>
+		</div>-->
 	</footer>
 
 

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Archive;
 use Illuminate\Database\Eloquent;
 use Illuminate\Http\Request;
+use Carbon\Carbon;
 
 class ArchiveController extends Controller
 {
@@ -14,9 +15,19 @@ class ArchiveController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    
+/*
+     public function __construct()
+     {
+         $this->middleware('auth');
+     }
+*/
     public function index()
     {
+
+      setlocale(LC_ALL, 'es_ES');
+      $fecha = Carbon::now();
+      $mes = $fecha->formatLocalized('%d de %B del %Y %R');// mes en idioma español
+      dd($mes);
 
       $archives = Archive::all();
       return view('test', compact('archives'));

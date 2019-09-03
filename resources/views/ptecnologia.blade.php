@@ -138,6 +138,8 @@
 										<a href="{{ url('login')}}">Camisea</a>
 									</li>
 
+									<li><a href="{{ url('noticias')}}">Noticias</a></li>
+
 									<li><a href="{{ url('contacto')}}">Contacto</a></li>
 									<!--
 									<li class="btn-cta has-dropdown">
@@ -400,30 +402,30 @@
                         <div class="works-gallery">
                             <div id="mygallery">
                                 <div>
-                                    <img alt="" src="images/bg_student1.jpg"/>
+                                    <img alt="" src="images/photos/IMG-20190816-WA0052.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+                                            <h4>Almunos pisco aprendizaje</h4>
+                                            <p>Un nuevo comienzo en la educación de Pisco</p>
                                         </div>
                                     </div>
 
                                 </div>
                                 <div>
-                                    <img alt="" src="images/bg_student2.jpg"/>
+                                    <img alt="" src="images/photos/IMG-20190827-WA0041.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+                                            <h4>Clases de comunicación</h4>
+                                            <p>Módulos ayudan al aprendizaje</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <img alt="" src="images/small_photo1.jpg"/>
+                                    <img alt="" src="images/photos/IMG-20190812-WA0016.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+                                            <h4>Laboratorios tecnológicos</h4>
+                                            <p>última generación en tecnología</p>
                                         </div>
                                     </div>
                                 </div>
@@ -431,8 +433,8 @@
                                     <img alt="" src="images/small_photo2.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+                                            <h4>Pioneros en clases</h4>
+                                            <p>Alumnos destacan en clases de electricidad</p>
                                         </div>
                                     </div>
                                 </div>
@@ -440,8 +442,8 @@
                                     <img alt="" src="images/small_photo4.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+                                            <h4>Instinto Talento Pisco</h4>
+                                            <p>Nuevo conocimientos adquiridos!</p>
                                         </div>
                                     </div>
                                 </div>
@@ -449,8 +451,8 @@
                                     <img alt="" src="images/bg_student3.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+                                            <h4>Proyección a futuro</h4>
+                                            <p>Electricidad, electrónica y computación</p>
                                         </div>
                                     </div>
                                 </div>
@@ -614,6 +616,20 @@
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row row-pb-md">
+
+				<div class="col-md-1 qbootstrap-widget">
+					<center><img src="images/socialnetworks/ic_facebook.png" alt="" height=50px width=50px></center>
+
+				<a><br></a>
+				  <center><img src="images/socialnetworks/ic_twitter.png" alt=""></center>
+
+				<a><br></a>
+				<center><img src="images/socialnetworks/ic_instagram.png" alt="" height=53px width=53px></center>
+
+				<a><br></a>
+				<center><img src="images/socialnetworks/ic_youtube.png" alt="" height=50px width=50px></center>
+				</div>
+
 				<div class="col-md-3 qbootstrap-widget">
 					<h3>Sobre Talento Pisco</h3>
 					<p>Es un programa de Camisea que busca mejorar la educación secundaria de los
@@ -639,7 +655,7 @@
 					</ul>
 				</div>
 
-				<div class="col-md-5 col-sm-4 col-xs-12 qbootstrap-widget">
+				<div class="col-md-4 col-sm-4 col-xs-12 qbootstrap-widget">
 					<h3>Escríbenos</h3>
 					<form class="contact-form">
 						<div class="form-group">
@@ -661,14 +677,17 @@
 				</div>
 			</div>
 		</div>
+		<!--
 		<div class="row copyright">
 			<div class="col-md-12 text-center">
 				<p>
-										<small class="block">&copy; 2017 Free HTML5. All Rights Reserved.</small>
-										<small class="block">Designed by <a href="https://qbootstrap.com/" target="_blank">QBootstrap.com</a> Avaiable on <a href="https://themefisher.com/free-bootstrap-templates" class="">Themefisher.com</a></small>
-								</p>
+                    <small class="block">&copy; 2017 Free HTML5. All Rights Reserved.</small>
+
+                    <small class="block">Designed by <a href="https://qbootstrap.com/" target="_blank">QBootstrap.com</a> Avaiable on <a href="https://themefisher.com/free-bootstrap-templates" class="">Themefisher.com</a></small>
+
+                </p>
 			</div>
-		</div>
+		</div>-->
 	</footer>
 	</div>
 

@@ -139,6 +139,8 @@
 										<a href="{{ url('login')}}">Camisea</a>
 									</li>
 
+									<li><a href="{{ url('noticias')}}">Noticias</a></li>
+
 									<li><a href="{{ url('contacto')}}">Contacto</a></li>
 									<!--
 									<li class="btn-cta has-dropdown">
@@ -462,9 +464,21 @@
         </div>-->
         <!-- // experience -->
 
+
+
         <div id="works" class="works section">
         	<div></div>
             <div class="container2">
+							<!-- Ampliar opcion1
+							<div class="">
+								<a onMouseOver="">
+								<img src="images/rimage_1.jpeg" alt="" class="zoom"></a>
+							</div>-->
+
+
+								<!-- The Modal -->
+
+
                 <div class="row2">
                     <div class="col-md-12" style="padding-bottom: 150px;">
 
@@ -473,31 +487,29 @@
                             <p>Algunas de las actividades que se realizan en los distintos colegios de la ciudad de Pisco</p>
                         </div>
                         <div class="works-gallery">
-
                             <div id="mygallery">
 
-
                                 <div>
-                                    <img alt="" src="images/rimage_1.jpeg"/>
-                                    <div class="item-musk">
-                                        <div class="item-caption">
-
-                                            <p>Alumnos en clase de matemáticas, desarrollando habilidades y capcidades de resolución de problemas</p>
-                                        </div>
-                                    </div>
-
+																	<img id="myImg" src="images/photos/IMG-20190816-WA0054.jpg">
+																	<div id="myModal" class="modal">
+																		<span class="close">&times;</span>
+																		<img class="modal-content" id="img01">
+																		<div id="caption"></div>
+																	</div>
                                 </div>
-                                <div>
-                                    <img alt="" src="images/bg_student2.jpg"/>
-                                    <div class="item-musk">
-                                        <div class="item-caption">
 
-                                            <p>Desarrollo de los alumnos del colegio Beata Imelda, un nuevo colegio asociado al programa Talento Pisco</p>
-                                        </div>
+
+                                <div>
+                                    <img id="myImg" alt="" src="images/photos/IMG-20190819-WA0001.jpg"/>
+                                    <div id="myModal" class="modal">
+																			<span class="close">&times;</span>
+																			<img class="modal-content" id="img02">
+                                        <div id="caption"></div>
                                     </div>
                                 </div>
+
                                 <div>
-                                    <img alt="" src="images/small_photo1.jpg"/>
+                                    <img alt="" src="images/photos/IMG-20190816-WA0064.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
 
@@ -506,7 +518,7 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <img alt="" src="images/small_photo2.jpg"/>
+                                    <img alt="" src="images/photos/IMG-20190826-WA0027.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
 
@@ -515,7 +527,7 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <img alt="" src="images/small_photo4.jpg"/>
+                                    <img alt="" src="images/photos/IMG-20190816-WA0063.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
 
@@ -713,6 +725,20 @@
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row row-pb-md">
+
+				<div class="col-md-1 qbootstrap-widget">
+					<center><img src="images/socialnetworks/ic_facebook.png" alt="" height=50px width=50px></center>
+
+				<a><br></a>
+					<center><img src="images/socialnetworks/ic_twitter.png" alt=""></center>
+
+				<a><br></a>
+				<center><img src="images/socialnetworks/ic_instagram.png" alt="" height=53px width=53px></center>
+
+				<a><br></a>
+				<center><img src="images/socialnetworks/ic_youtube.png" alt="" height=50px width=50px></center>
+				</div>
+
 				<div class="col-md-3 qbootstrap-widget">
 					<h3>Sobre Talento Pisco</h3>
 					<p>Es un programa de Camisea que busca mejorar la educación secundaria de los
@@ -738,7 +764,7 @@
 					</ul>
 				</div>
 
-				<div class="col-md-5 col-sm-4 col-xs-12 qbootstrap-widget">
+				<div class="col-md-4 col-sm-4 col-xs-12 qbootstrap-widget">
 					<h3>Escríbenos</h3>
 					<form class="contact-form">
 						<div class="form-group">
@@ -760,14 +786,17 @@
 				</div>
 			</div>
 		</div>
+		<!--
 		<div class="row copyright">
 			<div class="col-md-12 text-center">
 				<p>
 										<small class="block">&copy; 2017 Free HTML5. All Rights Reserved.</small>
+
 										<small class="block">Designed by <a href="https://qbootstrap.com/" target="_blank">QBootstrap.com</a> Avaiable on <a href="https://themefisher.com/free-bootstrap-templates" class="">Themefisher.com</a></small>
+
 								</p>
 			</div>
-		</div>
+		</div>-->
 	</footer>
 	</div>
 
@@ -822,6 +851,37 @@
 		  }
 		}
 	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.zoom').click(function() {
+					$(this).addClass('transition');
+			});
+		});
+	</script>
+
+	<script type="text/javascript">
+			// Get the modal
+			var modal = document.getElementById("myModal");
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img = document.getElementById("myImg");
+			var modalImg = document.getElementById("img01");
+			var captionText = document.getElementById("caption");
+			img.onclick = function(){
+			  modal.style.display = "block";
+			  modalImg.src = this.src;
+			  captionText.innerHTML = this.alt;
+			}
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+			  modal.style.display = "none";
+			}
+</script>
 	<script src="js/menu.js" language="javascript" type="text/javascript"></script>
 	</body>
 </html>

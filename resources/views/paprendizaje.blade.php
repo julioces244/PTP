@@ -116,7 +116,7 @@
 											<li class="active"><a href="{{ url('talentopisco')}}">Programa Talento Pisco</a></li>
 											<li><a href="{{ url('pisco_aprendizaje')}}">Pisco Aprendizaje</a></li>
 											<li><a href="{{ url('pisco_digital')}}">Pisco Digital</a></li>
-											<li><a href="{{ url('ptecnologia')}}">Pisco Tecnología</a></li>
+											<li><a href="{{ url('pisco_tecnologia')}}">Pisco Tecnología</a></li>
 										</ul>
 									</li>
 
@@ -138,6 +138,8 @@
 									<li>
 										<a href="{{ url('login')}}">Camisea</a>
 									</li>
+
+									<li><a href="{{ url('noticias')}}">Noticias</a></li>
 
 									<li><a href="{{ url('contacto')}}">Contacto</a></li>
 									<!--
@@ -279,7 +281,7 @@
                             <br>
                             <h5>Mejora de logros de aprendizaje para estudiantes de 1ro y 2do de Educación Secundaria</h5>
                             <span class="divider"></span>
-                            <p>El proyecto tiene como objetivo lograr altos y alcanzables porcentajes de nivel satisfactorios en comprensión lectora y resolución de problemas matemáticos de los estudiantes del VI ciclo de secundaria de la provincia de Pisco, resultados que superen el doble del promedio nacional en esa materia.</p>
+                            <p>El proyecto tiene como objetivo lograr altos y alcanzables porcentajes de nivel satisfactorios en comunicación y resolución de problemas matemáticos de los estudiantes del VI ciclo de secundaria de la provincia de Pisco, resultados que superen el doble del promedio nacional en esa materia.</p>
                             </div>
                         </div>
                     </div>
@@ -300,7 +302,7 @@
 						<br>
 
 						<div class="desc">
-							<p>En las 18 II.EE a intervenir, sólo el 11,3% y el 11,2% de los estudiantes evaluados del 2do grado de secundaria alcanzaron niveles satisfactorios en comprensión lectora y matemática, respectivamente (2016). Con este punto de partida, en el corto plazo(2019) el proyecto tiene como objetivo alcanzar 16% y 15% en niveles satisfactorios en comprensión lectora y matemática, respectivamente. En el mediano plazo(2021) en comprensión lectora 31% y matemática 28%; mientras que en el largo plazo (2030) en compresión lectora 54% y matemática 51%. Para el proyecto social Pisco Aprendizaje
+							<p>En las 18 II.EE a intervenir, sólo el 11,3% y el 11,2% de los estudiantes evaluados del 2do grado de secundaria alcanzaron niveles satisfactorios en comunicación y matemática, respectivamente (2016). Con este punto de partida, en el corto plazo(2019) el proyecto tiene como objetivo alcanzar 16% y 15% en niveles satisfactorios en comunicación y matemática, respectivamente. En el mediano plazo(2021) en comunicación 31% y matemática 28%; mientras que en el largo plazo (2030) en comunicación 54% y matemática 51%. Para el proyecto social Pisco Aprendizaje
 							los alumnos de 1er y 2do de secundaria se especializaran en las siguientes materias:</p><br>
 
 
@@ -310,13 +312,13 @@
 									<div class="row">
 										<div class="col-md-6 animate-box text-center">
 											<div class="doctor">
-												<div class="staff-img2" style="background-image: url(images/e_lectora.jpg);"></div>
-												<h3><a href="#">Comprensión Lectora</a></h3>
+												<div class="staff-img2" style="background-image: url(images/photos/IMG-20190816-WA0058.jpg);"></div>
+												<h3><a href="#">Comunicación</a></h3>
 											</div>
 										</div>
 										<div class="col-md-6 animate-box text-center">
 											<div class="doctor">
-												<div class="staff-img2" style="background-image: url(images/e_matematica.jpg);"></div>
+												<div class="staff-img2" style="background-image: url(images/photos/IMG-20190828-WA0023.jpg);"></div>
 												<h3><a href="#">Matemáticas</a></h3>
 											</div>
 										</div>
@@ -349,7 +351,7 @@
                         <div>
                           <div>
                                 <p>
-                                  La actualización de estos objetivos estará sujetos a los resultados de la Prueba ECE del MINEDU y evaluaciones del proyecto. En la provincia de Pisco (Total de II.EE) sólo el 13,9% y el 13,3% de los estudaintes evaluados del 2do grado de secundaria alcanzaron niveles satisfactorios en comprensión lectora y matemática, respectivamente (2016).
+                                  La actualización de estos objetivos estará sujetos a los resultados de la Prueba ECE del MINEDU y evaluaciones del proyecto. En la provincia de Pisco (Total de II.EE) sólo el 13,9% y el 13,3% de los estudaintes evaluados del 2do grado de secundaria alcanzaron niveles satisfactorios en comunicación y matemática, respectivamente (2016).
                                 </p>
                                 <b><span style="text-align: center; font-size: 20px;">Jefe del Proyecto</span></b>
                                 <br>
@@ -409,7 +411,7 @@
 
                                 </div>
                                 <div>
-                                    <img alt="" src="images/bg_student2.jpg"/>
+                                    <img alt="" src="images/photos/IMG-20190819-WA0043.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
                                             <h4>Lorem ipsum dolor sit amet.</h4>
@@ -427,7 +429,7 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <img alt="" src="images/small_photo2.jpg"/>
+                                    <img alt="" src="images/photos/IMG-20190816-WA0052.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
                                             <h4>Lorem ipsum dolor sit amet.</h4>
@@ -436,7 +438,7 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <img alt="" src="images/small_photo4.jpg"/>
+                                    <img alt="" src="images/photos/IMG-20190816-WA0051.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
                                             <h4>Lorem ipsum dolor sit amet.</h4>
@@ -445,7 +447,7 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <img alt="" src="images/bg_student3.jpg"/>
+                                    <img alt="" src="images/photos/IMG-20190819-WA0002.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
                                             <h4>Lorem ipsum dolor sit amet.</h4>
@@ -614,6 +616,20 @@
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row row-pb-md">
+
+				<div class="col-md-1 qbootstrap-widget">
+					<center><img src="images/socialnetworks/ic_facebook.png" alt="" height=50px width=50px></center>
+
+				<a><br></a>
+				  <center><img src="images/socialnetworks/ic_twitter.png" alt=""></center>
+
+				<a><br></a>
+				<center><img src="images/socialnetworks/ic_instagram.png" alt="" height=53px width=53px></center>
+
+				<a><br></a>
+				<center><img src="images/socialnetworks/ic_youtube.png" alt="" height=50px width=50px></center>
+				</div>
+
 				<div class="col-md-3 qbootstrap-widget">
 					<h3>Sobre Talento Pisco</h3>
 					<p>Es un programa de Camisea que busca mejorar la educación secundaria de los
@@ -639,7 +655,7 @@
 					</ul>
 				</div>
 
-				<div class="col-md-5 col-sm-4 col-xs-12 qbootstrap-widget">
+				<div class="col-md-4 col-sm-4 col-xs-12 qbootstrap-widget">
 					<h3>Escríbenos</h3>
 					<form class="contact-form">
 						<div class="form-group">
@@ -661,14 +677,17 @@
 				</div>
 			</div>
 		</div>
+		<!--
 		<div class="row copyright">
 			<div class="col-md-12 text-center">
 				<p>
-										<small class="block">&copy; 2017 Free HTML5. All Rights Reserved.</small>
-										<small class="block">Designed by <a href="https://qbootstrap.com/" target="_blank">QBootstrap.com</a> Avaiable on <a href="https://themefisher.com/free-bootstrap-templates" class="">Themefisher.com</a></small>
-								</p>
+                    <small class="block">&copy; 2017 Free HTML5. All Rights Reserved.</small>
+
+                    <small class="block">Designed by <a href="https://qbootstrap.com/" target="_blank">QBootstrap.com</a> Avaiable on <a href="https://themefisher.com/free-bootstrap-templates" class="">Themefisher.com</a></small>
+
+                </p>
 			</div>
-		</div>
+		</div>-->
 	</footer>
 	</div>
 

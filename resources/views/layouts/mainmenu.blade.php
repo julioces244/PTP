@@ -57,6 +57,18 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<link rel="stylesheet" href="plugins/slick/slick.css">
+ <!-- themefy-icon -->
+ <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+ <!-- animation css -->
+ <link rel="stylesheet" href="plugins/animate/animate.css">
+ <!-- aos -->
+ <link rel="stylesheet" href="plugins/aos/aos.css">
+
+
+ <!-- venobox popup -->
+ <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -86,6 +98,7 @@
    <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
  </div>
 
+	<script src="plugins/jQuery/jquery.min.js"></script>
    <!-- jQuery -->
  	<script src="js/jquery.min.js"></script>
  	<!-- jQuery Easing -->
@@ -110,7 +123,19 @@
  	<!-- Main -->
  	<script src="js/main.js"></script>
  	<script src="js/menu.js"></script>
+
+
+
+	<!-- Bootstrap JS -->
+
+	<script src="plugins/venobox/venobox.min.js"></script>
+	<script src="plugins/slick/slick.min.js"></script>
+	<!-- aos -->
+	<script src="plugins/aos/aos.js"></script>
+
+
  	<script type="text/javascript">
+
  		// When the user scrolls the page, execute myFunction
  		window.onscroll = function() {myFunction()};
 
@@ -130,5 +155,11 @@
  		  }
  		}
  	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+					$('.venobox').venobox();
+			});
+	</script>
+
 </body>
 </html>

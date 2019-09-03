@@ -138,6 +138,8 @@
 										<a href="{{ url('login')}}">Camisea</a>
 									</li>
 
+									<li><a href="{{ url('noticias')}}">Noticias</a></li>
+
 									<li><a href="{{ url('contacto')}}">Contacto</a></li>
 									<!--
 									<li class="btn-cta has-dropdown">
@@ -300,7 +302,7 @@
 
 						<div class="desc">
 							<p>Para lograr los objetivos trazados, la Universidad Nacional de Ingeniería (UNI) será el Sub Oferente de
-								Ofimática, es decir, en Windows, Gestión de correos y Microsoft Office (Microsoft Word, Microsoft Excel y
+								Ofimática, es decir, en Herramientas Digitales, Gestión de correos y Microsoft Office (Microsoft Word, Microsoft Excel y
 								Microsoft Power Point), el Centro para la Competitividad y el Desarrollo (CCD) será el operador del proyecto y
 								el Centro Tecnológico Minero (CETEMIN) un socio estratégico para el desarrollo dela Plataforma para la
 								Excelencia Formativa y el Empleo y para la sinergias pedagógicas a ser realizadas con la implementación de
@@ -315,7 +317,7 @@
 										<div class="col-md-6 animate-box text-center">
 											<div class="doctor">
 												<div class="staff-img2" style="background-image: url(images/e_windows.jpg);"></div>
-												<h3><a href="#">TIC's, Windows y Gestión de Correos</a></h3>
+												<h3><a href="#">TIC's, Herramientas Digitales y Gestión de Correos</a></h3>
 											</div>
 										</div>
 										<div class="col-md-6 animate-box text-center">
@@ -370,9 +372,9 @@
                           <div>
                                 <p>
                                   Los beneficiarios del proyecto serán 3,759 estudiantes del 3ero grado de secundaria de las 12 II.EE de la
-									provincia de Pisco durante los tres primeros años de implementación (2018-2021), 21 docentes del área de
-									computación, e indirectamente 11,277 padres y hermanos. Incluyendo el período de sostenibilidad del
-									proyecto (2018-2030), se espera beneficiar a aproximadamente 16,290 estudiantes.
+																	provincia de Pisco durante los tres primeros años de implementación (2018-2021), 21 docentes del área de
+																	computación, e indirectamente 11,277 padres y hermanos. Incluyendo el período de sostenibilidad del
+																	proyecto (2018-2030), se espera beneficiar a aproximadamente 16,290 estudiantes.
                                 </p>
                                 <b><span style="text-align: center; font-size: 20px;">Jefe del Proyecto</span></b>
                                 <br>
@@ -407,30 +409,30 @@
                         <div class="works-gallery">
                             <div id="mygallery">
                                 <div>
-                                    <img alt="" src="images/bg_student1.jpg"/>
+                                    <img alt="" src="images/photos/IMG-20190827-WA0013.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+
+                                            <p>Habilidades en el desarrollo de matemáticas</p>
                                         </div>
                                     </div>
 
                                 </div>
                                 <div>
-                                    <img alt="" src="images/bg_student2.jpg"/>
+                                    <img alt="" src="images/photos/IMG-20190819-WA0006.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+
+                                            <p>Desarrollo de nuestro equipo</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <img alt="" src="images/small_photo1.jpg"/>
+                                    <img alt="" src="images/photos/IMG-20190820-WA0020.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+
+                                            <p>Conocimientos avanzados</p>
                                         </div>
                                     </div>
                                 </div>
@@ -438,17 +440,17 @@
                                     <img alt="" src="images/small_photo2.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+
+                                            <p>Estado de armonía e innovación</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div>
-                                    <img alt="" src="images/small_photo4.jpg"/>
+                                    <img alt="" src="images/photos/IMG-20190827-WA0027.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+
+                                            <p>Futuro prometedor en los alumnos</p>
                                         </div>
                                     </div>
                                 </div>
@@ -456,8 +458,8 @@
                                     <img alt="" src="images/bg_student3.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+
+                                            <p>Nuevos conocimientos en matemática!</p>
                                         </div>
                                     </div>
                                 </div>
@@ -685,6 +687,20 @@
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row row-pb-md">
+
+				<div class="col-md-1 qbootstrap-widget">
+					<center><img src="images/socialnetworks/ic_facebook.png" alt="" height=50px width=50px></center>
+
+				<a><br></a>
+				  <center><img src="images/socialnetworks/ic_twitter.png" alt=""></center>
+
+				<a><br></a>
+				<center><img src="images/socialnetworks/ic_instagram.png" alt="" height=53px width=53px></center>
+
+				<a><br></a>
+				<center><img src="images/socialnetworks/ic_youtube.png" alt="" height=50px width=50px></center>
+				</div>
+
 				<div class="col-md-3 qbootstrap-widget">
 					<h3>Sobre Talento Pisco</h3>
 					<p>Es un programa de Camisea que busca mejorar la educación secundaria de los
@@ -710,7 +726,7 @@
 					</ul>
 				</div>
 
-				<div class="col-md-5 col-sm-4 col-xs-12 qbootstrap-widget">
+				<div class="col-md-4 col-sm-4 col-xs-12 qbootstrap-widget">
 					<h3>Escríbenos</h3>
 					<form class="contact-form">
 						<div class="form-group">
@@ -732,14 +748,17 @@
 				</div>
 			</div>
 		</div>
+		<!--
 		<div class="row copyright">
 			<div class="col-md-12 text-center">
 				<p>
-										<small class="block">&copy; 2017 Free HTML5. All Rights Reserved.</small>
-										<small class="block">Designed by <a href="https://qbootstrap.com/" target="_blank">QBootstrap.com</a> Avaiable on <a href="https://themefisher.com/free-bootstrap-templates" class="">Themefisher.com</a></small>
-								</p>
+                    <small class="block">&copy; 2017 Free HTML5. All Rights Reserved.</small>
+
+                    <small class="block">Designed by <a href="https://qbootstrap.com/" target="_blank">QBootstrap.com</a> Avaiable on <a href="https://themefisher.com/free-bootstrap-templates" class="">Themefisher.com</a></small>
+
+                </p>
 			</div>
-		</div>
+		</div>-->
 	</footer>
 	</div>
 

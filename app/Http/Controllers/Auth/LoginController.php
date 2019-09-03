@@ -11,11 +11,13 @@ use Illuminate\Support\Facades\Auth;
 use App\User;
 use App\Archive;
 
+
+
 class LoginController extends Controller
 {
 
 
-    use AuthenticatesUsers;
+    //use AuthenticatesUsers;
     /*
     |--------------------------------------------------------------------------
     | Login Controller
@@ -26,14 +28,16 @@ class LoginController extends Controller
     | to conveniently provide its functionality to your applications.
     |
     */
+
+
     public function authenticate(Request $request)
     {
         $credentials = $request->only('email', 'password');
 
         if (Auth::attempt($credentials)) {
-            // Authentication passed...
-            //$archives = Archive::all();
+            //dd($request->all());
 
+            //dd($user);
             return redirect()->intended('test');
         }else {
             return view ('login');
@@ -47,6 +51,8 @@ class LoginController extends Controller
           return view('login');
 
     }
+
+
 /*
     public function __construct()
     {
@@ -63,16 +69,16 @@ class LoginController extends Controller
      * @var string
      */
     protected $redirectTo = '/test';
-    
+
     /**
      * Create a new controller instance.
      *
      * @return void
      */
 
-/*
+
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
-    }*/
+    }
 }

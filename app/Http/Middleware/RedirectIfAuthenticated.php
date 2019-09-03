@@ -21,9 +21,9 @@ class RedirectIfAuthenticated
       if (Auth::check() && Auth::user()->rank > 0) {
               return $next($request);
         }
- return redirect('/home');
-*/
-
+       return redirect('/home');
+      */
+        
         if (Auth::guard($guard)->check()) {
             return redirect('/test');
         }

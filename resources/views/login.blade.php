@@ -9,7 +9,7 @@
 <body>
 
 	<div class="login">
-		<form class="" action="{{url('login')}}" method="post">
+		<form class="" action="{{route('login')}}" method="post">
 			@csrf
 			<center><img src="images/talentopiscologo.png" alt=""></center>
 			<input type="text" name="email" value="" placeholder="Ingrese usuario" required>

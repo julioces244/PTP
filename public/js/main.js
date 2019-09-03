@@ -1,6 +1,6 @@
 
 ;(function () {
-	
+
 	'use strict';
 
 	var slider = function(){
@@ -9,7 +9,7 @@
         autoPlay:true,
     });
 	};
-	
+
 
 	var mygall = function(){
 
@@ -29,9 +29,9 @@
     });
 
 	};
-	
-    
-	
+
+
+
 	var isMobile = {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
@@ -63,10 +63,10 @@
 
     			$('body').removeClass('offcanvas');
     			$('.js-qbootstrap-nav-toggle').removeClass('active');
-				
+
 	    	}
-	    
-	    	
+
+
 	    }
 		});
 
@@ -94,14 +94,14 @@
 			$this
 				.addClass('active')
 				.find('ul')
-				.slideDown(500, 'easeOutExpo');				
+				.slideDown(500, 'easeOutExpo');
 		}).mouseleave(function(){
 
 			var $this = $(this);
 			$this
 				.removeClass('active')
 				.find('ul')
-				.slideUp(500, 'easeOutExpo');				
+				.slideUp(500, 'easeOutExpo');
 		});
 
 
@@ -111,7 +111,7 @@
 
     			$('body').removeClass('offcanvas');
     			$('.js-qbootstrap-nav-toggle').removeClass('active');
-				
+
 	    	}
 		});
 	};
@@ -141,7 +141,7 @@
 		$('.animate-box').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('animated-fast') ) {
-				
+
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -164,9 +164,9 @@
 							el.removeClass('item-animate');
 						},  k * 200, 'easeInOutExpo' );
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '85%' } );
@@ -186,7 +186,7 @@
 		}).mouseleave(function(){
 					var $this = $(this);
 
-					 	
+
 					 	/*
 						setTimeout(function () {
 
@@ -207,14 +207,14 @@
 
     				// }, 2000);
 
-					
-						
 
-			
+
+
+
 		});
 
-		
-		/* 
+
+		/*
 		.mouseleave(function(){
 			var $this = $(this);
 
@@ -231,13 +231,13 @@
 	var goToTop = function() {
 
 		$('.js-gotop').on('click', function(event){
-			
+
 			event.preventDefault();
 
 			$('html, body').animate({
 				scrollTop: $('html').offset().top
 			}, 500, 'easeInOutExpo');
-			
+
 			return false;
 		});
 
@@ -251,7 +251,7 @@
 			}
 
 		});
-	
+
 	};
 
 
@@ -271,9 +271,9 @@
 	var counterWayPoint = function() {
 		if ($('#qbootstrap-counter').length > 0 ) {
 			$('#qbootstrap-counter').waypoint( function( direction ) {
-										
+
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-					setTimeout( counter , 400);					
+					setTimeout( counter , 400);
 					$(this.element).addClass('animated');
 				}
 			} , { offset: '90%' } );
@@ -281,7 +281,7 @@
 	};
 
 	var sliderMain = function() {
-		
+
 	  	$('#qbootstrap-hero .flexslider').flexslider({
 			animation: "fade",
 			slideshowSpeed: 5000,
@@ -301,9 +301,9 @@
 
 	  	});
 
-	  	// $('#qbootstrap-hero .flexslider .slides > li').css('height', $(window).height());	
+	  	// $('#qbootstrap-hero .flexslider .slides > li').css('height', $(window).height());
 	  	// $(window).resize(function(){
-	  	// 	$('#qbootstrap-hero .flexslider .slides > li').css('height', $(window).height());	
+	  	// 	$('#qbootstrap-hero .flexslider .slides > li').css('height', $(window).height());
 	  	// });
 
 	};
@@ -313,7 +313,7 @@
 		if ( !isMobile.any() ) {
 			$(window).stellar({
 				horizontalScrolling: false,
-				hideDistantElements: false, 
+				hideDistantElements: false,
 				responsive: true
 
 			});
@@ -321,7 +321,7 @@
 	};
 
 	var testimonialCarousel = function(){
-		
+
 		var owl = $('.owl-carousel-fullwidth');
 		owl.owlCarousel({
 			responsive:{
@@ -344,6 +344,7 @@
 		});
 
 	};
+
 
 	var stickyFunction = function() {
 
@@ -371,9 +372,9 @@
 
 				$("#sticky_item").stick_in_parent();
 			}
-			
 
-			
+
+
 
 		});
 
@@ -412,7 +413,7 @@
 		document.getElementById("minutes").innerHTML = minutes + " <small>minutes</small> ";
 		document.getElementById("seconds").innerHTML = seconds + " <small>seconds</small> ";
 
-		// If the count down is finished, write some text 
+		// If the count down is finished, write some text
 		if (distance < 0) {
 		 clearInterval(x);
 		 document.getElementById("demo").innerHTML = "The Wedding Ceremony is Over";
@@ -421,7 +422,7 @@
 
 	// Document on load.
 
-	
+
 	$(function(){
 		mobileMenuOutsideClick();
 		offcanvasMenu();

@@ -11,6 +11,7 @@
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -46,6 +47,10 @@ Route::get('/excelencia_formativa', function () {
 
 Route::get('/oportunidades_empleo', function () {
     return view('empleo');
+});
+
+Route::get('/noticias', function () {
+    return view('noticias');
 });
 
 Route::get('/contacto', function () {

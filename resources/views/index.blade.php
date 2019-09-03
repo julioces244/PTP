@@ -71,7 +71,11 @@
 								<a href="{{ url('login')}}">Camisea</a>
 							</li>
 
+							<li><a href="{{ url('noticias')}}">Noticias</a></li>
+
 							<li><a href="{{ url('contacto')}}">Contacto</a></li>
+
+
 							<!--
 							<li class="btn-cta has-dropdown">
 								<a href="#"><span>Ingresar <i class="icon-calendar3"></i></span></a>
@@ -100,8 +104,8 @@
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center slider-text">
 							<div class="slider-text-inner">
-
-								<img src="images/LogosPTP/pisco_tal.png">
+								<a href="{{ url('login')}}">
+								<img src="images/LogosPTP/pisco_tal.png"></a>
 								<h1 class="doc-holder"><strong>"Mejorando la calidad en la educación peruana"</strong></h1>
 								<!--
 								<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
@@ -207,7 +211,8 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="choose">
-					<div class="half img-bg" style="background-image: url(images/bg_student5.jpg);"></div>
+					<div class="half img-bg" style="background-image: url(images/photos/IMG-20190826-WA0027.jpg); background-position: center center;
+				  background-repeat: no-repeat; background-size: cover;"></div>
 					<div class="half features-wrap">
 						<div class="qbootstrap-heading animate-box">
 							<h2>¿Qué es el Programa Talento Pisco?</h2>
@@ -307,12 +312,12 @@
 						</div>
 						<div class="col-md-3 col-sm-6 text-center animate-box">
 							<span class="icon"><i class="icon-home-outline"></i></span>
-							<span class="qbootstrap-counter js-counter" data-from="0" data-to="378" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="qbootstrap-counter js-counter" data-from="0" data-to="18" data-speed="5000" data-refresh-interval="50"></span>
 							<span class="qbootstrap-counter-label">Colegios</span>
 						</div>
 						<div class="col-md-3 col-sm-6 text-center animate-box">
 							<span class="icon"><i class="icon-user-add-outline"></i></span>
-							<span class="qbootstrap-counter js-counter" data-from="0" data-to="400" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="qbootstrap-counter js-counter" data-from="0" data-to="350" data-speed="5000" data-refresh-interval="50"></span>
 							<span class="qbootstrap-counter-label">Docentes Capacitados</span>
 						</div>
 						<div class="col-md-3 col-sm-6 text-center animate-box">
@@ -328,7 +333,7 @@
 
 
 	<!-- COMIENZA EL FOOTER -->
-	<div id="qbootstrap-register" style="background-image: url(images/bg_student4.jpg);" data-stellar-background-ratio="0.5">
+	<div id="qbootstrap-register" style="background-image: url(images/photos/IMG-20190819-WA0023.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -366,87 +371,101 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-2 animate-box text-center">
-					<div class="doctor">
-						<div class="staff-img" style="background-image: url(images/logos/lg_uni2.png); height: 50px; width: 150px"></div>
-						<h3><a href="#">UNI</a></h3>
-						<span>Universidad Nacional de Ingeniería</span>
-						<ul class="qbootstrap-social">
-							<li><a href="#"><i class="icon-facebook2"></i></a></li>
-							<li><a href="#"><i class="icon-twitter2"></i></a></li>
-							<li><a href="#"><i class="icon-yahoo2"></i></a></li>
-							<li><a href="#"><i class="icon-google2"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-2 animate-box text-center">
-					<div class="doctor">
-						<div class="staff-img" style="background-image: url(images/logos/lg_ccd3.jpg); height: 50px; width: 150px"></div>
-						<h3><a href="#">CCD</a></h3>
-						<span>Centro para la Competitividad y el Desarrollo</span>
-						<ul class="qbootstrap-social">
-							<li><a href="#"><i class="icon-facebook2"></i></a></li>
-							<li><a href="#"><i class="icon-twitter2"></i></a></li>
-							<li><a href="#"><i class="icon-yahoo2"></i></a></li>
-							<li><a href="#"><i class="icon-google2"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-2 animate-box text-center">
-					<div class="doctor">
-						<div class="staff-img" style="background-image: url(images/logos/lg_cetemin.png); height: 50px; width: 150px"></div>
-						<h3><a href="#">CETEMENIN</a></h3>
-						<span>Centro Tecnológico Minero</span>
-						<ul class="qbootstrap-social">
-							<li><a href="#"><i class="icon-facebook2"></i></a></li>
-							<li><a href="#"><i class="icon-twitter2"></i></a></li>
-							<li><a href="#"><i class="icon-yahoo2"></i></a></li>
-							<li><a href="#"><i class="icon-google2"></i></a></li>
-						</ul>
-					</div>
-				</div>
 
 				<div class="col-md-2 animate-box text-center">
 					<div class="doctor">
-						<div class="staff-img" style="background-image: url(images/logos/logo_gore3.jpg); height: 50px; width: 150px"></div>
-						<h3><a href="#">GORE ICA</a></h3>
+						<a href="http://www.regionica.gob.pe/web/" target="_blank"><div class="staff-img" style="background-image: url(images/logos/logo_gore4.png); height: 55px; width: 100px"></div></a>
+
 						<span>Gobierno Regional de Ica</span>
 						<ul class="qbootstrap-social">
-							<li><a href="#"><i class="icon-facebook2"></i></a></li>
-							<li><a href="#"><i class="icon-twitter2"></i></a></li>
-							<li><a href="#"><i class="icon-yahoo2"></i></a></li>
-							<li><a href="#"><i class="icon-google2"></i></a></li>
+							<!--
+							<li><a href="https://es-la.facebook.com/GobiernoRegionalDeIcaOficial/" target="_blank"><i class="icon-facebook2"></i></a></li>
+							<li><a href="https://twitter.com/gore_ica?lang=es" target="_blank"><i class="icon-twitter2"></i></a></li>
+							<li><a href="https://www.youtube.com/channel/UC-N4yYSlVuOXB2tzu_p25Cg" target="_blank"><i class="icon-youtube	"></i></a></li>
+							-->
 						</ul>
 					</div>
 				</div>
 
 				<div class="col-md-2 animate-box text-center">
 					<div class="doctor">
-						<div class="staff-img" style="background-image: url(images/logos/logo_pluspetrol.jpg); height: 50px; width: 150px"></div>
-						<h3><a href="#">PLUSPETROL</a></h3>
-						<span>Empresa de petróleo y gas natural</span>
-						<ul class="qbootstrap-social">
-							<li><a href="#"><i class="icon-facebook2"></i></a></li>
-							<li><a href="#"><i class="icon-twitter2"></i></a></li>
-							<li><a href="#"><i class="icon-yahoo2"></i></a></li>
-							<li><a href="#"><i class="icon-google2"></i></a></li>
-						</ul>
-					</div>
-				</div>
+						<a href="http://ugelpisco.gob.pe/" target="_blank"><div class="staff-img" style="background-image: url(images/logos/ugelpisco.jpg); height: 55px; width: 80px"></div></a>
 
-				<div class="col-md-2 animate-box text-center">
-					<div class="doctor">
-						<div class="staff-img" style="background-image: url(images/logos/logo_ugel.jpg); height: 55px; width: 170px"></div>
-						<h3><a href="#">UGEL ICA</a></h3>
+
 						<span>Unidad de Gestión Educativa Local</span>
 						<ul class="qbootstrap-social">
-							<li><a href="#"><i class="icon-facebook2"></i></a></li>
-							<li><a href="#"><i class="icon-twitter2"></i></a></li>
-							<li><a href="#"><i class="icon-yahoo2"></i></a></li>
-							<li><a href="#"><i class="icon-google2"></i></a></li>
+							<!--
+							<li><a href="https://es-la.facebook.com/ugelpiscooficial/" target="_blank"><i class="icon-facebook2"></i></a></li>
+
+							<li><a href="https://www.youtube.com/channel/UCjscic_Dl41ngZVMYeQoIQA" target="_blank"><i class="icon-youtube"></i></a></li>
+							-->
 						</ul>
 					</div>
 				</div>
+
+				<div class="col-md-2 animate-box text-center">
+					<div class="doctor">
+						<a href="http://www.pluspetrol.net/peru/camisea.php" target="_blank"><div class="staff-img" style="background-image: url(images/logos/camisea14.jpg); height: 55px; width: 105px"></div></a>
+
+						<!--
+						<h3><a href="#">CAMISEA</a></h3>-->
+						<span>Empresa de petróleo y gas natural</span>
+						<ul class="qbootstrap-social">
+							<!--
+							<li><a href="#"><i class="icon-facebook2"></i></a></li>
+							<li><a href="#"><i class="icon-twitter2"></i></a></li>
+							<li><a href="#"><i class="icon-instagram"></i></a></li>
+							-->
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-2 animate-box text-center">
+					<div class="doctor">
+						<div class="staff-img" style="background-image: url(images/logos/lg_ccd3.jpg); height: 55px; width: 150px"></div>
+
+						<span>Centro para la Competitividad y el Desarrollo</span>
+						<ul class="qbootstrap-social">
+							<!--
+							<li><a href="#"><i class="icon-facebook2"></i></a></li>
+							<li><a href="#"><i class="icon-twitter2"></i></a></li>
+							<li><a href="#"><i class="icon-instagram"></i></a></li>
+							-->
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-2 animate-box text-center">
+					<div class="doctor">
+						<a href="https://www.uni.edu.pe/" target="_blank"><div class="staff-img" style="background-image: url(images/logos/avatar.jpg); height: 55px; width: 150px"></div></a>
+
+						<span>Universidad Nacional de Ingeniería</span>
+						<ul class="qbootstrap-social">
+							<!--
+							<li><a href="#"><i class="icon-facebook2"></i></a></li>
+							<li><a href="#"><i class="icon-twitter2"></i></a></li>
+							<li><a href="#"><i class="icon-instagram"></i></a></li>
+							-->
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-2 animate-box text-center">
+					<div class="doctor">
+						<a href="https://cetemin.com/" target="_blank"><div class="staff-img" style="background-image: url(images/logos/lg_cetemin.png); height: 55px; width: 150px"></div></a>
+
+						<span>Centro Tecnológico Minero</span>
+						<ul class="qbootstrap-social">
+							<!--
+							<li><a href="#"><i class="icon-facebook2"></i></a></li>
+							<li><a href="#"><i class="icon-twitter2"></i></a></li>
+							<li><a href="#"><i class="icon-instagram"></i></a></li>
+							-->
+						</ul>
+					</div>
+				</div>
+
+
 				<!--
 				<div class="col-md-3 animate-box text-center">
 					<div class="doctor">
@@ -470,6 +489,20 @@
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row row-pb-md">
+
+				<div class="col-md-1 qbootstrap-widget">
+					<center><img src="images/socialnetworks/ic_facebook.png" alt="" height=50px width=50px></center>
+
+				<a><br></a>
+				  <center><img src="images/socialnetworks/ic_twitter.png" alt=""></center>
+
+				<a><br></a>
+				<center><img src="images/socialnetworks/ic_instagram.png" alt="" height=53px width=53px></center>
+
+				<a><br></a>
+				<center><img src="images/socialnetworks/ic_youtube.png" alt="" height=50px width=50px></center>
+				</div>
+
 				<div class="col-md-3 qbootstrap-widget">
 					<h3>Sobre Talento Pisco</h3>
 					<p>Es un programa de Camisea que busca mejorar la educación secundaria de los
@@ -495,7 +528,7 @@
 					</ul>
 				</div>
 
-				<div class="col-md-5 col-sm-4 col-xs-12 qbootstrap-widget">
+				<div class="col-md-4 col-sm-4 col-xs-12 qbootstrap-widget">
 					<h3>Escríbenos</h3>
 					<form class="contact-form">
 						<div class="form-group">
@@ -517,13 +550,16 @@
 				</div>
 			</div>
 		</div>
+		<!--
 		<div class="row copyright">
 			<div class="col-md-12 text-center">
 				<p>
                     <small class="block">&copy; 2017 Free HTML5. All Rights Reserved.</small>
+
                     <small class="block">Designed by <a href="https://qbootstrap.com/" target="_blank">QBootstrap.com</a> Avaiable on <a href="https://themefisher.com/free-bootstrap-templates" class="">Themefisher.com</a></small>
+
                 </p>
 			</div>
-		</div>
+		</div>-->
 	</footer>
 	@endsection
