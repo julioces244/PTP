@@ -178,20 +178,20 @@
 			<div class="intro animate-box">
 				<div class="intro-grid color-1">
 					<span class="icon"><i class="icon-wallet2"></i></span>
-					<img src="images/LogosPTP/pisco_apr.png" alt="" height=auto width=40%>
+					<img src="images/LogosPTP/Pisco_apr.png" alt="" height=auto width=40%>
 
 					<p>Mejora de logros de Aprendizaje para estudiantes de 1ro y 2do de Educación Secundaria.</p>
 					<a href="doctors.html" class="btn btn-primary">Leer más</a>
 				</div>
 				<div class="intro-grid color-2">
 					<span class="icon"><i class="icon-wallet2"></i></span>
-					<img src="images/LogosPTP/pisco_dig.png" alt="" height=auto width=25%>
+					<img src="images/LogosPTP/Pisco_dig.png" alt="" height=auto width=25%>
 					<p>Educación Digital para estudiantes de 3ro grado de secundaria con certificación reconocida.</p>
 					<a href="pdigital.html" class="btn btn-primary">Leer más</a>
 				</div>
 				<div class="intro-grid color-3">
 					<span class="icon"><i class="icon-wallet2"></i></span>
-					<img src="images/LogosPTP/pisco_tec.png" alt="" height=auto width=35%>
+					<img src="images/LogosPTP/Pisco_tec.png" alt="" height=auto width=35%>
 					<p>
 						Educación para el Trabajo Técnico Escolar para los alumnos del 4to y 5to de secundaria con certificación reconocida.
 					</p>
@@ -221,20 +221,20 @@
 								 una visión global que les permita tener mayores oportunidades de empleo y desarrollo. </p>
 						</div>
 						<div class="features animate-box">
-							<span class="icon text-center"><i><img src="images/logosptp/pisco_apr.png" height=50% width=90%></i></span>
+							<span class="icon text-center"><i><img src="images/LogosPTP/Pisco_apr.png" height=50% width=90%></i></span>
 							<div class="desc">
 								<p>En el primero y segundo grado de secundaria se desarrolla Pisco Aprendizaje, proyecto “Mejora de Logros de Aprendizaje para estudiantes de 1ero y 2do de educación secundaria”. En esta etapa se busca establecer las bases para una adecuada educación secundaria, superior y para la vida.</p>
 							</div>
 						</div>
 						<div class="features animate-box">
-							<span class="icon text-center"><i><img src="images/logosptp/pisco_dig.png" height=50% width=70%></i></span>
+							<span class="icon text-center"><i><img src="images/LogosPTP/Pisco_dig.png" height=50% width=70%></i></span>
 							<div class="desc">
 
 								<p>En el tercer grado se desarrolla Pisco Digital, proyecto “Educación Digital para estudiantes de 3ro de secundaria con certificación reconocida”. El objetivo de esta etapa es dotar a los estudiantes con las herramientas digitales para desenvolverse adecuadamente el mundo moderno.</p>
 							</div>
 						</div>
 						<div class="features animate-box">
-							<span class="icon text-center"><i><img src="images/logosptp/pisco_tec.png" height=50% width=90%></i></span>
+							<span class="icon text-center"><i><img src="images/LogosPTP/Pisco_tec.png" height=50% width=90%></i></span>
 							<div class="desc">
 
 								<p>En cuarto y quinto grado de secundaria es la especialización. En esta etapa se desarrolla Pisco Tecnología, proyecto “Educación para el trabajo técnico escolar para los alumnos del 4to y 5to de secundaria, con certificación”. Los estudiantes se especializan en computación avanzada, electricidad y electrónica.   </p>
@@ -267,7 +267,7 @@
 				<div class="col-md-4 animate-box text-center">
 					<div class="doctor">
 						<div class="staff-img" style="background-image: url(images/bg_pisco_aprendizaje.jpg);"></div>
-						<h3><a href="{{ url('pisco_aprendizaje')}}"><img src="images/logosptp/pisco_apr.png" height=50% width=50%></a></h3>
+						<h3><a href="{{ url('pisco_aprendizaje')}}"><img src="images/LogosPTP/Pisco_apr.png" height=50% width=50%></a></h3>
 						<span></span>
 
 					</div>
@@ -275,7 +275,7 @@
 				<div class="col-md-4 animate-box text-center">
 					<div class="doctor">
 						<div class="staff-img" style="background-image: url(images/bg_pisco_digital.jpg);"></div>
-						<h3><a href="{{ url('pisco_digital')}}"><img src="images/logosptp/pisco_dig.png" height=30% width=35%></a></h3>
+						<h3><a href="{{ url('pisco_digital')}}"><img src="images/LogosPTP/Pisco_dig.png" height=30% width=35%></a></h3>
 						<span></span>
 
 					</div>
@@ -283,7 +283,7 @@
 				<div class="col-md-4 animate-box text-center">
 					<div class="doctor">
 						<div class="staff-img" style="background-image: url(images/bg_pisco_tecnologia.jpg);"></div>
-						<h3><a href="{{ url('pisco_tecnologia')}}"><img src="images/logosptp/pisco_tec.png" height=50% width=50%></a></h3>
+						<h3><a href="{{ url('pisco_tecnologia')}}"><img src="images/LogosPTP/Pisco_tec.png" height=50% width=50%></a></h3>
 						<span></span>
 
 					</div>

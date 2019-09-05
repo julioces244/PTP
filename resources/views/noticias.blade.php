@@ -16,14 +16,14 @@
 
 							</div>
 							<div class="col-md-4 col-md-pull-4">
-								<img src="./images/talentopiscologo.png" height="150px" width="500px">
+								<img src="{{asset('images/TalentoPiscoLogo.png')}}" height="150px" width="500px">
 
 								<div class="num">
 								</div>
 							</div>
 							<div class="col-md-4">
 
-								<img src="./images/logosptp/logocamisea.jpg" height="150px" width="400px">
+								<img src="{{asset('images/LogosPTP/logocamisea.jpg')}}" height="150px" width="400px">
 
 							</div>
 						</div>
@@ -120,7 +120,7 @@
 						<div class="col-md-8 col-md-offset-2 text-center slider-text">
 							<div class="slider-text-inner">
 
-								<img src="images/LogosPTP/pisco_apr.png">
+								<img src="images/LogosPTP/Pisco_apr.png">
 
 								<!--
 								<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
@@ -137,7 +137,7 @@
 						<div class="col-md-8 col-md-offset-2 text-center slider-text">
 							<div class="slider-text-inner">
 
-								<img src="images/LogosPTP/pisco_dig.png">
+								<img src="images/LogosPTP/Pisco_dig.png">
 
 									<!--
 								<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
@@ -155,7 +155,7 @@
 						<div class="col-md-8 col-md-offset-2 text-center slider-text">
 							<div class="slider-text-inner">
 
-								<img src="images/LogosPTP/pisco_tec.png">
+								<img src="images/LogosPTP/Pisco_tec.png">
 
 									<!--
 								<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
@@ -231,7 +231,7 @@
 										<span><a>Educativa</a></span>
 										<span>Julio 20, 2017</span>
 									</div>
-									<p>La representante y gerente de logística Fátima Cabrera del Centro para la Competitividad y el Desarrollo (CCD), verifica las instalaciones de los laboratorios de los colegios Fe y Alegria y Raúl Porras Barnechea, los cuales contemplan tecnología de última generación.</p>
+									<p>La representante y gerente de logística; Fátima Cabrera ; del Centro para la Competitividad y el Desarrollo (CCD), verifica las instalaciones de los laboratorios de los colegios Fe y Alegria y Raúl Porras Barnechea, los cuales contemplan tecnología de última generación.</p>
 									<!--
 									<p><a href="blog-single.html" class="btn btn-primary">Leer más</a></p>-->
 								</div>
@@ -258,7 +258,7 @@
 						</div>-->
 
 						<div class="side animate-box">
-							<h2>Últimas noticias</h2>
+							<h2>Impacto nacional</h2>
 							<div class="post">
 								<a>
 									<div class="blog-img" style="background-image: url(images/photos/IMG-20190813-WA0011.jpg);"></div>
