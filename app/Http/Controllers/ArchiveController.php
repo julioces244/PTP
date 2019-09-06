@@ -24,10 +24,10 @@ class ArchiveController extends Controller
     public function index()
     {
 
-      setlocale(LC_ALL, 'es_ES');
-      $fecha = Carbon::now();
-      $mes = $fecha->formatLocalized('%d de %B del %Y %R');// mes en idioma español
-      dd($mes);
+      //setlocale(LC_ALL, 'es_ES');
+      //$fecha = Carbon::now();
+      //$mes = $fecha->formatLocalized('%d de %B del %Y %R');// mes en idioma español
+      //dd($mes);
 
       $archives = Archive::all();
       return view('test', compact('archives'));

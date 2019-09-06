@@ -256,7 +256,7 @@
 		<div class="container-fluid">
 			<div class="row animate-box">
 				<div class="col-md-6 col-md-offset-3 text-center qbootstrap-heading">
-					<h2><img src="images/logosptp/pisco_tal.png" height=auto width=50% alt=""></h2>
+					<h2><img src="images/LogosPTP/pisco_tal.png" height=auto width=50% alt=""></h2>
 					<p>En este proceso participan tres instituciones innovadoras, pioneras y líderes en el campo tecnológico y educativo del país: El Centro para la Competitividad y Desarrollo (CCD),
 						 la Universidad Nacional de Ingeniería (UNI) y el Centro Tecnológico Minero (CETEMIN).</p>
 					<p>En el programa participan de manera conjunta los estudiantes, los padres de familia, los directores y docentes, el Gobierno Regional de Ica,
@@ -389,7 +389,7 @@
 
 				<div class="col-md-2 animate-box text-center">
 					<div class="doctor">
-						<a href="http://ugelpisco.gob.pe/" target="_blank"><div class="staff-img" style="background-image: url(images/logos/ugelpisco.jpg); height: 55px; width: 80px"></div></a>
+						<a href="http://ugelpisco.gob.pe/" target="_blank"><div class="staff-img" style="background-image: url(images/logos/UgelPisco.jpg); height: 55px; width: 80px"></div></a>
 
 
 						<span>Unidad de Gestión Educativa Local</span>
