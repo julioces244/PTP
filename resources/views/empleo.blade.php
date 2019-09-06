@@ -56,9 +56,6 @@
 							<li>
 								<a href="{{ url('excformativa')}}">Excelencia Formativa</a>
 							</li>
-							<li class="active">
-								<a href="{{ url('oportunidades_empleo')}}">Oportunidad del Empleo</a>
-							</li>
 							<li>
 								<a href="ptecnologia.html">Estudiante</a>
 							</li>
@@ -71,6 +68,19 @@
 							<li>
 								<a href="{{ url('login')}}">Camisea</a>
 							</li>
+
+							<li class="btn-cta has-dropdown active">
+								<a href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
+								<ul class="dropdown">
+									<li><a href="{{url('')}}">Innovación Abierta y Creación de Valor</a></li>
+									<li><a href="{{url('')}}">Empleo</a></li>
+								</ul>
+							</li>
+
+							<li>
+								<a href="ptecnologia.html">Fondo Talento Pisco</a>
+							</li>
+
 							<li><a href="{{ url('noticias')}}">Noticias</a></li>
 
 							<li><a href="{{ url('contacto')}}">Contacto</a></li>

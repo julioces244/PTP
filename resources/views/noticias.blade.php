@@ -54,9 +54,7 @@
 							<li>
 								<a href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a>
 							</li>
-							<li>
-								<a href="{{ url('oportunidades_empleo')}}">Oportunidad del Empleo</a>
-							</li>
+
 							<li>
 								<a href="ptecnologia.html">Estudiante</a>
 							</li>
@@ -68,6 +66,18 @@
 							</li>
 							<li>
 								<a href="{{ url('login')}}">Camisea</a>
+							</li>
+
+							<li class="btn-cta has-dropdown">
+								<a href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
+								<ul class="dropdown">
+									<li><a href="{{url('')}}">Innovación Abierta y Creación de Valor</a></li>
+									<li><a href="{{url('')}}">Empleo</a></li>
+								</ul>
+							</li>
+
+							<li>
+								<a href="ptecnologia.html">Fondo Talento Pisco</a>
 							</li>
 
 							<li class="active"><a href="{{ url('noticias')}}">Noticias</a></li>
@@ -188,7 +198,7 @@
 										<span><a>Educativa</a></span>
 										<span>Agosto 20, 2017</span>
 									</div>
-									<p>Luego de unas largas vacaciones, los alumnos de la escuela Beatita de Umay comienzan las clases con los nuevo módulos de matemáticas, el cual comprende temas de razonamiento matemática y análisis situacionales</p>
+									<p>Luego de unas largas vacaciones, los alumnos de la escuela Beatita de Humay comienzan las clases con los nuevo módulos de matemáticas, el cual comprende temas de razonamiento matemática y análisis situacionales</p>
 									<!--
 									<p><a href="blog-single.html" class="btn btn-primary">Leer más</a></p>-->
 								</div>
@@ -260,29 +270,29 @@
 						<div class="side animate-box">
 							<h2>Impacto nacional</h2>
 							<div class="post">
-								<a>
+								<a href="https://elcomercio.pe/publirreportaje/talento-pisco-desarrolla-educacion-noticia-635583">
 									<div class="blog-img" style="background-image: url(images/photos/IMG-20190813-WA0011.jpg);"></div>
 									<div class="desc">
-										<span>Agosto 25, 2019</span>
-										<h3>Alumnos destacados participan en concursos intercolegiales de matemáticas</h3>
+										<span>Mayo 15, 2019</span>
+										<h3><em><strong>ElComercio: </strong>"El talento de Pisco se desarrolla con educación."</em></h3>
 									</div>
 								</a>
 							</div>
 							<div class="post">
-								<a>
+								<a href="https://larepublica.pe/empresa/1469898-historia-transformacion-colegios-pisco/">
 									<div class="blog-img" style="background-image: url(images/photos/IMG-20190816-WA0048.jpg);"></div>
 									<div class="desc">
-										<span>Agosto 26, 2019</span>
-										<h3>LLegan nuevas laptops para el colegio Beatita de Umay</h3>
+										<span>Mayo 16, 2019</span>
+										<h3><em><strong>La República: </strong>"Una historia de transformación en los colegios de Pisco."</em></h3>
 									</div>
 								</a>
 							</div>
 							<div class="post">
-								<a>
+								<a href="https://elcomercio.pe/publirreportaje/programa-social-empieza-cambiar-educacion-pisco-noticia-620869">
 									<div class="blog-img" style="background-image: url(images/photos/IMG-20190813-WA0008.jpg);"></div>
 									<div class="desc">
-										<span>Agosto 26, 2019</span>
-										<h3>Camisea contento por el trabajo realizado en los colegios de Pisco</h3>
+										<span>Marzo 28, 2019</span>
+										<h3><em><strong>ElComercio: </strong>"Un programa social empieza a cambiar la educación de Pisco."</em></h3>
 									</div>
 								</a>
 							</div>
