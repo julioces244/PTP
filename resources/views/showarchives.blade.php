@@ -3,9 +3,16 @@
 
 
 
-
 <div class="container">
-  <a href="{{ url('admarchive/create')}}"><button class="btn button1" type="button" name="button">Agregar Archivo</button></a>
+  @if(session()->has('msj'))
+  <div class="alert alert-success" role="alert">{{session('msj')}}
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  @endif
+
+
   </br>
   <table id="myTable" class="table table-bordered">
   <thead>
@@ -14,7 +21,7 @@
       <th scope="col">Nombre</th>
       <th scope="col">Documento</th>
       <th scope="col">Fecha</th>
-      <th scope="col">Opciones</th>
+      <th scope="col">Descargar</th>
       <th scope="col">Eliminar</th>
     </tr>
   </thead>
@@ -52,6 +59,7 @@
   </tbody>
 
   </table>
+  <a href="{{ url('admarchive/create')}}"><button class="btn button1" type="button" name="button">Agregar Archivo</button></a>
 </div>
 
 

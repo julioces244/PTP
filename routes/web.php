@@ -67,16 +67,14 @@ Route::get('/login', function () {
     return view('login');
 })->name('login');
 
-
 Route::get('logout', 'Auth\LoginController@logout');
-
-
 
 Route::post('login', 'Auth\LoginController@authenticate');
 
 Route::get('/test', 'ArchiveController@index')->name('test');
 
 Route::resource('admarchive', 'admarchiveController')->names([
+    'index' => 'listar',
     'create' => 'intraplus',
     'destroy' => 'eliminar'
 ]);

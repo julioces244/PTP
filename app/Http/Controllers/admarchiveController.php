@@ -64,7 +64,7 @@ class admarchiveController extends Controller
       $archive->filename = $request->input('filename');
       $archive->archive = $filename;
       $archive->save();
-      return 'Saved';
+      return redirect()->route('listar');
     }
 
     /**
@@ -111,9 +111,22 @@ class admarchiveController extends Controller
     {
         //
         $archive = Archive::find($idArchive);
+        $filename = $archive->archive;
+        $directorypath = public_path().'/documents/';
+        //dd($directorypath);
+        if(is_file($directorypath.$filename)){
+
+          unlink($directorypath.$filename);
+
+
+        }else{
+
+
+        }
+
         $archive->delete();
 
-        return redirect()->route('admarchive.index')->with('success','Eliminado correctamente');
+        return back()->with('msj','Archivo eliminado correctamente!');
 
         /*
         dd("GO");

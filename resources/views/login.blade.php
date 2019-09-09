@@ -11,7 +11,7 @@
 	<div class="login">
 		<form class="" action="{{route('login')}}" method="post">
 			@csrf
-			<center><img src="images/talentopiscologo.png" alt=""></center>
+			<center><img src="images/TalentoPiscoLogo.png" alt=""></center>
 			<input type="text" name="email" value="" placeholder="Ingrese usuario" required>
 			<input type="password" name="password" value="" placeholder="Ingrese contraseña" required>
 			<button class="btn" type="submit" name="button" >Ingresar</button>
