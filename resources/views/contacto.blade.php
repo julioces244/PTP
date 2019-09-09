@@ -82,14 +82,14 @@
 
 									</div>
 									<div class="col-md-4 col-md-pull-4">
-										<img src="./images/talentopiscologo.png" height="150px" width="500px">
+										<img src="./images/TalentoPiscoLogo.png" height="150px" width="500px">
 
 										<div class="num">
 										</div>
 									</div>
 									<div class="col-md-4">
 
-										<img src="./images/logosptp/logocamisea.jpg" height="150px" width="400px">
+										<img src="./images/LogosPTP/logocamisea.jpg" height="150px" width="400px">
 
 									</div>
 								</div>
@@ -195,7 +195,7 @@
 								<div class="col-md-8 col-md-offset-2 text-center slider-text">
 									<div class="slider-text-inner">
 
-										<img src="images/LogosPTP/pisco_apr.png">
+										<img src="images/LogosPTP/Pisco_apr.png">
 
 										<!--
 										<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
@@ -212,7 +212,7 @@
 								<div class="col-md-8 col-md-offset-2 text-center slider-text">
 									<div class="slider-text-inner">
 
-										<img src="images/LogosPTP/pisco_dig.png">
+										<img src="images/LogosPTP/Pisco_dig.png">
 
 											<!--
 										<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
@@ -230,7 +230,7 @@
 								<div class="col-md-8 col-md-offset-2 text-center slider-text">
 									<div class="slider-text-inner">
 
-										<img src="images/LogosPTP/pisco_tec.png">
+										<img src="images/LogosPTP/Pisco_tec.png">
 
 											<!--
 										<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
