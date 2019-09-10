@@ -40,7 +40,7 @@ class LoginController extends Controller
             //dd($user);
             return redirect()->intended('test');
         }else {
-            return view ('login');
+            return back()->with('failed_auth', 'Las credenciales ingresadas son incorrectas!');
         }
     }
 
