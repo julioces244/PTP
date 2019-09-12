@@ -17,7 +17,7 @@
 
 							</div>
 							<div class="col-md-4 col-md-pull-4">
-								<img src="{{asset('images/TalentoPiscoLogo.png')}}" height="150px" width="500px">
+								<img src="{{asset('images/TalentoPiscoLogo.png')}}" height="150px" width="auto">
 
 								<div class="num">
 								</div>
@@ -39,11 +39,11 @@
 				<div class="col-xs-12 text-center" >
 					<div class="menu-1">
 						<ul>
-							<li class="active"><a href="{{ url('index')}}">Inicio</a></li>
-							<li><a href="{{ url('bienvenido')}}">Bienvenido</a></li>
+							<li class="letter active"><a href="{{ url('index')}}">Inicio</a></li>
+							<li><a class="letter" href="{{ url('bienvenido')}}">Bienvenido</a></li>
 
 							<li class="btn-cta has-dropdown">
-								<a href="{{ url('talentopisco')}}">Talento Pisco</a>
+								<a class="letter" href="{{ url('talentopisco')}}">Talento Pisco</a>
 								<ul class="dropdown">
 									<li><a href="{{ url('talentopisco')}}">Programa Talento Pisco</a></li>
 									<li><a href="{{ url('pisco_aprendizaje')}}">Pisco Aprendizaje</a></li>
@@ -53,24 +53,24 @@
 							</li>
 
 							<li>
-								<a href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a>
+								<a class="letter" href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a>
 							</li>
 
 							<li>
-								<a href="ptecnologia.html">Estudiante</a>
+								<a class="letter" href="ptecnologia.html">Estudiante</a>
 							</li>
 							<li>
-								<a href="ptecnologia.html">Padres</a>
+								<a class="letter" href="ptecnologia.html">Padres</a>
 							</li>
 							<li>
-								<a href="ptecnologia.html">Docentes</a>
+								<a class="letter" href="ptecnologia.html">Docentes</a>
 							</li>
 							<li>
-								<a href="{{ url('login')}}">Camisea</a>
+								<a class="letter" href="{{ url('login')}}">Camisea</a>
 							</li>
 
 							<li class="btn-cta has-dropdown">
-								<a href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
+								<a class="letter" href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
 								<ul class="dropdown">
 									<li><a href="{{url('')}}">Innovación Abierta y Creación de Valor</a></li>
 									<li><a href="{{url('')}}">Empleo</a></li>
@@ -78,12 +78,12 @@
 							</li>
 
 							<li>
-								<a href="ptecnologia.html">Fondo Talento Pisco</a>
+								<a class="letter" href="ptecnologia.html">Fondo Talento Pisco</a>
 							</li>
 
-							<li><a href="{{ url('noticias')}}">Noticias</a></li>
+							<li><a class="letter" href="{{ url('noticias')}}">Noticias</a></li>
 
-							<li><a href="{{ url('contacto')}}">Contacto</a></li>
+							<li><a class="letter" href="{{ url('contacto')}}">Contacto</a></li>
 
 
 							<!--
@@ -221,7 +221,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="choose">
-					<div class="half img-bg" style="background-image: url(images/photos/IMG-20190826-WA0027.jpg); background-position: center center;
+					<div class="half img-bg" style="background-image: url(images/photos/Screenshot_3.jpg); background-position: center center;
 				  background-repeat: no-repeat; background-size: cover;"></div>
 					<div class="half features-wrap">
 						<div class="qbootstrap-heading animate-box">

@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   width: 100%;*/
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   .qbootstrap-nav .top-menu {
     padding: 0;
   }
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 700;
   font-family: "Poppins", Arial, sans-serif;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1px) {
   .qbootstrap-nav #qbootstrap-logo {
     text-align: left !important;
     margin-bottom: 20px;
@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   .qbootstrap-nav .menu-1 {
     display: none;
   }
@@ -379,7 +379,7 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 1.3;
   font-weight: 300;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   #qbootstrap-hero .flexslider .slider-text > .slider-text-inner h1 {
     font-size: 30px;
   }
@@ -446,7 +446,7 @@ h1, h2, h3, h4, h5, h6, figure {
 padding: 3em 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   #qbootstrap-services,
   #qbootstrap-counter,
   #qbootstrap-register,
@@ -491,7 +491,7 @@ padding: 3em 0;
   width: 33.333%;
   display: inline-block;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   .intro-grid {
     width: 100%;
   }
@@ -640,7 +640,7 @@ padding: 3em 0;
   display: inline-block;
   background: #91AE34;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   .choose .half {
     width: 100%;
   }
@@ -649,7 +649,7 @@ padding: 3em 0;
 .features-wrap {
   padding: 4em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   .features-wrap {
     padding: 1em;
   }
@@ -816,7 +816,7 @@ padding: 3em 0;
   position: relative;
   display: block;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   .qbootstrap-heading h2 {
     font-size: 28px;
   }
@@ -929,7 +929,7 @@ padding: 3em 0;
   padding: 3em 2em 2em 2em;
   background: rgba(0, 0, 0, 0.02);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   .sidebar {
     padding-left: 0;
   }
@@ -1021,7 +1021,7 @@ padding: 3em 0;
   font-size: 60px;
   font-weight: 300;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   #qbootstrap-register h2 {
     font-size: 30px;
   }
@@ -1034,7 +1034,7 @@ padding: 3em 0;
   font-size: 60px;
   color: #fff;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   #qbootstrap-register .countdown {
     font-size: 40px;
   }
@@ -1214,7 +1214,7 @@ padding: 3em 0;
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   .department-wrap .grid-1, .department-wrap .grid-2 {
     width: 100%;
     position: relative;
@@ -1230,7 +1230,7 @@ padding: 3em 0;
   background-repeat: no-repeat;
   position: relative;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   .department-wrap .grid-1 {
     height: 300px;
   }
@@ -1238,7 +1238,7 @@ padding: 3em 0;
 .department-wrap .grid-2 .desc, .department-wrap .grid-3 .desc {
   padding: 1em 1em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   .department-wrap .grid-2 .desc, .department-wrap .grid-3 .desc {
     padding: 1em;
   }
@@ -1287,7 +1287,7 @@ padding: 3em 0;
   padding: 2em;
   background: rgba(0, 0, 0, 0.04);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   .plan {
     padding: 1em;
   }
@@ -1298,7 +1298,7 @@ padding: 3em 0;
   margin-bottom: 10px;
   display: block;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   .plan li {
     font-size: 18px;
   }
@@ -1326,7 +1326,7 @@ padding: 3em 0;
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   .testimony {
     margin-bottom: 70px;
   }
@@ -1397,7 +1397,7 @@ padding: 3em 0;
 #qbootstrap-footer .qbootstrap-widget {
   margin-bottom: 30px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   #qbootstrap-footer .qbootstrap-widget {
     text-align: left;
   }
@@ -1477,7 +1477,7 @@ padding: 3em 0;
   height: 500px;
   position: relative;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   #map {
     height: 200px;
   }
@@ -1509,7 +1509,7 @@ padding: 3em 0;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   #qbootstrap-offcanvas {
     display: block;
   }
@@ -1720,7 +1720,7 @@ padding: 3em 0;
   z-index: 2001;
   border-bottom: none !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1165px) {
   .qbootstrap-nav-toggle {
     display: block;
   }
@@ -2103,7 +2103,7 @@ padding: 3em 0;
   padding-right:10px;
 }
 
-  @media (min-width:768px){
+  @media (min-width:1165px){
  .container2{width:740px}
 }
 
@@ -2336,16 +2336,16 @@ padding: 3em 0;
 .container2>.navbar-header,.container2-fluid>.navbar-header,.container2>.navbar-collapse,.container2-fluid>.navbar-collapse{
   margin-right:-10px;margin-left:-10px}
 
-@media (min-width:768px){
+@media (min-width:1165px){
   .container2>.navbar-header,.container2-fluid>.navbar-header,.container2>.navbar-collapse,.container2-fluid>.navbar-collapse{
     margin-right:0;margin-left:0}}
 
-@media (min-width:768px){
+@media (min-width:1165px){
   .navbar>.container2 .navbar-brand,.navbar>.container2-fluid .navbar-brand{
     margin-left:-10px}}
 
 .container2 .jumbotron,.container2-fluid .jumbotron{border-radius:6px}.jumbotron .container2{max-width:100%}
- @media screen and (min-width:768px){
+ @media screen and (min-width:1165px){
   .jumbotron{padding-top:48px;padding-bottom:48px}
   .container2 .jumbotron,.container2-fluid
  .jumbotron{padding-left:60px;padding-right:60px}
@@ -2754,5 +2754,111 @@ img.zoom {
 @media only screen and (max-width: 700px){
   .modal-content {
     width: 100%;
+  }
+}
+
+@media screen and (max-width:1617px) and (min-width:1398px) {
+  .letter.active{
+  font-size: 0.9em;
+  color: #34b8c0;
+  }
+
+  .qbootstrap-nav ul li a {
+    padding: 10px;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+}
+
+
+@media screen and (max-width:1617px) and (min-width:1398px) {
+  .letter{
+  font-size: 0.9em;
+  }
+  .qbootstrap-nav ul li a {
+    padding: 10px;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+}
+
+
+@media screen and (max-width:1397px) and (min-width:1269px) {
+  .letter.active{
+  font-size: 0.8em;
+  color: #34b8c0;
+  }
+
+  .qbootstrap-nav ul li a {
+    padding: 9px;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+}
+
+
+@media screen and (max-width:1397px) and (min-width:1269px) {
+  .letter{
+  font-size: 0.8em;
+  }
+  .qbootstrap-nav ul li a {
+    padding: 9px;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+}
+
+
+@media screen and (max-width:1268px) and (min-width:1165px) {
+  .letter.active{
+  font-size: 0.7em;
+  color: #34b8c0;
+  }
+
+  .qbootstrap-nav ul li a {
+    padding: 7px;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+}
+
+
+@media screen and (max-width:1268px) and (min-width:1165px) {
+  .letter{
+  font-size: 0.75em;
+  }
+  .qbootstrap-nav ul li a {
+    padding: 7px;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+}
+
+
+@media screen and (max-width:1164px) and (min-width:680px) {
+  .letter{
+  font-size: 1em;
+  }
+  .qbootstrap-nav ul li a {
+    padding: 7px;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
   }
 }

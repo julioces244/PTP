@@ -41,11 +41,11 @@
 				<div class="col-xs-12 text-center" >
 					<div class="menu-1">
 						<ul>
-							<li><a href="{{ url('index')}}">Inicio</a></li>
-							<li class="active"><a href="{{ url('bienvenido')}}">Bienvenido</a></li>
+							<li><a class="letter" href="{{ url('index')}}">Inicio</a></li>
+							<li class="letter active"><a href="{{ url('bienvenido')}}">Bienvenido</a></li>
 
 							<li class="btn-cta has-dropdown">
-								<a href="{{ url('talentopisco')}}">Talento Pisco</a>
+								<a class="letter" href="{{ url('talentopisco')}}">Talento Pisco</a>
 								<ul class="dropdown">
 									<li><a href="{{ url('talentopisco')}}">Programa Talento Pisco</a></li>
 									<li><a href="{{ url('pisco_aprendizaje')}}">Pisco Aprendizaje</a></li>
@@ -55,23 +55,23 @@
 							</li>
 
 							<li>
-								<a href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a>
+								<a class="letter" href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a>
 							</li>
 							<li>
-								<a href="ptecnologia.html">Estudiante</a>
+								<a class="letter" href="ptecnologia.html">Estudiante</a>
 							</li>
 							<li>
-								<a href="ptecnologia.html">Padres</a>
+								<a class="letter" href="ptecnologia.html">Padres</a>
 							</li>
 							<li>
-								<a href="ptecnologia.html">Docentes</a>
+								<a class="letter" href="ptecnologia.html">Docentes</a>
 							</li>
 							<li>
-								<a href="{{ url('login')}}">Camisea</a>
+								<a class="letter" href="{{ url('login')}}">Camisea</a>
 							</li>
 
 							<li class="btn-cta has-dropdown">
-								<a href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
+								<a class="letter" href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
 								<ul class="dropdown">
 									<li><a href="{{url('')}}">Innovación Abierta y Creación de Valor</a></li>
 									<li><a href="{{url('')}}">Empleo</a></li>
@@ -79,12 +79,12 @@
 							</li>
 
 							<li>
-								<a href="ptecnologia.html">Fondo Talento Pisco</a>
+								<a class="letter" href="ptecnologia.html">Fondo Talento Pisco</a>
 							</li>
 
-							<li><a href="{{ url('noticias')}}">Noticias</a></li>
+							<li><a class="letter" href="{{ url('noticias')}}">Noticias</a></li>
 
-							<li><a href="{{ url('contacto')}}">Contacto</a></li>
+							<li><a class="letter" href="{{ url('contacto')}}">Contacto</a></li>
 							<!--
 							<li class="btn-cta has-dropdown">
 								<a href="#"><span>Ingresar <i class="icon-calendar3"></i></span></a>
