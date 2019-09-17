@@ -218,7 +218,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-sm-4 position-relative success-video">
-				<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="100%" height="400px" type="text/html" src="https://www.youtube.com/embed/5OE_uzqEerE?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"></iframe>
+				<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="100%" height="400px" type="text/html" src="https://www.youtube.com/embed/KFLdwOzBBSo"></iframe>
 
 
       </div>
@@ -429,7 +429,7 @@
                                 <li>
                                     <h4 style="color: white">Nuestra Misión</h4>
 
-                                    <p>"Formar personas con habilidades y visión global y mayores oportunidades de empleo y desarrollo."<br><br></p>
+                                    <p><br><br></p>
                                 </li>
 
                             </ul>
@@ -442,7 +442,7 @@
                                 <li>
                                     <h4 style="color: white">Nuestra Visión</h4>
 
-                                    <p>"Formar personas con habilidades y visión global y mayores oportunidades de empleo y desarrollo."<br><br></p>
+                                    <p><br><br></p>
                                 </li>
 
                             </ul>

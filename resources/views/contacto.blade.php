@@ -283,7 +283,7 @@
 					<h3>Información de Contacto</h3>
 					<div class="row contact-info-wrap">
 						<div class="col-md-3">
-							<p><span><i class="icon-location"></i></span> Alipio Ponce 137, Pisco, Ica <br>  </p>
+							<p><span><i class="icon-location"></i></span> Alipio Ponce 372, 374, Pisco, Ica - Perú <br>  </p>
 						</div>
 						<div class="col-md-3">
 							<p><span><i class="icon-phone"></i></span> <a href="tel://1234567920">+ 1235 2355 98</a></p>

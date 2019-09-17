@@ -74,7 +74,7 @@
                 </li>
 
             </ul>
-
+<!--
             <ul class="list-unstyled CTAs">
                 <li>
                     <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
@@ -82,7 +82,7 @@
                 <li>
                     <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
                 </li>
-            </ul>
+            </ul>-->
         </nav>
 
         <!-- Page Content  -->

@@ -318,7 +318,7 @@
             <div class="container">
                 <div class="row">
                     <div class="title">
-                        <h2 style="color: #000">PROGRAMAS</h2>
+                        <h2 style="color: #000">PROGRAMA</h2>
                         <div class="blank"></div>
                         <p>Nuestra propuesta es desarrollar a partir de los 3 "Proyectos Sociales - Pisco" un "Programa Talento Pisco" cuyos obejtivos serán contar con estudiantes de secundaria con los mejores logros de aprendizaje del país y convertir a la provincia de Pisco en la cuna de egresados de secundaria con las mejores habilidades técnicas y tecnológicas del país. Además de ser el Estudiante de Talento Pisco debidamente Certificado será objetivo del programa formar personas con habilidades y visión global, y con mayores oportunidades de empleo y desarrollo. Para lograr estos objetivos el "Programa Talento Pisco" creará una Plataforma para la Excelencia Formativa y el Empleo que acompañe a los estudiantes y todos los stakeholders relacionados en la continuidad de sus estudiso técnicos y superiores, y de empleo.</p>
                     </div>

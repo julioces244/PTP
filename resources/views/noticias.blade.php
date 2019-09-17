@@ -196,7 +196,7 @@
 									<h2><a>Nuevas clases de matemáticas</a></h2>
 									<div class="post-meta">
 										<span><a>Educativa</a></span>
-										<span>Agosto 20, 2017</span>
+										<span>Agosto 25, 2019</span>
 									</div>
 									<p>Luego de unas largas vacaciones, los alumnos de la escuela Beatita de Humay comienzan las clases con los nuevo módulos de matemáticas, el cual comprende temas de razonamiento matemática y análisis situacionales</p>
 									<!--
@@ -217,9 +217,10 @@
 									<h2><a>Reconocen al Programa Talento Pisco por su apoyo a la educación nacional</a></h2>
 									<div class="post-meta">
 										<span><a>Variados</a></span>
-										<span>Agosto 25, 2018</span>
+										<span>Agosto 20, 2019</span>
 									</div>
-									<p>Los resultados obtenidos en los alumnos de los colegios pertenecientes al Programa Talento Pisco han sido satisfactorios, y muchos de ellos ya cuentan con certificados en herramientas digitales, así como certificados en electrónica y electricidad.</p>
+									<p>Los resultados obtenidos en los alumnos de los colegios pertenecientes al Programa Talento Pisco han sido satisfactorios,
+										 y es uno de los motivos, por lo que ha sido tema principal, en diarios reconocidos como "El Comercio" y "La República", en la cual la consideran como un programa social que empieza a cambiar la educación en Pisco.</p>
 									<!--
 									<p><a href="blog-single.html" class="btn btn-primary">Leer más</a></p>-->
 								</div>
@@ -239,9 +240,9 @@
 									<h2><a>¡Logros de aprendizaje!</a></h2>
 									<div class="post-meta">
 										<span><a>Educativa</a></span>
-										<span>Julio 20, 2017</span>
+										<span>Julio 20, 2019</span>
 									</div>
-									<p>La representante y gerente de logística; Fátima Cabrera ; del Centro para la Competitividad y el Desarrollo (CCD), verifica las instalaciones de los laboratorios de los colegios Fe y Alegria y Raúl Porras Barnechea, los cuales contemplan tecnología de última generación.</p>
+									<p>El Centro para la Competitividad y el Desarrollo (CCD), verifica las instalaciones de los laboratorios y se mantiene al pendiente de la entrega de materiales a los alumnos de los colegios Fe y Alegria y Raúl Porras Barnechea, los cuales, demuestran felicidad y empeño por aprender.</p>
 									<!--
 									<p><a href="blog-single.html" class="btn btn-primary">Leer más</a></p>-->
 								</div>
