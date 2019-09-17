@@ -58,13 +58,13 @@
 								<a class="letter" href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a>
 							</li>
 							<li>
-								<a class="letter" href="ptecnologia.html">Estudiante</a>
+								<a class="letter" href="{{ url('blockstudent')}}">Estudiante</a>
 							</li>
 							<li>
-								<a class="letter" href="ptecnologia.html">Padres</a>
+								<a class="letter" href="{{ url('blockparent')}}">Padres</a>
 							</li>
 							<li>
-								<a class="letter" href="ptecnologia.html">Docentes</a>
+								<a class="letter" href="{{ url('blockteacher')}}">Docentes</a>
 							</li>
 							<li>
 								<a class="letter" href="{{ url('login')}}">Camisea</a>
@@ -79,7 +79,7 @@
 							</li>
 
 							<li>
-								<a class="letter" href="ptecnologia.html">Fondo Talento Pisco</a>
+								<a class="letter" href="{{ url('blockfund')}}">Fondo Talento Pisco</a>
 							</li>
 
 							<li><a class="letter" href="{{ url('noticias')}}">Noticias</a></li>
@@ -429,7 +429,7 @@
                                 <li>
                                     <h4 style="color: white">Nuestra Misión</h4>
 
-                                    <p>"En Centro para la Competitividad y el Desarrollo (CCD) nos distinguimosonado con la atención de la agenda social, medioambiental y promoción de la inversión privada."</p>
+                                    <p>"Formar personas con habilidades y visión global y mayores oportunidades de empleo y desarrollo."<br><br></p>
                                 </li>
 
                             </ul>
@@ -442,7 +442,7 @@
                                 <li>
                                     <h4 style="color: white">Nuestra Visión</h4>
 
-                                    <p>"En Centro para la Competitividad y el Desarrollo (CCD) nos distinguimosonado con la atención de la agenda social, medioambiental y promoción de la inversión privada."</p>
+                                    <p>"Formar personas con habilidades y visión global y mayores oportunidades de empleo y desarrollo."<br><br></p>
                                 </li>
 
                             </ul>

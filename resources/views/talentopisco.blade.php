@@ -124,13 +124,13 @@
 										<a class="letter" href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a>
 									</li>
 									<li>
-										<a class="letter" href="ptecnologia.html">Estudiante</a>
+										<a class="letter" href="{{ url('blockstudent')}}">Estudiante</a>
 									</li>
 									<li>
-										<a class="letter" href="ptecnologia.html">Padres</a>
+										<a class="letter" href="{{ url('blockparent')}}">Padres</a>
 									</li>
 									<li>
-										<a class="letter" href="ptecnologia.html">Docentes</a>
+										<a class="letter" href="{{ url('blockteacher')}}">Docentes</a>
 									</li>
 									<li>
 										<a class="letter" href="{{ url('login')}}">Camisea</a>
@@ -145,7 +145,7 @@
 									</li>
 
 									<li>
-										<a class="letter" href="ptecnologia.html">Fondo Talento Pisco</a>
+										<a class="letter" href="{{ url('blockfund')}}">Fondo Talento Pisco</a>
 									</li>
 
 									<li><a class="letter" href="{{ url('noticias')}}">Noticias</a></li>
@@ -392,43 +392,7 @@
 
 	</div>-->
 
-        <div class="qbootstrap-departments">
-			<div class="row">
-				<div class="department-wrap animate-box">
-					<div class="container">
-					<div class="col-md-12">
-						<div class="desc">
-							<div>
-							<h2 style="text-align: center;"><a href="departments-single.html" style="color: #91AE34">Plataforma para la Excelencia Formativa y Empleo</a></h2>
-							<br>
-							<p>La Plataforma para la excelencia Formativa y el Empleo será virtual y real. Virtual porque se creará un dominio con acceso universal y al mismo tiempo con el acceso adecuado de aduerdo a las necesidades de los estudiantes, de los egresados, así como de los otros stakeholders, es decir de los padres de familia, docentes, funcionarios de la UGEL de Pisco, de la DRE de Ica, y de PlusPetrol, principalmente.</p><p> Asimismo, dentro del proceso virtual, se complementará y desarrollará aplicativos que tomen en cuenta las características de los stakeholders a fin de alcanzar los objetivos trazados, los cuales serán desarrollados luego del levantamiento de la información que busca conocer las preferencias por el uso de los Smartphone al inicio del Programa Talento Pisco. La Plataforma para la Excelencia Formativa y el Empleo será
-							real porque los stakeholders de la educación de Pisco tendrán las habilidades para manejar la parte virtual y
-							sobre todo se desarrollara un ecosistema de interconexión entre todos los stakeholders. En este proceso será
-							fundamental “poner en vitrina” a los estudiantes certificados con potenciales empleadores de Pisco, de la
-							región Ica, del sur y del país, principalmente.</p>
-							<div class="department-info">
-								<div class="block">
-									<h2><a style="color: #fff">Empleo</a></h2>
-									<span>Estudiante Talento Pisco Certificado</span>
-								</div>
-								<div class="block">
-									<h2><a style="color: #fff">Técnico Superior</a></h2>
-									<span>Estudiante Talento Pisco Certificado</span>
-								</div>
-								<div class="block">
-									<h2><a style="color: #fff">Universidad</a></h2>
-									<span>Estudiante Talento Pisco Certificado</span>
-								</div>
-							</div>
-							</div>
-						</div>
-					</div>
-					</div>
-				</div>
 
-
-			</div>
-	</div>
 
 
 

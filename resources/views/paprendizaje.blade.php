@@ -124,13 +124,13 @@
 										<a href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a>
 									</li>
 									<li>
-										<a href="ptecnologia.html">Estudiante</a>
+										<a href="{{ url('blockstudent')}}">Estudiante</a>
 									</li>
 									<li>
-										<a href="ptecnologia.html">Padres</a>
+										<a href="{{ url('blockparent')}}">Padres</a>
 									</li>
 									<li>
-										<a href="ptecnologia.html">Docentes</a>
+										<a href="{{ url('blockteacher')}}">Docentes</a>
 									</li>
 									<li>
 										<a href="{{ url('login')}}">Camisea</a>
@@ -145,7 +145,7 @@
 									</li>
 
 									<li>
-										<a href="ptecnologia.html">Fondo Talento Pisco</a>
+										<a href="{{ url('blockfund')}}">Fondo Talento Pisco</a>
 									</li>
 
 									<li><a href="{{ url('noticias')}}">Noticias</a></li>

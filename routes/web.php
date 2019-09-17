@@ -12,6 +12,8 @@
 */
 
 
+//Paginas principales informativas (js, css, html)
+
 Route::get('/', function () {
     return view('index');
 });
@@ -61,7 +63,25 @@ Route::get('/adm_inicio', function () {
     return view('admmenu');
 });
 
+//Block pages (páginas simples en mantenimiento vista)
 
+Route::get('/blockstudent', function(){
+    return view('blockpages/blockstudent');
+});
+
+Route::get('/blockparent', function(){
+    return view('blockpages/blockparent');
+});
+
+Route::get('/blockteacher', function(){
+    return view('blockpages/blockteacher');
+});
+
+Route::get('/blockfund', function(){
+    return view('blockpages/blockfund');
+});
+
+//Páginas backend BD (MySql, laravel, blade, prox(vue.js))
 
 Route::get('/login', function () {
     return view('login');

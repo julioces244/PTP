@@ -33,14 +33,21 @@ class LoginController extends Controller
     public function authenticate(Request $request)
     {
         $credentials = $request->only('email', 'password');
+        //$email = $request->only('email');
+/*
+        if($email === 'administrador@gmail.com'){
+          dd('Hola Mundo');
+        }*/
 
         if (Auth::attempt($credentials)) {
             //dd($request->all());
-
             //dd($user);
             return redirect()->intended('test');
+
         }else {
+
             return back()->with('failed_auth', 'Las credenciales ingresadas son incorrectas!');
+
         }
     }
 

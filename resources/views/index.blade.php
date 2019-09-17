@@ -57,13 +57,13 @@
 							</li>
 
 							<li>
-								<a class="letter" href="ptecnologia.html">Estudiante</a>
+								<a class="letter" href="{{ url('blockstudent')}}">Estudiante</a>
 							</li>
 							<li>
-								<a class="letter" href="ptecnologia.html">Padres</a>
+								<a class="letter" href="{{ url('blockparent')}}">Padres</a>
 							</li>
 							<li>
-								<a class="letter" href="ptecnologia.html">Docentes</a>
+								<a class="letter" href="{{ url('blockteacher')}}">Docentes</a>
 							</li>
 							<li>
 								<a class="letter" href="{{ url('login')}}">Camisea</a>
@@ -78,7 +78,7 @@
 							</li>
 
 							<li>
-								<a class="letter" href="ptecnologia.html">Fondo Talento Pisco</a>
+								<a class="letter" href="{{ url('blockfund')}}">Fondo Talento Pisco</a>
 							</li>
 
 							<li><a class="letter" href="{{ url('noticias')}}">Noticias</a></li>

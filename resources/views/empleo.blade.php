@@ -57,13 +57,13 @@
 								<a class="letter" href="{{ url('excformativa')}}">Excelencia Formativa</a>
 							</li>
 							<li>
-								<a class="letter" href="ptecnologia.html">Estudiante</a>
+								<a class="letter" href="{{ url('blockstudent')}}">Estudiante</a>
 							</li>
 							<li>
-								<a class="letter" href="ptecnologia.html">Padres</a>
+								<a class="letter" href="{{ url('blockparent')}}">Padres</a>
 							</li>
 							<li>
-								<a class="letter" href="ptecnologia.html">Docentes</a>
+								<a class="letter" href="{{ url('blockteacher')}}">Docentes</a>
 							</li>
 							<li>
 								<a class="letter" href="{{ url('login')}}">Camisea</a>
@@ -78,7 +78,7 @@
 							</li>
 
 							<li>
-								<a class="letter" href="ptecnologia.html">Fondo Talento Pisco</a>
+								<a class="letter" href="{{ url('blockfund')}}">Fondo Talento Pisco</a>
 							</li>
 
 							<li><a class="letter" href="{{ url('noticias')}}">Noticias</a></li>
@@ -231,17 +231,40 @@
           </span>
           <div class="desc">
 
-            <p>Convenios de empleo público y privado.<br><br><br></p>
+            <p>Convenios de empleo público y privado.</p>
 
           </div>
         </div>
       </div>
 
     </div>
-    <div class="blank"></div>
+    <!-- <div class="blank"></div>-->
 
 
   </div>
+</div>
+
+
+<div class="qbootstrap-departments">
+<div class="row">
+<div class="department-wrap animate-box">
+	<div class="container">
+	<div class="col-md-12">
+		<div class="desc">
+			<div>
+			<div class="department-info">
+				<div class="block">
+					<h2><a style="color: #fff">Empleo</a></h2>
+					<span>Estudiante Talento Pisco Certificado</span>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+<br><br><br><br>
 </div>
 
 

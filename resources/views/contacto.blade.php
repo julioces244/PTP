@@ -121,13 +121,13 @@
 										<a class="letter" href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a>
 									</li>
 									<li>
-										<a class="letter" href="ptecnologia.html">Estudiante</a>
+										<a class="letter" href="{{ url('blockstudent')}}">Estudiante</a>
 									</li>
 									<li>
-										<a class="letter" href="ptecnologia.html">Padres</a>
+										<a class="letter" href="{{ url('blockparent')}}">Padres</a>
 									</li>
 									<li>
-										<a class="letter" href="ptecnologia.html">Docentes</a>
+										<a class="letter" href="{{ url('blockteacher')}}">Docentes</a>
 									</li>
 									<li>
 										<a class="letter" href="{{ url('login')}}">Camisea</a>
@@ -142,7 +142,7 @@
 									</li>
 
 									<li>
-										<a class="letter" href="ptecnologia.html">Fondo Talento Pisco</a>
+										<a class="letter" href="{{ url('blockfund')}}">Fondo Talento Pisco</a>
 									</li>
 
 									<li><a class="letter" href="{{ url('noticias')}}">Noticias</a></li>
@@ -283,13 +283,13 @@
 					<h3>Información de Contacto</h3>
 					<div class="row contact-info-wrap">
 						<div class="col-md-3">
-							<p><span><i class="icon-location"></i></span> Santiago de Surco, Chacarilla, Av. del Pinar 124 <br>  </p>
+							<p><span><i class="icon-location"></i></span> Alipio Ponce 137, Pisco, Ica <br>  </p>
 						</div>
 						<div class="col-md-3">
 							<p><span><i class="icon-phone"></i></span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
 						</div>
 						<div class="col-md-3">
-							<p><span><i class="icon-mail"></i></span> <a href="mailto:info@yoursite.com">fatima@competitividadccd.com</a></p>
+							<p><span><i class="icon-mail"></i></span> <a href="mailto:info@yoursite.com">talentopisco@competitividadccd.com</a></p>
 						</div>
 						<!--
 						<div class="col-md-3">
@@ -342,7 +342,9 @@
 		</div>
 	</div>
 
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.9958621234778!2d-76.99139458457466!3d-12.112435346424968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7ec9124d10b%3A0x2a27a88a61ba5adb!2sAv.+del+Pinar+124%2C+Lima+15038!5e0!3m2!1ses-419!2spe!4v1564774304949!5m2!1ses-419!2spe" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+<!--
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.9958621234778!2d-76.99139458457466!3d-12.112435346424968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7ec9124d10b%3A0x2a27a88a61ba5adb!2sAv.+del+Pinar+124%2C+Lima+15038!5e0!3m2!1ses-419!2spe!4v1564774304949!5m2!1ses-419!2spe" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.1577984120827!2d-76.20859088455606!3d-13.708890978772068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91106f61e25209af%3A0x62521b6483a676ac!2sAlipio%20Ponce%20376%2C%20Pisco%2011601!5e0!3m2!1ses!2spe!4v1568745278243!5m2!1ses!2spe" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 	<!--
 	<div id="qbootstrap-register" style="background-image: url(images/bg_student4.jpg);" data-stellar-background-ratio="0.5">
