@@ -56,18 +56,6 @@
 							<li>
 								<a class="letter" href="{{ url('excformativa')}}">Excelencia Formativa</a>
 							</li>
-							<li>
-								<a class="letter" href="{{ url('blockstudent')}}">Estudiante</a>
-							</li>
-							<li>
-								<a class="letter" href="{{ url('blockparent')}}">Padres</a>
-							</li>
-							<li>
-								<a class="letter" href="{{ url('blockteacher')}}">Docentes</a>
-							</li>
-							<li>
-								<a class="letter" href="{{ url('login')}}">Camisea</a>
-							</li>
 
 							<li class="btn-cta has-dropdown active">
 								<a class="letter" href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
@@ -77,13 +65,20 @@
 								</ul>
 							</li>
 
-							<li>
-								<a class="letter" href="{{ url('blockfund')}}">Fondo Talento Pisco</a>
-							</li>
-
 							<li><a class="letter" href="{{ url('noticias')}}">Noticias</a></li>
 
 							<li><a class="letter" href="{{ url('contacto')}}">Contacto</a></li>
+
+							<li class="btn-cta has-dropdown">
+								<a class="letter" href="{{ url('blockstudent')}}">Acceder</a>
+								<ul class="dropdown">
+									<li><a href="{{ url('blockstudent')}}">Estudiante</a></li>
+									<li><a href="{{ url('blockparent')}}">Padres</a></li>
+									<li><a href="{{ url('blockteacher')}}">Docentes</a></li>
+									<li><a href="{{ url('login')}}">Camisea</a></li>
+									<li><a href="{{ url('blockfund')}}">Fondo Talento Pisco</a></li>
+								</ul>
+							</li>
 							<!--
 							<li class="btn-cta has-dropdown">
 								<a href="#"><span>Ingresar <i class="icon-calendar3"></i></span></a>

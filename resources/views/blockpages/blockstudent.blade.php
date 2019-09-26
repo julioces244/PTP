@@ -55,7 +55,7 @@
 
 </head>
 
-<body class="body">
+<body class="body-custom">
 
 
 	<nav class="qbootstrap-nav" role="navigation">
@@ -81,18 +81,6 @@
 									<a class="letter" href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a>
 								</li>
 
-								<li class="letter active">
-									<a class="letter" href="{{ url('blockstudent')}}">Estudiante</a>
-								</li>
-								<li>
-									<a class="letter" href="{{ url('blockparent')}}">Padres</a>
-								</li>
-								<li>
-									<a class="letter" href="{{ url('blockteacher')}}">Docentes</a>
-								</li>
-								<li>
-									<a class="letter" href="{{ url('login')}}">Camisea</a>
-								</li>
 
 								<li class="btn-cta has-dropdown">
 									<a class="letter" href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
@@ -102,13 +90,22 @@
 									</ul>
 								</li>
 
-								<li>
-									<a class="letter" href="{{ url('blockfund')}}">Fondo Talento Pisco</a>
-								</li>
+
 
 								<li><a class="letter" href="{{ url('noticias')}}">Noticias</a></li>
 
 								<li><a class="letter" href="{{ url('contacto')}}">Contacto</a></li>
+
+								<li class="btn-cta has-dropdown active">
+									<a class="letter" href="{{ url('blockstudent')}}">Acceder</a>
+									<ul class="dropdown">
+										<li><a href="{{ url('blockstudent')}}">Estudiante</a></li>
+										<li><a href="{{ url('blockparent')}}">Padres</a></li>
+										<li><a href="{{ url('blockteacher')}}">Docentes</a></li>
+										<li><a href="{{ url('login')}}">Camisea</a></li>
+										<li><a href="{{ url('blockfund')}}">Fondo Talento Pisco</a></li>
+									</ul>
+								</li>
 
 
 							</ul>
@@ -131,7 +128,40 @@
 </div>
 
 
+<script src="plugins/jQuery/jquery.min.js"></script>
+ <!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Stellar Parallax -->
+<script src="js/jquery.stellar.min.js"></script>
+<!-- Carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- Flexslider -->
+<script src="js/jquery.flexslider-min.js"></script>
+<!-- countTo -->
+<script src="js/jquery.countTo.js"></script>
+<!-- Magnific Popup -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<!-- Sticky Kit -->
+<script src="js/sticky-kit.min.js"></script>
+<!-- Main -->
+<script src="js/main.js"></script>
+<script src="js/menu.js"></script>
 
+
+
+<!-- Bootstrap JS -->
+
+<script src="plugins/venobox/venobox.min.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
 
 <script type="text/javascript">
 

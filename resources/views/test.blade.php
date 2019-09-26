@@ -125,8 +125,23 @@
             <center>
             <h2>Documentos Programa Talento Pisco</h2>
             <p>Documentación</p></center>
+
+
             <div class="line"></div>
 
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Pisco Aprendizaje</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pisco Digital</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pisco Tecnología</a>
+              </li>
+
+            </ul>
+          <br>
             <div class="container">
               <table id="myTable" class="table table-bordered">
               <thead>
