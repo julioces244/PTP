@@ -16,10 +16,10 @@ class AddForeignKeyArchivesTable extends Migration
         Schema::table('archives', function (Blueprint $table) {
 
           $table->integer('category_id')->unsigned();
-          $table->foreign('category_id')->references('idCategory')->on('CATEGORIES');
+          $table->foreign('category_id')->references('idCategory')->on('categories');
 
           $table->integer('type_id')->unsigned();
-          $table->foreign('type_id')->references('idType')->on('TYPEARCHIVES');
+          $table->foreign('type_id')->references('idType')->on('typearchives');
 
         });
     }
