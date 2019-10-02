@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Archive;
+use App\Category;
+use App\Type_archive;
+
 use Illuminate\Database\Eloquent;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
@@ -28,9 +31,11 @@ class ArchiveController extends Controller
       //$fecha = Carbon::now();
       //$mes = $fecha->formatLocalized('%d de %B del %Y %R');// mes en idioma español
       //dd($mes);
-
-      $archives = Archive::all();
-      return view('test', compact('archives'));
+      $archives = Archive::all()->where('category_id', 1)->where('type_id',1);
+      $apr_bis = Archive::all()->where('category_id',1)->where('type_id',2);
+      //$apr_otros = Archive::all()->where('category_id',1)->where('type_id',3);
+      //$archives = Archive::All();
+      return view('test')->with('archives',$archives)->with('apr_bis',$apr_bis);
         //
     }
 

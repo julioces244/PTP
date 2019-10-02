@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Archive;
+use App\Category;
+use App\Type_archive;
+
 use Illuminate\Database\Eloquent;
 use Illuminate\Http\Request;
 
@@ -41,7 +44,9 @@ class admarchiveController extends Controller
     public function create()
     {
         //
-        return view ('intraplus');
+        $categories = Category::all();
+        $types = Type_archive::all();
+        return view ('intraplus')->with('categories', $categories)->with('types', $types);
     }
 
     /**
@@ -62,6 +67,8 @@ class admarchiveController extends Controller
 
       $archive = new Archive();
       $archive->filename = $request->input('filename');
+      $archive->category_id = $request->input('category');
+      $archive->type_id = $request->input('type');
       $archive->archive = $filename;
       $archive->save();
       return redirect()->route('listar');

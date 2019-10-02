@@ -20,6 +20,8 @@
       <th scope="col">Número</th>
       <th scope="col">Nombre</th>
       <th scope="col">Documento</th>
+      <th scope="col">Categoria</th>
+      <th scope="col">Tipo</th>
       <th scope="col">Fecha</th>
       <th scope="col">Descargar</th>
       <th scope="col">Eliminar</th>
@@ -31,12 +33,13 @@
       <th scope="row">{{$archive->idArchive}}</th>
       <td>{{$archive->filename}}</td>
       <td>{{$archive->archive}}</td>
+      <td>{{$archive->category->nombre}}</td>
+      <td>{{$archive->type_archives->nombre}}</td>
       <td>{{$archive->created_at}}</td>
       <td>
         <center>
         <a href="documents/{{$archive->archive}}" download>
           <button class="btn button1"><img src="images/icons/ic_download.png" alt=""></button></center>
-
         </a>
 
 
@@ -51,9 +54,7 @@
               </a>
           </center>
           </form>
-
       </td>
-
     </tr>
     @endforeach
   </tbody>

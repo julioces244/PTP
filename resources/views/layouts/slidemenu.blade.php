@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="assets/css/bootstrap.css">-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 <link rel="stylesheet" href="css/slide.css">
+<link rel="stylesheet" href="css/styleintranet.css">
  <!-- Fonts -->
  <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"></style>
@@ -62,6 +63,39 @@
         $('#myTable').DataTable();
         $('.dataTables_length').addClass('bs-select');
         });
+</script>
+
+<script type="text/javascript">
+      $(document).ready(function () {
+        $('#myTable2').DataTable();
+        $('.dataTables_length').addClass('bs-select');
+        });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    // Change tab class and display content
+        $('div.tab-content').not('[data-tab=1]').addClass('hide');
+
+        $('.tabs-nav li').first().addClass('active');
+        $('.tabs-nav li').on('click', function() {
+        $(this).addClass("active");
+        $('.tabs-nav li').not(this).removeClass('active');
+
+        //start sort
+        var sortable = $(this).attr('data-tab');
+        $('div[data-tab = '+sortable+']').removeClass('hide');
+        $('div.tab-content').not('[data-tab='+sortable+']').addClass('hide');
+        });
+
+        //add an all option - to show all tabs when clicked
+        $('li[data-tab=all]').on('click', function() {
+        $(this).addClass('active');
+        $('div.tab-content').removeClass('hide');
+    });
+
+  });
 </script>
 
 </html>

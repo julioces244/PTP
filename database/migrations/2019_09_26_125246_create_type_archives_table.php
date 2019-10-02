@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUsersTable extends Migration
+class CreateTypeArchivesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,11 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('USER', function (Blueprint $table) {
+        Schema::create('TYPEARCHIVES', function (Blueprint $table) {
             $table->engine = 'InnoDB';
-            $table->increments('idUser');
-            $table->string('name');
-            $table->string('lastname')->nullable();
-            $table->string('email')->unique();
-            $table->string('codigo')->nullable();
-            $table->string('password');
-            $table->rememberToken();
+            $table->increments('idType');
+            $table->string('nombre')->nullable();
+            $table->string('abreviatura')->nullable();
             $table->timestamps();
         });
     }
@@ -33,6 +29,6 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('USER');
+        Schema::dropIfExists('TYPEARCHIVES');
     }
 }
