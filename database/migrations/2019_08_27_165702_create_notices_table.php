@@ -14,7 +14,7 @@ class CreateNoticesTable extends Migration
      */
     public function up()
     {
-        Schema::create('NOTICES', function (Blueprint $table) {
+        Schema::create('notices', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
             $table->string('name')->nullable();
@@ -33,6 +33,6 @@ class CreateNoticesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('NOTICES');
+        Schema::dropIfExists('notices');
     }
 }

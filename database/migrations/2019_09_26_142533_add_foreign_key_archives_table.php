@@ -13,7 +13,7 @@ class AddForeignKeyArchivesTable extends Migration
      */
     public function up()
     {
-        Schema::table('ARCHIVES', function (Blueprint $table) {
+        Schema::table('archives', function (Blueprint $table) {
 
           $table->integer('category_id')->unsigned();
           $table->foreign('category_id')->references('idCategory')->on('CATEGORIES');
@@ -31,7 +31,7 @@ class AddForeignKeyArchivesTable extends Migration
      */
     public function down()
     {
-        Schema::table('ARCHIVES', function (Blueprint $table) {
+        Schema::table('archives', function (Blueprint $table) {
             //
             $table->dropForeign('archives_category_id_foreign');
         });

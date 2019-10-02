@@ -13,7 +13,7 @@ class CreateArchivesTable extends Migration
      */
     public function up()
     {
-        Schema::create('ARCHIVES', function (Blueprint $table) {
+        Schema::create('archives', function (Blueprint $table) {
           $table->engine = 'InnoDB';
           $table->increments('idArchive');
           //$table->unsignedInteger('idCategory')->nullnable(false);
@@ -34,6 +34,6 @@ class CreateArchivesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('ARCHIVES');
+        Schema::dropIfExists('archives');
     }
 }

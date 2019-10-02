@@ -13,7 +13,7 @@ class CreateCategoriesTable extends Migration
      */
     public function up()
     {
-        Schema::create('CATEGORIES', function (Blueprint $table) {
+        Schema::create('categories', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('idCategory');
             $table->string('nombre')->nullable();
@@ -29,6 +29,6 @@ class CreateCategoriesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('CATEGORIES');
+        Schema::dropIfExists('categories');
     }
 }

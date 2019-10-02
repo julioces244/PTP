@@ -110,8 +110,8 @@
 			<div class="downloads"><!--start downloads-->
 
 			<a href="/test" class="btn2 download-btn2">Pisco Aprendizaje</a>
-			<a href="https://github.com/PaulCircle/simple-tabs" class="btn2 social-btn2">Pisco Digital</a>
-      <a href="https://github.com/PaulCircle/simple-tabs" class="btn2 social-btn2">Pisco Tecnología</a>
+			<a href="/test" class="btn2 social-btn2">Pisco Digital</a>
+      <a href="/test" class="btn2 social-btn2">Pisco Tecnología</a>
 
 			</div><!--end downloads-->
 
@@ -232,9 +232,8 @@
 
 				<div class="tab-content" data-tab="3"><!--start tab content-->
 
-					<h2>HTML</h2>
+					<h2>Vista para los docuemntos que no son informes semanales o bimensuales</h2>
 
-					<p>Simple Tabs uses data attributes as the basis for its functionality. Each tab is bound to its own content area by using an identical data attribute identifier.</p>
 
 <!--
 				<pre><code class="code">
