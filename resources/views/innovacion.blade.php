@@ -180,8 +180,8 @@
   <div class="container">
     <div class="row animate-box">
       <div class="col-md-6 col-md-offset-3 text-center qbootstrap-heading">
-        <h2>Estudiante Talento Pisco Certificado</h2>
-        <p style="font-size: 25px">Empleo</p>
+        <h2>Innovación Abierta y Creación de Valor</h2>
+
       </div>
     </div>
     <div class="row">
@@ -191,46 +191,11 @@
             <i><img src="images/icons/ic_monitor.png"></i>
           </span>
           <div class="desc">
-
-            <p>Plataforma virtual para conectar alumnos y empleadores.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 animate-box">
-        <div class="services">
-          <span class="icon">
-            <i><img src="images/icons/ic_bag.png"></i>
-          </span>
-          <div class="desc">
-
-            <p>Bolsa de trabajo provincial, regional y nacional.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 animate-box">
-        <div class="services">
-          <span class="icon">
-            <i><img src="images/icons/ic_hands4.png"></i>
-          </span>
-          <div class="desc">
-
-            <p>Convenios para visitas de alumnos a principales empresas.<br><br></p>
+            <p>Innovación Abierta y Creación de Valor</p>
           </div>
         </div>
       </div>
 
-      <div class="col-md-4 animate-box">
-        <div class="services">
-          <span class="icon">
-            <i><img src="images/icons/ic_hands4.png"></i>
-          </span>
-          <div class="desc">
-
-            <p>Convenios de empleo público y privado.</p>
-
-          </div>
-        </div>
-      </div>
 
     </div>
     <!-- <div class="blank"></div>-->
@@ -239,28 +204,6 @@
   </div>
 </div>
 
-
-<div class="qbootstrap-departments">
-<div class="row">
-<div class="department-wrap animate-box">
-	<div class="container">
-	<div class="col-md-12">
-		<div class="desc">
-			<div>
-			<div class="department-info">
-				<div class="block">
-					<h2><a style="color: #fff">Empleo</a></h2>
-					<span>Estudiante Talento Pisco Certificado</span>
-				</div>
-			</div>
-			</div>
-		</div>
-	</div>
-	</div>
-</div>
-</div>
-<br><br><br><br>
-</div>
 
 
 <footer id="qbootstrap-footer" role="contentinfo">

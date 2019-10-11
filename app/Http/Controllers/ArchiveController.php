@@ -33,10 +33,34 @@ class ArchiveController extends Controller
       //dd($mes);
       $archives = Archive::all()->where('category_id', 1)->where('type_id',1);
       $apr_bis = Archive::all()->where('category_id',1)->where('type_id',2);
+      $apr_ods = Archive::all()->where('category_id',1)->where('type_id',3);
+
       //$apr_otros = Archive::all()->where('category_id',1)->where('type_id',3);
       //$archives = Archive::All();
-      return view('test')->with('archives',$archives)->with('apr_bis',$apr_bis);
+      return view('test')->with('archives',$archives)->with('apr_bis',$apr_bis)->with('apr_ods',$apr_ods);
         //
+    }
+
+
+    public function index2(){
+
+      $dig_sems = Archive::all()->where('category_id', 2)->where('type_id',1);
+      $dig_bis = Archive::all()->where('category_id',2)->where('type_id',2);
+      $dig_ods = Archive::all()->where('category_id',2)->where('type_id',3);
+
+      return view('filepd')->with('dig_sems',$dig_sems)->with('dig_bis',$dig_bis)->with('dig_ods',$dig_ods);
+
+    }
+
+    public function index3(){
+
+      $tec_sems = Archive::all()->where('category_id', 3)->where('type_id',1);
+      $tec_bis = Archive::all()->where('category_id',3)->where('type_id',2);
+      $tec_ods = Archive::all()->where('category_id',3)->where('type_id',3);
+
+
+      return view('filept')->with('tec_sems',$tec_sems)->with('tec_bis',$tec_bis)->with('tec_ods',$tec_ods);
+
     }
 
     /**

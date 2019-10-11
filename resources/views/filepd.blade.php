@@ -1,4 +1,3 @@
-
 @extends('.layouts/slidemenu')
 
 @section('content')
@@ -15,7 +14,7 @@
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="/test">
+                    <a href="">
                         <i class="fas fa-home"></i>
                         Archivos
                     </a>
@@ -61,17 +60,6 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
-                          <!--
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>-->
 
                             <li class="nav-item">
                               <a href="{{ url('logout')}}">
@@ -89,28 +77,14 @@
 
             <div class="line"></div>
 
-
-            <!--
-            <ul class="nav nav-tabs">
-              <li class="nav-item">
-                <a class="nav-link active" href="#" value="1">Pisco Aprendizaje</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" value="2">Pisco Digital</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" value="3">Pisco Tecnología</a>
-              </li>
-            </ul>-->
-
             <div class="page-border"></div>
 
 		<div class="tabs"><!--start tabs-->
 
 			<div class="downloads"><!--start downloads-->
 
-			<a href="{{ url('test')}}" class="btn2 download-btn2">Pisco Aprendizaje</a>
-			<a href="{{ url('filepd')}}" class="btn2 social-btn2">Pisco Digital</a>
+			<a href="{{ url('test')}}" class="btn2 social-btn2">Pisco Aprendizaje</a>
+			<a href="{{ url('filepd')}}" class="btn2 download-btn2">Pisco Digital</a>
       <a href="{{ url('filept')}}" class="btn2 social-btn2">Pisco Tecnología</a>
 
 			</div><!--end downloads-->
@@ -135,19 +109,8 @@
 
 				<div class="tab-content" data-tab="1"><!--start tab content-->
 
-          <!--
-          <nav class="tabs-nav">
-
-    				<ul>
-
-    					<li data-tab="4"><span>Enero</span></li>
-              <li data-tab="5"><span>Febrero</span></li>
-              <li data-tab="13"><span>Marzo</span></li>
-
-    				</ul>
-            </nav>-->
-
             <div class="container">
+
 
               <table id="myTable" class="table table-bordered">
               <thead>
@@ -162,17 +125,17 @@
                 </tr>
               </thead>
               <tbody>
-                @foreach($archives as $archive)
+                @foreach($dig_sems as $dig_sem)
 
                 <tr>
-                  <th scope="row">{{$archive->idArchive}}</th>
-                  <td>{{$archive->filename}}</td>
-                  <td>{{$archive->category->abreviatura}}</td>
-                  <td>{{$archive->type_archives->nombre}}</td>
-                  <td>{{$archive->archive}}</td>
-                  <td>{{$archive->created_at}}</td>
+                  <th scope="row">{{$dig_sem->idArchive}}</th>
+                  <td>{{$dig_sem->filename}}</td>
+                  <td>{{$dig_sem->category->abreviatura}}</td>
+                  <td>{{$dig_sem->type_archives->nombre}}</td>
+                  <td>{{$dig_sem->archive}}</td>
+                  <td>{{$dig_sem->created_at}}</td>
                   <td>
-                    <a href="documents/{{$archive->archive}}" download>
+                    <a href="documents/{{$dig_sem->archive}}" download>
                       <button class="btn button1"><img src="images/icons/ic_download.png" alt=""></button>
 
                     </a>
@@ -204,17 +167,17 @@
               </tr>
             </thead>
             <tbody>
-              @foreach($apr_bis as $apr_bi)
+              @foreach($dig_bis as $dig_bi)
 
               <tr>
-                <th scope="row">{{$apr_bi->idArchive}}</th>
-                <td>{{$apr_bi->filename}}</td>
-                <td>{{$apr_bi->category->abreviatura}}</td>
-                <td>{{$apr_bi->type_archives->nombre}}</td>
-                <td>{{$apr_bi->archive}}</td>
-                <td>{{$apr_bi->created_at}}</td>
+                <th scope="row">{{$dig_bi->idArchive}}</th>
+                <td>{{$dig_bi->filename}}</td>
+                <td>{{$dig_bi->category->abreviatura}}</td>
+                <td>{{$dig_bi->type_archives->nombre}}</td>
+                <td>{{$dig_bi->archive}}</td>
+                <td>{{$dig_bi->created_at}}</td>
                 <td>
-                  <a href="documents/{{$apr_bi->archive}}" download>
+                  <a href="documents/{{$dig_bi->archive}}" download>
                     <button class="btn button1"><img src="images/icons/ic_download.png" alt=""></button>
 
                   </a>
@@ -235,7 +198,8 @@
 
           <div class="container">
 
-            <table id="myTable3" class="table table-bordered">
+
+            <table id="myTable3"  class="table table-bordered">
             <thead>
               <tr>
                 <th scope="col">N°</th>
@@ -248,17 +212,17 @@
               </tr>
             </thead>
             <tbody>
-              @foreach($apr_ods as $apr_od)
+              @foreach($dig_ods as $dig_od)
 
               <tr>
-                <th scope="row">{{$apr_od->idArchive}}</th>
-                <td>{{$apr_od->filename}}</td>
-                <td>{{$apr_od->category->abreviatura}}</td>
-                <td>{{$apr_od->type_archives->nombre}}</td>
-                <td>{{$apr_od->archive}}</td>
-                <td>{{$apr_od->created_at}}</td>
+                <th scope="row">{{$dig_od->idArchive}}</th>
+                <td>{{$dig_od->filename}}</td>
+                <td>{{$dig_od->category->abreviatura}}</td>
+                <td>{{$dig_od->type_archives->nombre}}</td>
+                <td>{{$dig_od->archive}}</td>
+                <td>{{$dig_od->created_at}}</td>
                 <td>
-                  <a href="documents/{{$apr_od->archive}}" download>
+                  <a href="documents/{{$dig_od->archive}}" download>
                     <button class="btn button1"><img src="images/icons/ic_download.png" alt=""></button>
 
                   </a>
@@ -266,79 +230,16 @@
               </tr>
               @endforeach
             </tbody>
-
             </table>
           </div>
 
-
-<!--
-				<pre><code class="code">
-	<span class="comment">&lt;!--List items are bound to tab content by data attribute--&gt;</span>
-	<span class="tag">&lt;nav class="</span><span class="tag-punc">tabs-nav"</span><span class="tag">&gt;</span>
-		<span class="tag">&lt;ul&gt;</span>
-			<span class="tag">&lt;li data-tab=</span><span class="tag-punc">"1"</span><span class="tag">&gt;</span>TAB 1</span><span class="tag">&lt;/span&gt;</span><span class="tag">&lt;/li&gt;</span>
-			<span class="tag">&lt;li data-tab=</span><span class="tag-punc">"2"</span><span class="tag">&gt;</span>TAB 2</span><span class="tag">&lt;/span&gt;</span><span class="tag">&lt;/li&gt;</span>
-			<span class="tag">&lt;li data-tab=</span><span class="tag-punc">"3"</span><span class="tag">&gt;</span>TAB 3</span><span class="tag">&lt;/span&gt;</span><span class="tag">&lt;/li&gt;</span>
-		<span class="tag">&lt;/ul &gt;</span>
-	<span class="tag">&lt;/nav&gt;</span>
-	<span class="comment">&lt;!--Each content section corresponds with it's matching data attribute--&gt;</span>
-	<span class="tag">&lt;div class=</span><span class="tag-punc">"tab-content"</span> <span class="tag">data-tab=</span><span class="tag-punc">"1"</span><span class="tag">&gt;</span>
-		<span class="tag">&lt;h2&gt;</span>TAB 1<span class="tag">&lt;/h2&gt;</span>
-		<span class="tag">&lt;p&gt;</span>Content goes here.<span class="tag">&lt;/p&gt;</span>
-	<span class="tag">&lt;/div&gt;</span>
-	<span class="tag">&lt;div class=</span><span class="tag-punc">"tab-content"</span> <span class="tag">data-tab=</span><span class="tag-punc">"2"</span><span class="tag">&gt;</span>
-		<span class="tag">&lt;h2&gt;</span>TAB 2<span class="tag">&lt;/h2&gt;</span>
-		<span class="tag">&lt;p&gt;</span>Content goes here.<span class="tag">&lt;/p&gt;</span>
-	<span class="tag">&lt;/div&gt;</span>
-	<span class="tag">&lt;div class=</span><span class="tag-punc">"tab-content"</span> <span class="tag">data-tab=</span><span class="tag-punc">"3"</span><span class="tag">&gt;</span>
-		<span class="tag">&lt;h2&gt;</span>TAB 3<span class="tag">&lt;/h2&gt;</span>
-		<span class="tag">&lt;p&gt;</span>Content goes here.<span class="tag">&lt;/p&gt;</span>
-	<span class="tag">&lt;/div&gt;</span>
-					</code></pre>-->
-
 			</div><!--end tab container-->
-
-
-
 
 		</div><!--end tabs-->
 
 
           <br>
-          <!--
-          <div class="tab-container">
-            <div class="tab-content" data-tab="4">
 
-              <nav class="tabs-nav">
-
-                <ul>
-
-                  <li data-tab="4"><span>Enero</span></li>
-                  <li data-tab="5"><span>Febrero</span></li>
-                  <li data-tab="13"><span>Marzo</span></li>
-
-                </ul>
-                </nav>
-            <p>Enero</p>
-            </div>
-          </div>
-
-          <div class="tab-container">
-            <div class="tab-content" data-tab="5">
-
-              <nav class="tabs-nav">
-
-                <ul>
-
-                  <li data-tab="4"><span>Enero</span></li>
-                  <li data-tab="5"><span>Febrero</span></li>
-                  <li data-tab="13"><span>Marzo</span></li>
-
-                </ul>
-                </nav>
-            <p>Febrero</p>
-            </div>
-          </div>-->
 
   </div>
 

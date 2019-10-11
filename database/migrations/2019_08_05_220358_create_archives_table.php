@@ -18,8 +18,11 @@ class CreateArchivesTable extends Migration
           $table->increments('idArchive');
           //$table->unsignedInteger('idCategory')->nullnable(false);
           //$table->foreign('idCategory')->references('idCategory')->on('category')->nullnable(false);
+
+          //
           $table->string('filename')->nullable();
           $table->string('archive')->nullable();
+
 
 
 

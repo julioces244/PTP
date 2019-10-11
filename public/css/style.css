@@ -2105,11 +2105,15 @@ padding: 3em 0;
 
   @media (min-width:1165px){
  .container2{width:740px}
+
+
 }
 
  @media (min-width:992px)
  {.container2{width:960px}
-}
+  }
+
+
 
  @media (min-width:1200px){.container2{width:1160px}}
  .container2-fluid{margin-right:auto;margin-left:auto;padding-left:10px;padding-right:10px}
@@ -2998,3 +3002,14 @@ img.zoom {
   }
 
 }
+
+
+@media screen and (max-width:560px) and (min-width:360px) {
+  #imglogo1{
+    width: 360px;
+    height: 100px;
+  }
+  #imglogo2{
+    width: 360px;
+    height: 100px;
+  }

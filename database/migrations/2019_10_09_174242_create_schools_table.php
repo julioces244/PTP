@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTypeArchivesTable extends Migration
+class CreateSchoolsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,12 @@ class CreateTypeArchivesTable extends Migration
      */
     public function up()
     {
-        Schema::create('typearchives', function (Blueprint $table) {
+        Schema::create('schools', function (Blueprint $table) {
             $table->engine = 'InnoDB';
-            $table->increments('idType');
-            $table->string('nombre')->nullable();
+            $table->increments('idSchool');
+            $table->string('nombre');
             $table->string('abreviatura')->nullable();
-            $table->string('modulo')->nullable();
+            $table->string('ubicacion')->nullable();
             $table->timestamps();
         });
     }
@@ -30,6 +30,6 @@ class CreateTypeArchivesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('typearchives');
+        Schema::dropIfExists('schools');
     }
 }

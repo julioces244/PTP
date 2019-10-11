@@ -8,7 +8,7 @@
 
 
 
-		<div class="container">
+		<div class="container2">
 			<div class="row" >
 				<div class="col-xs-12">
 					<div class="top">
@@ -17,14 +17,14 @@
 
 							</div>
 							<div class="col-md-4 col-md-pull-4">
-								<img src="{{asset('images/TalentoPiscoLogo.png')}}" height="150px" width="auto">
+								<img id="imglogo1" src="{{asset('images/TalentoPiscoLogo.png')}}" height="150px" width="auto">
 
 								<div class="num">
 								</div>
 							</div>
 							<div class="col-md-4">
 
-								<img src="{{asset('images/LogosPTP/logocamisea.jpg')}}" height="150px" width="400px">
+								<img id="imglogo2" src="{{asset('images/LogosPTP/logocamisea.jpg')}}" height="150px" width="400px">
 
 							</div>
 						</div>
@@ -62,8 +62,8 @@
 							<li class="btn-cta has-dropdown">
 								<a class="letter" href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
 								<ul class="dropdown">
-									<li><a href="{{url('')}}">Innovación Abierta y Creación de Valor</a></li>
-									<li><a href="{{url('')}}">Empleo</a></li>
+									<li><a href="{{url('innovacion')}}">Innovación Abierta y Creación de Valor</a></li>
+									<li><a href="{{ url('oportunidades_empleo')}}">Empleo</a></li>
 								</ul>
 							</li>
 

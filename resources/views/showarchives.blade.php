@@ -61,6 +61,8 @@
 
   </table>
   <a href="{{ url('admarchive/create')}}"><button class="btn button1" type="button" name="button">Agregar Archivo</button></a>
+  <a href="{{ url('admimage/upload')}}"><button class="btn button1" type="button" name="button">Agregar Imagen</button></a>
+
 </div>
 
 

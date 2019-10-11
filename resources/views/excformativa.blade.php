@@ -62,7 +62,7 @@
 								<a class="letter" href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
 								<ul class="dropdown">
 									<li><a href="{{url('')}}">Innovación Abierta y Creación de Valor</a></li>
-									<li><a href="{{url('')}}">Empleo</a></li>
+									<li><a href="{{ url('oportunidades_empleo')}}">Empleo</a></li>
 								</ul>
 							</li>
 
@@ -261,9 +261,9 @@
 	<div class="col-md-12">
 		<div class="desc">
 			<div>
-			<h2 style="text-align: center;"><a href="departments-single.html" style="color: #91AE34">Plataforma para la Excelencia Formativa y Empleo</a></h2>
+			<h2 style="text-align: center;"><a href="departments-single.html" style="color: #91AE34">Plataforma para la Excelencia Formativa</a></h2>
 			<br>
-			<p>La Plataforma para la excelencia Formativa y el Empleo será virtual y real. Virtual porque se creará un dominio con acceso universal y al mismo tiempo con el acceso adecuado de aduerdo a las necesidades de los estudiantes, de los egresados, así como de los otros stakeholders, es decir de los padres de familia, docentes, funcionarios de la UGEL de Pisco, de la DRE de Ica, y de PlusPetrol, principalmente.</p><p> Asimismo, dentro del proceso virtual, se complementará y desarrollará aplicativos que tomen en cuenta las características de los stakeholders a fin de alcanzar los objetivos trazados, los cuales serán desarrollados luego del levantamiento de la información que busca conocer las preferencias por el uso de los Smartphone al inicio del Programa Talento Pisco. La Plataforma para la Excelencia Formativa y el Empleo será
+			<p>La Plataforma para la excelencia Formativa será virtual y real. Virtual porque se creará un dominio con acceso universal y al mismo tiempo con el acceso adecuado de aduerdo a las necesidades de los estudiantes, de los egresados, así como de los otros stakeholders, es decir de los padres de familia, docentes, funcionarios de la UGEL de Pisco, de la DRE de Ica, y de PlusPetrol, principalmente.</p><p> Asimismo, dentro del proceso virtual, se complementará y desarrollará aplicativos que tomen en cuenta las características de los stakeholders a fin de alcanzar los objetivos trazados, los cuales serán desarrollados luego del levantamiento de la información que busca conocer las preferencias por el uso de los Smartphone al inicio del Programa Talento Pisco. La Plataforma para la Excelencia Formativa será
 			real porque los stakeholders de la educación de Pisco tendrán las habilidades para manejar la parte virtual y
 			sobre todo se desarrollara un ecosistema de interconexión entre todos los stakeholders. En este proceso será
 			fundamental “poner en vitrina” a los estudiantes certificados con potenciales empleadores de Pisco, de la

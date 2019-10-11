@@ -21,6 +21,9 @@ class AddForeignKeyArchivesTable extends Migration
           $table->integer('type_id')->unsigned();
           $table->foreign('type_id')->references('idType')->on('typearchives');
 
+          $table->integer('school_id')->unsigned();
+          $table->foreign('school_id')->references('idSchool')->on('schools');
+
         });
     }
 

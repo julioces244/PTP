@@ -6,7 +6,7 @@
 
   <div class="container" id="margen">
     <div class="blur">
-      <h2>Administrador - Carga de documentos</h2>
+      <h2>Administrador - Carga de Imágenes</h2>
 
         <form class="form-group" action="/admarchive  " method="post" enctype="multipart/form-data" files=true>
           @csrf

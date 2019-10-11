@@ -59,6 +59,11 @@ Route::get('/contacto', function () {
     return view('contacto');
 });
 
+
+Route::get('/innovacion', function() {
+  return view('innovacion');
+});
+
 Route::get('/adm_inicio', function () {
     return view('admmenu');
 });
@@ -91,11 +96,18 @@ Route::get('logout', 'Auth\LoginController@logout');
 
 Route::post('login', 'Auth\LoginController@authenticate');
 
+//Paginas intranet Camisea Carga de archivos documentos pisco aprendizaje, digital, tecnologia
 Route::get('/test', 'ArchiveController@index')->name('test');
+Route::get('/filepd', 'ArchiveController@index2')->name('filepd');
+Route::get('/filept', 'ArchiveController@index3')->name('filept');
+
+Route::get('/imagepa', 'ImageController@index')->name('imagepa');
 
 Route::resource('admarchive', 'admarchiveController')->names([
     'index' => 'listar',
     'create' => 'intraplus',
     'destroy' => 'eliminar'
 ]);
+
+Route::get('/admimage/upload', 'admimageController@create')->name('uploadimage');
 //Route::resource('archives','ArchiveController');

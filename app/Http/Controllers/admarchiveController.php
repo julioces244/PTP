@@ -45,9 +45,12 @@ class admarchiveController extends Controller
     {
         //
         $categories = Category::all();
-        $types = Type_archive::all();
+        $types = Type_archive::all()->where('modulo','Documento');
         return view ('intraplus')->with('categories', $categories)->with('types', $types);
+
     }
+
+    
 
     /**
      * Store a newly created resource in storage.
