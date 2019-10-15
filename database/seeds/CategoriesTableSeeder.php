@@ -27,5 +27,10 @@ class CategoriesTableSeeder extends Seeder
             'nombre' => 'Pisco Tecnología',
             'abreviatura' => 'PT',
         ]);
+
+        DB::table('categories')->insert([
+            'nombre' => 'General',
+            'abreviatura' => 'GG',
+        ]);
     }
 }

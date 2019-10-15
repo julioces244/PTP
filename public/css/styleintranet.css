@@ -1264,16 +1264,11 @@ img {
   box-shadow: 0 8px 50px 1px rgba(5, 5, 5, 0.3); }
 
 .downloads {
-  position: absolute;
-  left: 30px;
-  top: -40px;
-  width: 666px;
-  margin: auto;
-  z-index: 9999999999;
-  -webkit-box-shadow: 0 20px 50px 1px rgba(5, 5, 5, 0.5);
-  -moz-box-shadow: 0 20px 50px 1px rgba(5, 5, 5, 0.5);
-  box-shadow: 0 20px 50px 1px rgba(5, 5, 5, 0.5); }
+
+
+  }
   .downloads:before, .downloads:after {
+
     content: "\0020";
     height: 0;
     display: block;
@@ -1324,10 +1319,10 @@ img {
   TAB NAVIGATION
 ========================================*/
 .tabs-nav ul {
-  margin: 0;
   padding: 0; }
 .tabs-nav li {
-  width: 242px;
+  margin-top: 0px;
+  width: 200px;
   padding: 3% 3% 3% 3%;
   display: inline-block;
   /* For normal, healthy browsers */
@@ -1336,7 +1331,6 @@ img {
   zoom: 1;
 
   text-align: center;
-  text-transform: uppercase;
   color: #E0E0E0;
   cursor: pointer;
   margin-left: -5px;
@@ -1375,12 +1369,13 @@ img {
 .tab-container {
   width: 100%;
   padding: 6%;
-  background-color: #fff; }
+   }
 
 /*=======================================
   TAGLINE
 ========================================*/
 .tagline {
+
   position: relative;
   margin-bottom: 6%; }
   .tagline:after {
@@ -1440,18 +1435,20 @@ img {
   BUTTON TYPES
 ==============================*/
 .download-btn2 {
-  color: #fff;
-  background-color: #111111; }
+  border: black solid 0.3px;
+  color: #000;
+  background-color: #91AE34; }
   .download-btn2:hover {
     color: #fff;
-    background-color: #363636; }
+    background-color: #91AE34; }
 
 .social-btn2 {
-  color: #fff;
-  background-color: #252525; }
+  border: #4B8A08 solid 0.3px;
+  color: #000;
+  background-color: #fff; }
   .social-btn2:hover {
     color: #fff;
-    background-color: #363636; }
+    background-color: #91AE34; }
 
 /*=======================================
   CODE VIEW THEMES
@@ -1543,3 +1540,29 @@ img {
   .icon-code:before, .icon-gear:before, .icon-info:before {
     font-size: 28px;
     font-size: 2.8rem; } }
+
+
+.btnmodules {
+ display:inline-block;
+ padding:0.35em 1.2em;
+ border:0.1em solid #FFFFFF;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#FFFFFF;
+ text-align:center;
+ transition: all 0.2s;
+  }
+
+ .btnmodules:hover{
+  color:#000000;
+ background-color:#FFFFFF;
+ }
+ @media all and (max-width:30em){
+ .btnmodules{
+  display:block;
+  margin:0.4em auto;
+ }

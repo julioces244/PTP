@@ -20,4 +20,8 @@ class Archive extends Model
     {
         return $this->belongsTo('App\Type_archive', 'type_id');
     }
+
+    public function school(){
+        return $this->belongsTo('App\School', 'school_id');
+    }
 }

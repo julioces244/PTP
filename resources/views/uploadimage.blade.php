@@ -8,12 +8,16 @@
     <div class="blur">
       <h2>Administrador - Carga de Imágenes</h2>
 
-        <form class="form-group" action="/admarchive  " method="post" enctype="multipart/form-data" files=true>
+        <form class="form-group" action="/admimage  " method="post" enctype="multipart/form-data" files=true>
           @csrf
           <div class="form-group">
             <label for=""></label>
             <input type="text" name="filename" value="" class="form-control" placeholder="Ingrese nombre del archivo" required>
           </div>
+
+
+
+
           <div class="form-group">
             <select class="form-control" name="category" class="form-control" required>
               <option value="">Seleccione categoría...</option>
@@ -30,6 +34,15 @@
               <option value="">Seleccione tipo...</option>
               @foreach($types as $type)
               <option value="{{$type['idType']}}">{{$type['nombre']}}</option>
+              @endforeach
+            </select>
+          </div>
+
+          <div class="form-group">
+            <select class="form-control" name="school" class="form-control" required>
+              <option value="">Seleccione colegio...</option>
+              @foreach($schools as $school)
+              <option value="{{$school['idSchool']}}">{{$school['nombre']}}</option>
               @endforeach
             </select>
           </div>

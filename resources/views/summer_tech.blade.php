@@ -57,7 +57,7 @@
 								<a class="letter" href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a>
 							</li>
 
-							<li class="btn-cta has-dropdown active">
+							<li class="btn-cta has-dropdown">
 								<a class="letter" href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
 								<ul class="dropdown">
 									<li><a href="{{url('innovacion')}}">Valor Pisco</a></li>
@@ -65,10 +65,10 @@
 								</ul>
 							</li>
 
-							<li class="btn-cta has-dropdown">
-								<a class="letter" href="{{ url('summer_tech')}}">Comunidad</a>
+              <li class="btn-cta has-dropdown active">
+								<a class="letter" href="{{ url('oportunidades_empleo')}}">Comunidad</a>
 								<ul class="dropdown">
-									<li><a href="{{url('summer_tech')}}">Summer Camp Tech</a></li>
+									<li><a href="{{url('innovacion')}}">Summer Tech</a></li>
 								</ul>
 							</li>
 
@@ -186,27 +186,6 @@
 <div id="qbootstrap-services">
   <div class="container">
 
-		<div class="row animate-box">
-			<div class="col-md-6 col-md-offset-3 text-center qbootstrap-heading">
-				<h2>Valor Pisco</h2>
-
-			</div>
-		</div>
-
-    <div class="row">
-      <div class="col-md-4 animate-box">
-        <div class="services">
-          <span class="icon">
-            <i><img src="images/icons/ic_monitor.png"></i>
-          </span>
-          <div class="desc">
-            <p>Valor Pisco</p>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
     <!-- <div class="blank"></div>-->
 
 
@@ -222,22 +201,17 @@
 		<div class="desc">
 			<div>
 
-			<h2 style="text-align: center;"><a href="departments-single.html" style="color: #91AE34">¿Qué es "Valor Pisco"?</a></h2>
+			<h2 style="text-align: center;"><a href="departments-single.html" style="color: #91AE34">Summer Tech Pisco</a></h2>
 			<br>
-			<p>Valor Pisco es una iniciativa de innovación abierta y creación de valor para vincular el Programa Talento Pisco con la actividad empresarial provincial, regional y nacional. La iniciativa identifica oportunidades de innovación y creación de valor en el campo tecnológico para micro, pequeñas, medianas y grandes empresas. Mediante esta iniciativa el equipo talento Pisco, conformado por docentes, estudiantes destacados certificados, técnicos e ingenieros (y apoyo de la UNI y CETEMIN) brindan soluciones a desafíos que enfrentan cotidianamente las empresas. Los beneficios de las soluciones encontradas son compartidos entre la empresa participante y el Programa Talento Pisco.</p>
-					 <p>Etapas de Valor Pisco:</p>
+			<p>Summer Tech Pisco es un programa variado de actividades para la comunidad estudiantil de Pisco.
+        Summer Tech Pisco ofrece a los participantes cursos introductorios y de motivación al mundo de la ciencia y la tecnología.</p>
+
 
 					 <ul>
-					 	<li>Selección y priorización de sectores, actividad empresarial y empresas para Valor Pisco.</li>
-						<li>Presentación, coordinación y suscripción de convenio Valor Pisco con empresas.</li>
-						<li>Entrevistas de levantamiento de desafíos tecnológicos y designación del Project Champion de la empresa.</li>
-						<li>Visitas a la empresa y sus operaciones con desafíos tecnológicos y caracterización de desafíos.</li>
-						<li>Selección de desafíos y elaboración de prototipos.</li>
-						<li>Elaboración de solución y eventualmente invitación y precalificación de proveedores en caso el desafío a resolver demande otras espacialidades.</li>
-						<li>Recepción de ofertas y evaluación de soluciones a desafíos tecnológicos, los desafíos y soluciones se encontraran en la plataforma Programa Talento Pisco.</li>
-						<li>Selección de soluciones a desafíos tecnológicos, a cargo de una comisión (3 representantes del Programa Talento Pisco y 2 de la empresa) de una terna de soluciones al desafío identificado. Luego el Project Champion seleccionará la mejor propuesta de solución a ser implementada en la empresa.</li>
-						<li>Coaching pitchs del desafío tecnológico, colaborador de la empresa que presenta el desafío y la solución, podría ser el Project Champion.</li>
-						<li>Evaluación y escalamiento de la solución de desafíos a otras empresas y sectores económicos.</li>
+					 	<li>Duración de 4 semanas, en el mes de enero de cada año.</li>
+						<li>Para estudiantes de 11 a 16 años.</li>
+						<li>Cursos de historias de pequeños científicos, matemática divertidas, computación, realidad virtual, electrónica, robótica, entre otros.</li>
+						<li>Horarios de lunes a viernes de 9 am a 12 pm.</li>
 					</ul>
 			</div>
 		</div>
@@ -251,7 +225,14 @@
 </div>
 
 
+<div id="qbootstrap-services">
+  <div class="container">
 
+    <!-- <div class="blank"></div>-->
+
+
+  </div>
+</div>
 
 
 <footer id="qbootstrap-footer" role="contentinfo">

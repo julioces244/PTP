@@ -51,6 +51,10 @@ Route::get('/oportunidades_empleo', function () {
     return view('empleo');
 });
 
+Route::get('/summer_tech', function () {
+    return view('summer_tech');
+});
+
 Route::get('/noticias', function () {
     return view('noticias');
 });
@@ -101,7 +105,29 @@ Route::get('/test', 'ArchiveController@index')->name('test');
 Route::get('/filepd', 'ArchiveController@index2')->name('filepd');
 Route::get('/filept', 'ArchiveController@index3')->name('filept');
 
-Route::get('/imagepa', 'ImageController@index')->name('imagepa');
+  //Imagenes aprendizaje colegios
+Route::get('/imgpa_bandera', 'ImageController@index')->name('imagepa');
+Route::get('/imgpa_sanmartin', 'ImageController@imagepa_sanmartin');
+Route::get('/imgpa_porras', 'ImageController@imagepa_porras');
+Route::get('/imgpa_renan', 'ImageController@imagepa_renan');
+Route::get('/imgpa_carlos', 'ImageController@imagepa_carlos');
+Route::get('/imgpa_mariategui', 'ImageController@imagepa_mariategui');
+Route::get('/imgpa_independencia', 'ImageController@imagepa_independencia');
+Route::get('/imgpa_quiñones', 'ImageController@imagepa_quiñones');
+Route::get('/imgpa_alegria', 'ImageController@imagepa_alegria');
+Route::get('/imgpa_beatita', 'ImageController@imagepa_beatita');
+Route::get('/imgpa_velazco', 'ImageController@imagepa_velazco');
+Route::get('/imgpa_porsia', 'ImageController@imagepa_porsia');
+
+  //Imagenes digital colegios
+Route::get('/imgpd_bandera', 'ImageController@imagepd_bandera');
+Route::get('/imgpd_sanmartin', 'ImageController@imagepd_sanmartin');
+
+  //Imagenes tecnologia colegios
+Route::get('/imgpt_bandera', 'ImageController@imagept_bandera');
+
+
+
 
 Route::resource('admarchive', 'admarchiveController')->names([
     'index' => 'listar',
@@ -110,4 +136,6 @@ Route::resource('admarchive', 'admarchiveController')->names([
 ]);
 
 Route::get('/admimage/upload', 'admimageController@create')->name('uploadimage');
+
+Route::post('/admimage', 'admimageController@store')->name('uploadimage');
 //Route::resource('archives','ArchiveController');

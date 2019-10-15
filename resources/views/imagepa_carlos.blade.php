@@ -89,7 +89,7 @@
         <button style="width: 200px"  type="button" class="active btn btn-outline-success"><img src="images/LogosPTP/Pisco_apr.png"></button></a>
         <a href="{{ url('imgpd_bandera')}}" class="btnmodules">
         <button style="width: 150px"  type="button" class="btn btn-outline-success"><img src="images/LogosPTP/Pisco_dig.png"></button></a>
-        <a href="{{ url('imgpt_bandera')}}" class="btnmodules">
+        <a href="{{ url('logout')}}" class="btnmodules">
         <button style="width: 200px"  type="button" class="btn btn-outline-success"><img src="images/LogosPTP/Pisco_tec.png"></button></a></center>
 
         <h1></h1>
@@ -130,19 +130,9 @@
 
                 <ul>
 
-                    <li data-tab="1"><img src="{{asset('images/icons/ic_photo.png')}}"></img><span>Capacitación docentes </span></li>
-                    <li data-tab="2"><img src="{{asset('images/icons/ic_photo.png')}}"><span>Microtaller reforzamiento docentes</span></li>
-                    <li data-tab="3"><img src="{{asset('images/icons/ic_photo.png')}}"><span>Capacitación a directores</span></li>
-                    <li data-tab="3"><img src="{{asset('images/icons/ic_photo.png')}}"><span>Acompañamiento directivo</span></li>
-                    <li data-tab="3"><img src="{{asset('images/icons/ic_photo.png')}}"><span>Visita a directores</span></li>
-                    <li data-tab="3"><img src="{{asset('images/icons/ic_photo.png')}}"><span>Validación prueba de entrada</span></li>
-                    <li data-tab="3"><img src="{{asset('images/icons/ic_photo.png')}}"><span>Fichas Marzo Comunicación/Matemática</span></li>
-                    <li data-tab="3"><img src="{{asset('images/icons/ic_photo.png')}}"><span>Entrega de resultados socialización(Prueba de entrada)</span></li>
-                    <li data-tab="3"><img src="{{asset('images/icons/ic_photo.png')}}"><span>Clase modelo</span></li>
-                    <li data-tab="3"><img src="{{asset('images/icons/ic_photo.png')}}"><span>Visita diagnóstica y retroalimentacion</span></li>
-                    <li data-tab="3"><img src="{{asset('images/icons/ic_photo.png')}}"><span>Capacitación para acompañantes y especialistas</span></li>
-                    <li data-tab="3"><img src="{{asset('images/icons/ic_photo.png')}}"><span>Diseño y validación con UGEL y producción material impreso</span></li>
-
+                    <li data-tab="1"><img src="{{asset('images/icons/ic_photo.png')}}"></img><span>Prueba de Validación </span></li>
+                    <li data-tab="2"><img src="{{asset('images/icons/ic_photo.png')}}"><span>Prueba de Entrada</span></li>
+                    <li data-tab="3"><img src="{{asset('images/icons/ic_photo.png')}}"><span>Talleres de padres</span></li>
                 </ul>
 
             </nav>
@@ -158,27 +148,11 @@
 
       <div class="container">
         <div class="row justify-content-center justify-content-md-start">
-
-          <h1>Capacitacion a docentes</h1>
-          @foreach($apr_pvs as $apr_pv)
+            <!--
 
 
 
-            <div class="card" style="width: 15rem; margin: relative 0 0 auto;">
-                <img src="documents/{{$apr_pv->archive}}" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">{{$apr_pv->archive}}</h5>
-                  <p class="card-text">{{$apr_pv->created_at}}</p>
-                </div>
-
-                <div class="card-body">
-                  <a href="documents/{{$apr_pv->archive}}" class="card-link" download>Descargar</a>
-                </div>
-            </div>
-
-
-
-          @endforeach
+          -->
         </div>
       </div>
 
@@ -186,7 +160,7 @@
 
                 <div class="tab-content" data-tab="2"><!--start tab content-->
 
-                  <h1>Microtaller </h1>
+
 
                 </div><!--end tab content-->
 

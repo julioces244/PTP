@@ -50,7 +50,7 @@ class admarchiveController extends Controller
 
     }
 
-    
+
 
     /**
      * Store a newly created resource in storage.
@@ -72,6 +72,7 @@ class admarchiveController extends Controller
       $archive->filename = $request->input('filename');
       $archive->category_id = $request->input('category');
       $archive->type_id = $request->input('type');
+      $archive->school_id = 19;
       $archive->archive = $filename;
       $archive->save();
       return redirect()->route('listar');

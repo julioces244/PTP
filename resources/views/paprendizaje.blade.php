@@ -128,8 +128,15 @@
 									<li class="btn-cta has-dropdown">
 										<a href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
 										<ul class="dropdown">
-											<li><a href="{{url('')}}">Innovación Abierta y Creación de Valor</a></li>
+											<li><a href="{{url('innovacion')}}">Valor Pisco</a></li>
 											<li><a href="{{ url('oportunidades_empleo')}}">Empleo</a></li>
+										</ul>
+									</li>
+
+									<li class="btn-cta has-dropdown">
+										<a class="letter" href="{{ url('summer_tech')}}">Comunidad</a>
+										<ul class="dropdown">
+											<li><a href="{{url('summer_tech')}}">Summer Camp Tech</a></li>
 										</ul>
 									</li>
 
@@ -178,7 +185,7 @@
 									<div class="slider-text-inner">
 
 										<img src="images/LogosPTP/pisco_tal.png">
-										<h1 class="doc-holder"><strong>"Mejorando la calidad en la educación peruana"</strong></h1>
+										<h1 class="doc-holder"><strong>Mejorando la calidad en la educación peruana</strong></h1>
 										<!--
 										<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
 										<p><a class="btn btn-primary btn-lg" href="appointment.html">Make an Appointment</a></p>-->
@@ -251,13 +258,13 @@
 					<span class="icon"><i class="icon-wallet2"></i></span>
 					<h3>Pisco Aprendizaje</h3>
 					<p>Mejora de logros de Aprendizaje para estudiantes de 1ro y 2do de Educación Secundaria.</p>
-					<a href="doctors.html" class="btn btn-primary">Leer más</a>
+					<a href="{{ url('pisco_aprendizaje')}}" class="btn btn-primary">Leer más</a>
 				</div>
 				<div class="intro-grid color-2">
 					<span class="icon"><i class="icon-wallet2"></i></span>
 					<h3>Pisco Digital</h3>
 					<p>Educación Digital para estudiantes de 3ro grado de secundaria con certificación reconocida.</p>
-					<a href="pdigital.html" class="btn btn-primary">Leer más</a>
+					<a href="{{ url('pisco_digital')}}" class="btn btn-primary">Leer más</a>
 				</div>
 				<div class="intro-grid color-3">
 					<span class="icon"><i class="icon-wallet2"></i></span>
@@ -265,7 +272,7 @@
 					<p>
 						Educación para el Trabajo Técnico Escolar para los alumnos del 4to y 5to de secundaria con certificación reconocida.
 					</p>
-					<a href="ptecnologia.html" class="btn btn-primary">Leer más</a>
+					<a href="{{ url('pisco_tecnologia')}}" class="btn btn-primary">Leer más</a>
 				</div>
 			</div>
 		</div>
@@ -287,7 +294,7 @@
                             <br>
                             <h5>Mejora de logros de aprendizaje para estudiantes de 1ro y 2do de Educación Secundaria</h5>
                             <span class="divider"></span>
-                            <p>El proyecto tiene como objetivo lograr altos y alcanzables porcentajes de nivel satisfactorios en comunicación y resolución de problemas matemáticos de los estudiantes del VI ciclo de secundaria de la provincia de Pisco, resultados que superen el doble del promedio nacional en esa materia.</p>
+                            <p>El proyecto tiene como objetivo lograr que los estudiantes de secundaria de la provincia de Pisco alcancen los niveles de comprensión lectora y matemática promedio del país en el corto plazo. En el mediano plazo alcanzar los resultados de las mejores regiones del país y en el largo plazo superarlas.</p>
                             </div>
                         </div>
                     </div>
@@ -308,8 +315,17 @@
 						<br>
 
 						<div class="desc">
+							<p>En las 18 II.EE. que se desarrolla el proyecto, los beneficiarios son perceptores de diversas capacitaciones, materiales e incentivos que les permite tener las herramientas adecuadas para que los estudiantes eleven sus niveles de comprensión lectora y matemática. Es por ello que trabajar con los docentes es fundamental, fortaleciendo sus capacidades y competencias pedagógicas, puesto que esto está estrechamente relacionado con la calidad educativa y eficiencia con el que el docente cumple sus labores pedagógicas. Asimismo es importante la participación de los directores que son líderes de cada institución educativa intervenida. Es así que el proyecto capacita, acompaña y asesora a los directores  de las II.EE, teniendo como objetivo desarrollar y fortalecer las competencias y desempeño de los directores, a fin de gestionar las II.EE bajo un enfoque de liderazgo pedagógico y, de esa manera, asegurar el aprendizaje de los estudiantes.</p>
+							<br>
+							<p>El proyecto brinda fichas de trabajo (comunicación y matemática) preparadas exclusivamente para el proyecto contextualizados a la zona y orientados a desarrollar las competencias y capacidades que exige el Ministerio de Educación. Asimismo entrega material didáctico estructurado complementario para el mejor desarrollo de las clases incrementando los logros de aprendizaje de manera lúdica, creativa y reflexiva.</p>
+							
+							<p>La presencia y participación de  los padres de familia es de vital importancia, en este sentido, el proyecto desarrolla jornadas de  capacitación con los padres de familia con la finalidad de darles a conocer el avance de sus hijos, brindarles estrategias para desarrollar en casa, entre otros.</p>
+							<br>
+							<p>Para el proyecto social Pisco Aprendizaje los alumnos de 1er y 2do de secundaria se especializaran en las siguientes materias:<br></p>
+							<br>
+							<!--
 							<p>En las 18 II.EE a intervenir, sólo el 11,3% y el 11,2% de los estudiantes evaluados del 2do grado de secundaria alcanzaron niveles satisfactorios en comunicación y matemática, respectivamente (2016). Con este punto de partida, en el corto plazo(2019) el proyecto tiene como objetivo alcanzar 16% y 15% en niveles satisfactorios en comunicación y matemática, respectivamente. En el mediano plazo(2021) en comunicación 31% y matemática 28%; mientras que en el largo plazo (2030) en comunicación 54% y matemática 51%. Para el proyecto social Pisco Aprendizaje
-							los alumnos de 1er y 2do de secundaria se especializaran en las siguientes materias:</p><br>
+							los alumnos de 1er y 2do de secundaria se especializaran en las siguientes materias:</p><br>-->
 
 
 							<div class="blank"></div>
@@ -318,7 +334,7 @@
 									<div class="row">
 										<div class="col-md-6 animate-box text-center">
 											<div class="doctor">
-												<div class="staff-img2" style="background-image: url(images/photos/IMG-20190816-WA0058.jpg);"></div>
+												<div class="staff-img2" style="background-image: url(images/photos/IMG-20190819-WA0006.jpg);"></div>
 												<h3><a href="#">Comunicación</a></h3>
 											</div>
 										</div>
@@ -357,7 +373,7 @@
                         <div>
                           <div>
                                 <p>
-                                  La actualización de estos objetivos estará sujetos a los resultados de la Prueba ECE del MINEDU y evaluaciones del proyecto. En la provincia de Pisco (Total de II.EE) sólo el 13,9% y el 13,3% de los estudaintes evaluados del 2do grado de secundaria alcanzaron niveles satisfactorios en comunicación y matemática, respectivamente (2016).
+																	10,680 estudiantes, 106 docentes, 32,040 padres y hermanos y 18 instituciones educativas</br>
                                 </p>
                                 <b><span style="text-align: center; font-size: 20px;">Jefe del Proyecto</span></b>
                                 <br>
@@ -367,7 +383,8 @@
                                 <!-- Joel Ascencio -->
                                 <div class="signature">
                                 	<div class="doctor">
-                                    <div class="staff-img2" style="background-image: url(images/boss_aprendizaje.jpg);"></div></div>
+                                  	<div class="staff-img2" style="background-image: url(images/photos/yesenia.jpg);"></div>
+																		</div>
                                 </div>
                           </div>
                           <!--
@@ -410,8 +427,7 @@
                                     <img alt="" src="images/caratula/bg_matematica.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+
                                         </div>
                                     </div>
 
@@ -420,8 +436,7 @@
                                     <img alt="" src="images/photos/IMG-20190819-WA0043.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+
                                         </div>
                                     </div>
                                 </div>
@@ -429,8 +444,7 @@
                                     <img alt="" src="images/caratula/bg_comunicacion.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+
                                         </div>
                                     </div>
                                 </div>
@@ -438,8 +452,7 @@
                                     <img alt="" src="images/photos/IMG-20190816-WA0052.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+
                                         </div>
                                     </div>
                                 </div>
@@ -447,8 +460,7 @@
                                     <img alt="" src="images/photos/IMG-20190816-WA0051.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+
                                         </div>
                                     </div>
                                 </div>
@@ -456,8 +468,7 @@
                                     <img alt="" src="images/photos/IMG-20190819-WA0002.jpg"/>
                                     <div class="item-musk">
                                         <div class="item-caption">
-                                            <h4>Lorem ipsum dolor sit amet.</h4>
-                                            <p>Branding,Website Development,</p>
+
                                         </div>
                                     </div>
                                 </div>

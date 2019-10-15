@@ -91,8 +91,15 @@
 								<li class="btn-cta has-dropdown">
 									<a class="letter" href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
 									<ul class="dropdown">
-										<li><a href="{{url('')}}">Innovación Abierta y Creación de Valor</a></li>
+										<li><a href="{{url('innovacion')}}">Valor Pisco</a></li>
 										<li><a href="{{ url('oportunidades_empleo')}}">Empleo</a></li>
+									</ul>
+								</li>
+
+								<li class="btn-cta has-dropdown">
+									<a class="letter" href="{{ url('summer_tech')}}">Comunidad</a>
+									<ul class="dropdown">
+										<li><a href="{{url('summer_tech')}}">Summer Camp Tech</a></li>
 									</ul>
 								</li>
 

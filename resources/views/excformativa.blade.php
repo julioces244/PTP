@@ -54,15 +54,22 @@
 							</li>
 
 							<li class="active">
-								<a class="letter" href="{{ url('excformativa')}}">Excelencia Formativa</a>
+								<a class="letter" href="{{ url('excelencia_formativa')}}">Excelencia Formativa</a>
 							</li>
 
 
 							<li class="btn-cta has-dropdown">
 								<a class="letter" href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
 								<ul class="dropdown">
-									<li><a href="{{url('')}}">Innovación Abierta y Creación de Valor</a></li>
+									<li><a href="{{url('innovacion')}}">Valor Pisco</a></li>
 									<li><a href="{{ url('oportunidades_empleo')}}">Empleo</a></li>
+								</ul>
+							</li>
+
+							<li class="btn-cta has-dropdown">
+								<a class="letter" href="{{ url('summer_tech')}}">Comunidad</a>
+								<ul class="dropdown">
+									<li><a href="{{url('summer_tech')}}">Summer Camp Tech</a></li>
 								</ul>
 							</li>
 
@@ -110,7 +117,7 @@
 							<div class="slider-text-inner">
 
 								<img src="images/LogosPTP/pisco_tal.png">
-								<h1 class="doc-holder"><strong>"Mejorando la calidad en la educación peruana"</strong></h1>
+								<h1 class="doc-holder"><strong>Mejorando la calidad en la educación peruana</strong></h1>
 								<!--
 								<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
 								<p><a class="btn btn-primary btn-lg" href="appointment.html">Make an Appointment</a></p>-->
@@ -196,7 +203,7 @@
           </span>
           <div class="desc">
 
-            <p>Información académica y vocacional para continuar estudios.</p>
+            <p>Información académica y vocacional para continuar estudios</p>
           </div>
         </div>
       </div>
@@ -207,7 +214,7 @@
           </span>
           <div class="desc">
 
-            <p>Convenios para visitas de alumnos a institutos y universidades líderes en digital y tecnología.</p>
+            <p>Convenios para visitas de estudiantes a institutos y universidades líderes en tecnología</p>
           </div>
         </div>
       </div>
@@ -218,7 +225,7 @@
           </span>
           <div class="desc">
 
-            <p>Información sobre fondos públicos, privados, nacionales e internacionales.<br><br></p>
+            <p>Información sobre fondos públicos, privados, nacionales e internacionales<br><br></p>
           </div>
         </div>
       </div>
@@ -230,7 +237,7 @@
           </span>
           <div class="desc">
 
-            <p>Patrocinio Empresarial.<br><br><br></p>
+            <p>Patrocinio Empresarial<br><br><br></p>
 
           </div>
         </div>
@@ -241,7 +248,7 @@
             <i><img src="images/icons/ic_convenio.png"></i>
           </span>
           <div class="desc">
-            <p>Convalidaciones. <br><br><br></p>
+            <p>Convalidaciones<br><br><br></p>
           </div>
         </div>
       </div>
@@ -263,11 +270,7 @@
 			<div>
 			<h2 style="text-align: center;"><a href="departments-single.html" style="color: #91AE34">Plataforma para la Excelencia Formativa</a></h2>
 			<br>
-			<p>La Plataforma para la excelencia Formativa será virtual y real. Virtual porque se creará un dominio con acceso universal y al mismo tiempo con el acceso adecuado de aduerdo a las necesidades de los estudiantes, de los egresados, así como de los otros stakeholders, es decir de los padres de familia, docentes, funcionarios de la UGEL de Pisco, de la DRE de Ica, y de PlusPetrol, principalmente.</p><p> Asimismo, dentro del proceso virtual, se complementará y desarrollará aplicativos que tomen en cuenta las características de los stakeholders a fin de alcanzar los objetivos trazados, los cuales serán desarrollados luego del levantamiento de la información que busca conocer las preferencias por el uso de los Smartphone al inicio del Programa Talento Pisco. La Plataforma para la Excelencia Formativa será
-			real porque los stakeholders de la educación de Pisco tendrán las habilidades para manejar la parte virtual y
-			sobre todo se desarrollara un ecosistema de interconexión entre todos los stakeholders. En este proceso será
-			fundamental “poner en vitrina” a los estudiantes certificados con potenciales empleadores de Pisco, de la
-			región Ica, del sur y del país, principalmente.</p>
+			<p>La Plataforma para la Excelencia Formativa es un espacio al cual los estudiantes, egresados y stakeholders como padres de familia, docentes, funcionarios de la UGEL y funcionarios de la DRE Ica pueden acceder para informarse sobre oportunidades de estudios superiores. Este espacio permite la interconexión entre todos los stakeholders permitiendo que el Estudiante Talento Pisco, un joven con conocimientos y visión global pueda mostrar las habilidades adquiridas a potenciales empleadores de Pisco, de la Región Ica, del sur y del país generándose una cadena de  mayores oportunidad de empleo y desarrollo.</p>
 			<div class="department-info">
 				<!--
 				<div class="block">

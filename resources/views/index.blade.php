@@ -62,8 +62,15 @@
 							<li class="btn-cta has-dropdown">
 								<a class="letter" href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
 								<ul class="dropdown">
-									<li><a href="{{url('innovacion')}}">Innovación Abierta y Creación de Valor</a></li>
+									<li><a href="{{url('innovacion')}}">Valor Pisco</a></li>
 									<li><a href="{{ url('oportunidades_empleo')}}">Empleo</a></li>
+								</ul>
+							</li>
+
+							<li class="btn-cta has-dropdown">
+								<a class="letter" href="{{ url('summer_tech')}}">Comunidad</a>
+								<ul class="dropdown">
+									<li><a href="{{url('summer_tech')}}">Summer Camp Tech</a></li>
 								</ul>
 							</li>
 
@@ -113,7 +120,7 @@
 							<div class="slider-text-inner">
 								<a href="{{ url('login')}}">
 								<img src="images/LogosPTP/pisco_tal.png"></a>
-								<h1 class="doc-holder"><strong>"Mejorando la calidad en la educación peruana"</strong></h1>
+								<h1 class="doc-holder"><strong>Mejorando la calidad en la educación peruana</strong></h1>
 								<!--
 								<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
 								<p><a class="btn btn-primary btn-lg" href="appointment.html">Make an Appointment</a></p>-->
@@ -188,13 +195,13 @@
 					<img src="images/LogosPTP/Pisco_apr.png" alt="" height=auto width=40%>
 
 					<p>Mejora de logros de Aprendizaje para estudiantes de 1ro y 2do de Educación Secundaria.</p>
-					<a href="doctors.html" class="btn btn-primary">Leer más</a>
+					<a href="{{ url('pisco_aprendizaje')}}" class="btn btn-primary">Leer más</a>
 				</div>
 				<div class="intro-grid color-2">
 					<span class="icon"><i class="icon-wallet2"></i></span>
 					<img src="images/LogosPTP/Pisco_dig.png" alt="" height=auto width=25%>
 					<p>Educación Digital para estudiantes de 3ro grado de secundaria con certificación reconocida.</p>
-					<a href="pdigital.html" class="btn btn-primary">Leer más</a>
+					<a href="{{ url('pisco_digital')}}" class="btn btn-primary">Leer más</a>
 				</div>
 				<div class="intro-grid color-3">
 					<span class="icon"><i class="icon-wallet2"></i></span>
@@ -202,7 +209,7 @@
 					<p>
 						Educación para el Trabajo Técnico Escolar para los alumnos del 4to y 5to de secundaria con certificación reconocida.
 					</p>
-					<a href="ptecnologia.html" class="btn btn-primary">Leer más</a>
+					<a href="{{ url('pisco_tecnologia')}}" class="btn btn-primary">Leer más</a>
 				</div>
 			</div>
 		</div>
@@ -223,28 +230,26 @@
 					<div class="half features-wrap">
 						<div class="qbootstrap-heading animate-box">
 							<h2>¿Qué es el Programa Talento Pisco?</h2>
-							<p>Es un programa de Camisea que busca mejorar la educación secundaria de los
-								estudiantes de esta provincia de Ica, dotándolos de nuevas habilidades y de
-								 una visión global que les permita tener mayores oportunidades de empleo y desarrollo. </p>
+							<p>Es un programa del Consorcio Camisea que busca mejorar la educación secundaria de los estudiantes de la provincia de Pisco, dotándolos de nuevas habilidades y de una visión global que les permita tener mayores oportunidades de empleo y desarrollo. El programa cuenta con tres proyectos que se desarrollan a lo largo de todo el nivel secundario.</p>
 						</div>
 						<div class="features animate-box">
 							<span class="icon text-center"><i><img src="images/LogosPTP/Pisco_apr.png" height=50% width=90%></i></span>
 							<div class="desc">
-								<p>En el primero y segundo grado de secundaria se desarrolla Pisco Aprendizaje, proyecto “Mejora de Logros de Aprendizaje para estudiantes de 1ero y 2do de educación secundaria”. En esta etapa se busca establecer las bases para una adecuada educación secundaria, superior y para la vida.</p>
+								<p>En el primero y segundo grado de secundaria se desarrolla Pisco Aprendizaje, proyecto que busca establecer las bases para una adecuada educación y para el desarrollo de la vida centrándose en alcanzar los logros de aprendizaje esperados según su grado.</p>
 							</div>
 						</div>
 						<div class="features animate-box">
 							<span class="icon text-center"><i><img src="images/LogosPTP/Pisco_dig.png" height=50% width=70%></i></span>
 							<div class="desc">
 
-								<p>En el tercer grado se desarrolla Pisco Digital, proyecto “Educación Digital para estudiantes de 3ro de secundaria con certificación reconocida”. El objetivo de esta etapa es dotar a los estudiantes con las herramientas digitales para desenvolverse adecuadamente el mundo moderno.</p>
+								<p>En el tercer grado se desarrolla Pisco Digital, proyecto que permite a los estudiantes adquirir conocimientos y certificarse en ofimática y herramientas digitales que le permiten desenvolverse adecuadamente el mundo moderno.</p>
 							</div>
 						</div>
 						<div class="features animate-box">
 							<span class="icon text-center"><i><img src="images/LogosPTP/Pisco_tec.png" height=50% width=90%></i></span>
 							<div class="desc">
 
-								<p>En cuarto y quinto grado de secundaria es la especialización. En esta etapa se desarrolla Pisco Tecnología, proyecto “Educación para el trabajo técnico escolar para los alumnos del 4to y 5to de secundaria, con certificación”. Los estudiantes se especializan en computación avanzada, electricidad y electrónica.   </p>
+								<p>En cuarto y quinto grado de secundaria los estudiantes adquieren nuevas habilidades y conocimientos bajo el marco del proyecto Pisco Tecnología que permite que se especialicen y certifiquen en computación avanzada, electricidad o electrónica.</p>
 							</div>
 						</div>
 					</div>
@@ -267,7 +272,7 @@
 					<p>En este proceso participan tres instituciones innovadoras, pioneras y líderes en el campo tecnológico y educativo del país: El Centro para la Competitividad y Desarrollo (CCD),
 						 la Universidad Nacional de Ingeniería (UNI) y el Centro Tecnológico Minero (CETEMIN).</p>
 					<p>En el programa participan de manera conjunta los estudiantes, los padres de familia, los directores y docentes, el Gobierno Regional de Ica,
-						 la UGEL Pisco y Camisea cuyo operador es Pluspetrol, una de las empresas más importantes en exploración y producción de petróleo y gas de Latinoamérica, y la principal empresa de producción de hidrocarburos del país.</p>
+						 la UGEL Pisco, Pluspetrol y el Consorcio Camisea, una de las empresas más importantes en exploración y producción de petróleo y gas de Latinoamérica, y la principal empresa de producción de hidrocarburos del país.</p>
 				</div>
 			</div>
 			<div class="row">
@@ -357,7 +362,7 @@
 							<span id="seconds"></span>
 						</p>-->
 						<p><strong>Forma parte del gran cambio!</strong></p>
-						<p><a href="#" class="btn btn-primary btn-lg">Aceptar <i class="icon-calendar3"></i></a></p>
+						<p><a href="{{ url('contacto')}}" class="btn btn-primary btn-lg">Aceptar</a></p>
 					</div>
 				</div>
 			</div>

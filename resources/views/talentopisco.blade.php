@@ -128,12 +128,17 @@
 									<li class="btn-cta has-dropdown">
 										<a class="letter" href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
 										<ul class="dropdown">
-											<li><a href="{{url('innovacion')}}">Innovación Abierta y Creación de Valor</a></li>
+											<li><a href="{{url('innovacion')}}">Valor Pisco</a></li>
 											<li><a href="{{ url('oportunidades_empleo')}}">Empleo</a></li>
 										</ul>
 									</li>
 
-
+									<li class="btn-cta has-dropdown">
+										<a class="letter" href="{{ url('summer_tech')}}">Comunidad</a>
+										<ul class="dropdown">
+											<li><a href="{{url('summer_tech')}}">Summer Camp Tech</a></li>
+										</ul>
+									</li>
 
 									<li><a class="letter" href="{{ url('noticias')}}">Noticias</a></li>
 
@@ -180,7 +185,7 @@
 									<div class="slider-text-inner">
 
 										<img src="images/LogosPTP/pisco_tal.png">
-										<h1 class="doc-holder"><strong>"Mejorando la calidad en la educación peruana"</strong></h1>
+										<h1 class="doc-holder"><strong>Mejorando la calidad en la educación peruana</strong></h1>
 										<!--
 										<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
 										<p><a class="btn btn-primary btn-lg" href="appointment.html">Make an Appointment</a></p>-->
@@ -318,7 +323,7 @@
                     <div class="title">
                         <h2 style="color: #000">PROGRAMA</h2>
                         <div class="blank"></div>
-                        <p>Nuestra propuesta es desarrollar a partir de los 3 "Proyectos Sociales - Pisco" un "Programa Talento Pisco" cuyos obejtivos serán contar con estudiantes de secundaria con los mejores logros de aprendizaje del país y convertir a la provincia de Pisco en la cuna de egresados de secundaria con las mejores habilidades técnicas y tecnológicas del país. Además de ser el Estudiante de Talento Pisco debidamente Certificado será objetivo del programa formar personas con habilidades y visión global, y con mayores oportunidades de empleo y desarrollo. Para lograr estos objetivos el "Programa Talento Pisco" creará una Plataforma para la Excelencia Formativa y el Empleo que acompañe a los estudiantes y todos los stakeholders relacionados en la continuidad de sus estudiso técnicos y superiores, y de empleo.</p>
+                        <p>Nuestra propuesta consiste en emprender los tres proyectos Pisco Aprendizaje, Pisco Digital y Pisco Tecnología en la provincia de Pisco de manera que los estudiantes tengan el mejor estándar en logros de aprendizaje y habilidades tecnológicas del país. Además, el Estudiante de Talento Pisco estará debidamente certificado y será formado como persona con habilidades y visión global, y con mayores oportunidades de empleo y desarrollo. Para lograr estos objetivos el "Programa Talento Pisco" creará una Plataforma para la Excelencia Formativa y el Empleo que acompañe a los estudiantes y todos los stakeholders relacionados en la continuidad de sus estudios técnicos y superiores, y de empleo.</p>
                     </div>
 
                     <div class="proecess-block col-xs-12 col-sm-6 col-md-4">
@@ -434,6 +439,117 @@
             </div>
         </div>-->
         <!-- // experience -->
+
+				<div id="qbootstrap-doctor" style="padding-bottom: -300px; background-color:#FFF" class="qbootstrap-bg-section">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 image-content">
+								<div class="doctor animate-box">
+
+									<div class="title">
+										<center><h2 style="color: #000">Objetivos</h2></center>
+									</div>
+
+
+									<!--
+									<span>Dental Hygienist</span>
+									<ul class="qbootstrap-social">
+										<li><a href="#"><i class="icon-facebook2"></i></a></li>
+										<li><a href="#"><i class="icon-twitter2"></i></a></li>
+										<li><a href="#"><i class="icon-yahoo2"></i></a></li>
+										<li><a href="#"><i class="icon-google2"></i></a></li>
+									</ul>-->
+									<div class="desc">
+										<p></p><br>
+										<ul>
+											<li type="1">Mejorar los logros de aprendizaje para estudiantes de 1ro y 2do de Educación Secundaria.</li>
+											<br>
+
+											<li type="1">Desarrollar en los estudiantes 3er grado de secundaria habilidades adecuadas en el uso de TIC’s y certificar a los docentes y estudiantes.</li>
+											<br>
+											<li type="1">Desarrollar habilidades adecuadas para la empleabilidad en tecnología (electricidad, electrónica y computación) y certificar a los docentes y estudiantes del 4to y 5to grado de secundaria.</li>
+										</ul>
+										<br>
+
+										<div class="blank"></div>
+
+											<div class="container-fluid">
+												<div class="row">
+													<div class="col-md-4 animate-box text-center">
+														<div class="doctor">
+															<div class="staff-img2" style="background-image: url(images/bg_pisco_aprendizaje.jpg);"></div>
+															<img src="images/LogosPTP/Pisco_apr.png" alt="" height=auto width=50%>
+														</div>
+													</div>
+													<div class="col-md-4 animate-box text-center">
+														<div class="doctor">
+															<div class="staff-img2" style="background-image: url(images/bg_pisco_digital.jpg);"></div>
+															<img src="images/LogosPTP/Pisco_dig.png" alt="" height=auto width=35%>
+														</div>
+													</div>
+													<div class="col-md-4 animate-box text-center">
+														<div class="doctor">
+															<div class="staff-img2" style="background-image: url(images/bg_pisco_tecnologia.jpg);"></div>
+															<img src="images/LogosPTP/Pisco_tec.png" alt="" height=auto width=50%>
+														</div>
+													</div>
+												</div>
+											</div>
+										<br>
+										<br>
+										</div>
+
+
+
+
+									<!--
+										<div class="qbootstrap-departments" style="background-color: #91AE34">
+											<div class="row">
+
+												<div class="department-wrap animate-box">
+													<div class="grid-1 col-md-6 col-md-push-6" style="background-image: url(images/small_photo2.jpg);"></div>
+													<div class="grid-2 col-md-6 col-md-pull-6">
+														<div class="desc">
+															<h2><a href="departments-single.html">Misión</a></h2>
+															<p>"En Centro para la Competitividad y el Desarrollo (CCD) nos distinguimosonado con la atención de la agenda social, medioambiental y promoción de la inversión privada."</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+									</div>
+
+									<div class="blank"></div>
+									<div class="blank"></div>
+									<div class="blank"></div>
+
+
+
+									<div class="qbootstrap-departments" style="background-color: #91AE34" >
+											<div class="row">
+
+												<div class="department-wrap animate-box">
+													<div class="grid-1 col-md-6 " style="background-image: url(images/small_photo1.jpg);"></div>
+													<div class="grid-2 col-md-6 ">
+														<div class="desc">
+															<h2><a href="departments-single.html">Visión</a></h2>
+															<p>"En Centro para la Competitividad y el Desarrollo (CCD) nos distinguimosonado con la atención de la agenda social, medioambiental y promoción de la inversión privada."</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+									</div>
+
+									-->
+
+
+								</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
 
 
 

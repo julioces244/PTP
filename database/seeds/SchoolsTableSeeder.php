@@ -73,32 +73,36 @@ class SchoolsTableSeeder extends Seeder
 
       DB::table('schools')->insert([
           'nombre' => 'Miguel Grau Seminario',
-          'ubicacion' => 'Huancano',
+          'ubicacion' => 'Pisco',
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'María Prado de Bellido',
-          'ubicacion' => 'Huancano',
+          'ubicacion' => 'Pisco',
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'Lazaro Orrego Morales',
-          'ubicacion' => 'Huancano',
+          'ubicacion' => 'Pisco',
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'Gerardo Mendoza Escate',
-          'ubicacion' => 'Huancano',
+          'ubicacion' => 'Pisco',
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'Andres Avelino Caceres',
-          'ubicacion' => 'Huancano',
+          'ubicacion' => 'Pisco',
       ]);
 
       DB::table('schools')->insert([
           'nombre' => '22489 Paracas',
-          'ubicacion' => 'Huancano',
+          'ubicacion' => 'Pisco',
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'General',
       ]);
     }
 }

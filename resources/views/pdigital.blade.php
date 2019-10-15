@@ -127,8 +127,15 @@
 									<li class="btn-cta has-dropdown">
 										<a href="{{ url('oportunidades_empleo')}}">Oportunidades</a>
 										<ul class="dropdown">
-											<li><a href="{{url('')}}">Innovación Abierta y Creación de Valor</a></li>
+											<li><a href="{{url('innovacion')}}">Valor Pisco</a></li>
 											<li><a href="{{ url('oportunidades_empleo')}}">Empleo</a></li>
+										</ul>
+									</li>
+
+									<li class="btn-cta has-dropdown">
+										<a class="letter" href="{{ url('summer_tech')}}">Comunidad</a>
+										<ul class="dropdown">
+											<li><a href="{{url('summer_tech')}}">Summer Camp Tech</a></li>
 										</ul>
 									</li>
 
@@ -177,7 +184,7 @@
 									<div class="slider-text-inner">
 
 										<img src="images/LogosPTP/pisco_tal.png">
-										<h1 class="doc-holder"><strong>"Mejorando la calidad en la educación peruana"</strong></h1>
+										<h1 class="doc-holder"><strong>Mejorando la calidad en la educación peruana</strong></h1>
 										<!--
 										<h2>Free html5 templates Made by <a href="http://qbootstrap.com/" target="_blank">QBootstrap.com</a></h2>
 										<p><a class="btn btn-primary btn-lg" href="appointment.html">Make an Appointment</a></p>-->
@@ -250,13 +257,13 @@
 					<span class="icon"><i class="icon-wallet2"></i></span>
 					<h3>Pisco Aprendizaje</h3>
 					<p>Mejora de logros de Aprendizaje para estudiantes de 1ro y 2do de Educación Secundaria.</p>
-					<a href="doctors.html" class="btn btn-primary">Leer más</a>
+					<a href="{{ url('pisco_aprendizaje')}}" class="btn btn-primary">Leer más</a>
 				</div>
 				<div class="intro-grid color-2">
 					<span class="icon"><i class="icon-wallet2"></i></span>
 					<h3>Pisco Digital</h3>
 					<p>Educación Digital para estudiantes de 3ro grado de secundaria con certificación reconocida.</p>
-					<a href="pdigital.html" class="btn btn-primary">Leer más</a>
+					<a href="{{ url('pisco_digital')}}" class="btn btn-primary">Leer más</a>
 				</div>
 				<div class="intro-grid color-3">
 					<span class="icon"><i class="icon-wallet2"></i></span>
@@ -264,7 +271,7 @@
 					<p>
 						Educación para el Trabajo Técnico Escolar para los alumnos del 4to y 5to de secundaria con certificación reconocida.
 					</p>
-					<a href="ptecnologia.html" class="btn btn-primary">Leer más</a>
+					<a href="{{ url('pisco_tecnologia')}}" class="btn btn-primary">Leer más</a>
 				</div>
 			</div>
 		</div>
@@ -285,10 +292,7 @@
                             <h3>PISCO DIGITAL</h3>
                             <h5>Educación Digital para estudiantes de 3ro grado de secundaria con certificación reconocida.</h5>
                             <span class="divider"></span>
-                            <p>El proyecto tiene como objetivo de corto plazo (2019), mediando plazo (2021) y largo plazo (2030) alcanzar
-							   55%, 90% y 100% de estudiantes del 3ero grado de secundaria con certificación en Ofimática UNI,
-							   respectivamente. En las 12 II.EE a intervenir, ningún estudiantes del 3ero grado de secundaria ha sido
-							   certificado anteriormente.</p>
+                            <p>El proyecto busca desarrollar habilidades adecuadas en el uso de ofimática y herramientas digitales en los estudiantes del 3er grado de secundaria de la provincia de Pisco. Para lograr los objetivos, la Universidad Nacional de Ingeniería (UNI) capacita a los docentes en Microsoft Office (Microsoft Word, Microsoft Excel y Microsoft Power Point) y uso de herramientas digitales.</p>
                             </div>
                         </div>
                     </div>
@@ -307,13 +311,14 @@
 						<br>
 
 						<div class="desc">
-							<p>Para lograr los objetivos trazados, la Universidad Nacional de Ingeniería (UNI) será el Sub Oferente de
-								Ofimática, es decir, en Herramientas Digitales, Gestión de correos y Microsoft Office (Microsoft Word, Microsoft Excel y
-								Microsoft Power Point), el Centro para la Competitividad y el Desarrollo (CCD) será el operador del proyecto y
-								el Centro Tecnológico Minero (CETEMIN) un socio estratégico para el desarrollo dela Plataforma para la
-								Excelencia Formativa y el Empleo y para la sinergias pedagógicas a ser realizadas con la implementación de
-								los “Proyectos Sociales - Pisco”. En la siguiente figura se presenta un resumen de las experiencias de la UNI,
-								CCD y CETEMIN. Para el proyecto social Pisco Aprendizaje los alumnos de 3er grado de secundaria se especializaran en las siguientes materias:</p><br>
+							<p>Las 12 II.EE que son beneficiarias del proyecto serán equipadas con laboratorios de cómputo y cuentan con el
+								 soporte técnico adecuado para su sostenibilidad de manera que los estudiantes del 3er grado de secundaria
+								  dispongan de una especialización en ofimática y herramientas digitales y culminen el grado debidamente certificado
+									 por la Universidad Nacional de Ingeniería (UNI).</p><br>
+							<p>Los docentes de Educación Para el Trabajo son capacitados por expertos de la Universidad Nacional de Ingeniería (UNI)
+								 en los cursos Microsoft Word, Microsoft Excel y Microsoft Power Point y uso de herramientas digitales para poder transmitir
+								  los conocimientos a los estudiantes en las aulas. Asimismo, estos docentes al culminar su capacitación también reciben las
+									 certificaciones correspondientes.</p>
 
 
 							<div class="blank"></div>
@@ -389,7 +394,7 @@
                                 <div class="blank"></div>
                                 <div class="signature">
                                     <div class="doctor">
-                                    <div class="staff-img2" style="background-image: url(images/boss_digital.jpg);"></div></div>
+                                    <div class="staff-img2" style="background-image: url(images/photos/joel.jpg);"></div></div>
                                 </div>
                           </div>
 
