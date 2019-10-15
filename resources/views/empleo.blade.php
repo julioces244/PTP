@@ -199,7 +199,7 @@
           </span>
           <div class="desc">
 
-            <p>Plataforma virtual para conectar alumnos y empleadores.</p>
+            <p>Plataforma virtual para conectar alumnos y empleadores</p>
           </div>
         </div>
       </div>
@@ -210,7 +210,7 @@
           </span>
           <div class="desc">
 
-            <p>Bolsa de trabajo provincial, regional y nacional.</p>
+            <p>Bolsa de trabajo provincial, regional y nacional</p>
           </div>
         </div>
       </div>
@@ -221,7 +221,7 @@
           </span>
           <div class="desc">
 
-            <p>Convenios para visitas de alumnos a principales empresas.<br><br></p>
+            <p>Convenios para visitas de alumnos a principales empresas<br><br></p>
           </div>
         </div>
       </div>
@@ -233,7 +233,7 @@
           </span>
           <div class="desc">
 
-            <p>Convenios de empleo público y privado.</p>
+            <p>Convenios de empleo público y privado</p>
 
           </div>
         </div>

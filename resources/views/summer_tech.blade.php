@@ -201,7 +201,7 @@
 		<div class="desc">
 			<div>
 
-			<h2 style="text-align: center;"><a href="departments-single.html" style="color: #91AE34">Summer Tech Pisco</a></h2>
+			<h2 style="text-align: center;"><a style="color: #91AE34">Summer Tech Pisco</a></h2>
 			<br>
 			<p>Summer Tech Pisco es un programa variado de actividades para la comunidad estudiantil de Pisco.
         Summer Tech Pisco ofrece a los participantes cursos introductorios y de motivación al mundo de la ciencia y la tecnología.</p>

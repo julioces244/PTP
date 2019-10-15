@@ -318,7 +318,7 @@
 							<p>En las 18 II.EE. que se desarrolla el proyecto, los beneficiarios son perceptores de diversas capacitaciones, materiales e incentivos que les permite tener las herramientas adecuadas para que los estudiantes eleven sus niveles de comprensión lectora y matemática. Es por ello que trabajar con los docentes es fundamental, fortaleciendo sus capacidades y competencias pedagógicas, puesto que esto está estrechamente relacionado con la calidad educativa y eficiencia con el que el docente cumple sus labores pedagógicas. Asimismo es importante la participación de los directores que son líderes de cada institución educativa intervenida. Es así que el proyecto capacita, acompaña y asesora a los directores  de las II.EE, teniendo como objetivo desarrollar y fortalecer las competencias y desempeño de los directores, a fin de gestionar las II.EE bajo un enfoque de liderazgo pedagógico y, de esa manera, asegurar el aprendizaje de los estudiantes.</p>
 							<br>
 							<p>El proyecto brinda fichas de trabajo (comunicación y matemática) preparadas exclusivamente para el proyecto contextualizados a la zona y orientados a desarrollar las competencias y capacidades que exige el Ministerio de Educación. Asimismo entrega material didáctico estructurado complementario para el mejor desarrollo de las clases incrementando los logros de aprendizaje de manera lúdica, creativa y reflexiva.</p>
-							
+
 							<p>La presencia y participación de  los padres de familia es de vital importancia, en este sentido, el proyecto desarrolla jornadas de  capacitación con los padres de familia con la finalidad de darles a conocer el avance de sus hijos, brindarles estrategias para desarrollar en casa, entre otros.</p>
 							<br>
 							<p>Para el proyecto social Pisco Aprendizaje los alumnos de 1er y 2do de secundaria se especializaran en las siguientes materias:<br></p>
@@ -341,7 +341,7 @@
 										<div class="col-md-6 animate-box text-center">
 											<div class="doctor">
 												<div class="staff-img2" style="background-image: url(images/photos/IMG-20190828-WA0023.jpg);"></div>
-												<h3><a href="#">Matemáticas</a></h3>
+												<h3><a href="#">Matemática</a></h3>
 											</div>
 										</div>
 

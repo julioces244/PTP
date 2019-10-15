@@ -226,8 +226,11 @@
       </div>
       <div class="col-lg-4 col-sm-8">
         <div class="bg-white p-5">
-          <h2><a>BIENVENIDO</a></h2>
-          <p>Pluspetrol, una de las empresas más importantes en exploración y producción de petróleo y gas de Latinoamérica, y la principal empresa de producción de hidrocarburos del país se encuentra promoviendo tres proyectos educativos con la finalidad de mejorar la calidad de educación en la provincia de Pisco.
+          <h2><a>Bienvenido!</a></h2>
+          <p>Gracias por ingresar a un espacio donde puedes encontrar un Programa con opciones para un futuro educativo mejor.
+							Pluspetrol, comprometido con el desarrollo educativo de la provincia de Pisco, ha desarrollado Programa Talento Pisco. Esta iniciativa se presenta como una excelente oportunidad para los estudiantes, docentes, instituciones educativas y familias de la provincia de Pisco que busca mejorar la calidad educativa.
+							El Programa Talento Pisco cuenta con tres proyectos: Pisco Aprendizaje, Pisco Digital y Pisco Tecnología. Estos proyectos permitirán desarrollar las habilidades de los estudiantes en logros de aprendizaje y educación técnica. Este programa brinda educación contextualizada y personalizada, equipamiento moderno y conocimientos avanzados que aseguran el éxito futuro de los estudiantes.
+							El estudiante del Programa Talento Pisco es un joven con altos niveles de logros de aprendizaje y formación técnica, es decir, con las condiciones educativas adecuadas para generar un futuro prometedor y exitoso.
           </p>
         </div>
       </div>
@@ -320,27 +323,22 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 ">
                         <div class="exp-block">
-                            <h2 style="font-size: 30px; color: white">MISIÓN</h2>
+                            <h2 style="font-size: 30px; color: white">NUESTRA MISIÓN</h2>
                             <ul class="list-none">
-                                <li>
-                                    <h4 style="color: white">Nuestra Misión</h4>
 
-                                    <p><br>Mejorar sustancialmente la educación secundaria en la provincia de Pisco buscando la excelencia formativa y la especialización técnica en los estudiantes.<br></p>
-                                </li>
+																	<p><br>Mejorar sustancialmente la educación secundaria en la provincia de Pisco buscando la excelencia formativa y la especialización técnica en los estudiantes.<br></p>
+
 
                             </ul>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6">
                         <div class="exp-block">
-                            <h2 style="font-size: 30px; color: white" >VISIÓN</h2>
+                            <h2 style="font-size: 30px; color: white" >NUESTRA VISIÓN</h2>
                             <ul class="list-none">
-                                <li>
-                                    <h4 style="color: white">Nuestra Visión</h4>
 
-                                    <p><br>Jóvenes con alto nivel educativo y habilidades tecnológicas que destacan a nivel país.<br><br></p>
+                                    <p><br>Jóvenes con alto nivel educativo y habilidades tecnológicas que destacan a nivel país.<br><br><br></p>
 
-                                </li>
 
                             </ul>
                         </div>
