@@ -18,7 +18,6 @@ class CreateTypeArchivesTable extends Migration
             $table->increments('idType');
             $table->string('nombre')->nullable();
             $table->string('abreviatura')->nullable();
-            $table->string('modulo')->nullable();
             $table->timestamps();
         });
     }

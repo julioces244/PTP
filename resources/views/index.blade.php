@@ -17,14 +17,14 @@
 
 							</div>
 							<div class="col-md-4 col-md-pull-4">
-								<img id="imglogo1" src="{{asset('images/TalentoPiscoLogo.png')}}" height="150px" width="auto">
+								<img id="imglogo1" class="imglogo1" src="{{asset('images/TalentoPiscoLogo.png')}}" height="150px" width="auto">
 
 								<div class="num">
 								</div>
 							</div>
 							<div class="col-md-4">
 
-								<img id="imglogo2" src="{{asset('images/LogosPTP/logocamisea.jpg')}}" height="150px" width="400px">
+								<img id="imglogo2" class="imglogo1" src="{{asset('images/LogosPTP/logocamisea.jpg')}}" height="150px" width="400px">
 
 							</div>
 						</div>

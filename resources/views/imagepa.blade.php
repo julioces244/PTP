@@ -104,27 +104,8 @@
             <div class="downloads"><!--start downloads-->
 
               <a href="{{ url('imgpa_bandera')}}" class="btn2 download-btn2">Bandera del Perú</a>
-              <a href="{{ url('imgpa_sanmartin')}}" class="btn2 social-btn2">José de San Martín</a>
-              <a href="{{ url('imgpa_porras')}}" class="btn2 social-btn2">Raúl Porras Barrenechea</a>
-              <a href="{{ url('imgpa_renan')}}" class="btn2 social-btn2">Renán Elías Olivera</a>
-              <a href="{{ url('imgpa_carlos')}}" class="btn2 social-btn2">Carlos Noriega Jimenez</a>
-              <a href="{{ url('imgpa_mariategui')}}" class="btn2 social-btn2">José C. Mariátegui</a>
-              <a href="{{ url('imgpa_independencia')}}" class="btn2 social-btn2">Independencia</a>
-              <a href="{{ url('imgpa_quiñones')}}" class="btn2 social-btn2">José Quiñones</a>
-              <a href="{{ url('imgpa_alegria')}}" class="btn2 social-btn2">Fé y Alegría</a>
-              <a href="{{ url('imgpa_beatita')}}" class="btn2 social-btn2">Beatita de Humay</a>
-              <a href="{{ url('imgpa_velazco')}}" class="btn2 social-btn2">Juan Velasco Alvarado</a>
-              <a href="{{ url('imgpa_porsia')}}" class="btn2 social-btn2">Porsia Senisse de Arriola</a>
-              <a href="{{ url('/')}}" class="btn2 social-btn2">Miguel Grau Seminario</a>
-              <a href="{{ url('/')}}" class="btn2 social-btn2">María Parado de Bellido</a>
-              <a href="{{ url('/')}}" class="btn2 social-btn2">Lazaro Orrego Morales</a>
-              <a href="{{ url('/')}}" class="btn2 social-btn2">Gerardo Mendoza Escate</a>
-              <a href="{{ url('/')}}" class="btn2 social-btn2">Andrés Avelino Cáceres</a>
-              <a href="{{ url('/')}}" class="btn2 social-btn2">22489 Paracas</a>
-
 
             </div><!--end downloads-->
-
 
             <nav class="tabs-nav">
 
@@ -146,10 +127,6 @@
                 </ul>
 
             </nav>
-
-
-
-
 
 
             <div class="tab-container"><!--start tab container-->

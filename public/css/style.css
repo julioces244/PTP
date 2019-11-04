@@ -3001,15 +3001,14 @@ img.zoom {
     color: #91AE34;
   }
 
+
 }
 
 
-@media screen and (max-width:560px) and (min-width:360px) {
-  #imglogo1{
+@media only screen and (max-width:640px) and (min-width:360px) {
+  .imglogo1{
     width: 360px;
     height: 100px;
   }
-  #imglogo2{
-    width: 360px;
-    height: 100px;
-  }
+
+}

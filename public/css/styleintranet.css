@@ -1259,12 +1259,14 @@ img {
   DOWNLOADS
 ==================================================*/
 .downloads, .tabs {
+
+
   -webkit-box-shadow: 0 8px 50px 1px rgba(5, 5, 5, 0.3);
   -moz-box-shadow: 0 8px 50px 1px rgba(5, 5, 5, 0.3);
   box-shadow: 0 8px 50px 1px rgba(5, 5, 5, 0.3); }
 
 .downloads {
-
+  margin: 20px;
 
   }
   .downloads:before, .downloads:after {
@@ -1300,6 +1302,7 @@ img {
   TAB BODY
 ========================================*/
 .tabs {
+
   position: relative;
   left: 0;
   right: 0;
@@ -1322,21 +1325,20 @@ img {
   padding: 0; }
 .tabs-nav li {
   margin-top: 0px;
-  width: 200px;
-  padding: 3% 3% 3% 3%;
+  width: 190px;
+  padding-left: 2%;
+  padding-right: 2%;
   display: inline-block;
   /* For normal, healthy browsers */
   /*white-space: nowrap;*/
   *display: inline;
   zoom: 1;
-
+  font-size: small;
   text-align: center;
   color: #E0E0E0;
   cursor: pointer;
-  margin-left: -5px;
   margin-bottom: 0;
-  border-right: 1px solid #E9E9E9;
-  border-bottom: 1px solid #E9E9E9;
+  border-bottom: 1px solid #91AE34;
   background-color: #F7F7F7;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -1350,7 +1352,7 @@ img {
     /* for IE7 */
     display: inline; }
   .tabs-nav li:hover {
-    color: #edbdc8;
+    color: #91AE34;
     background-color: #fff; }
   .tabs-nav li:first-child {
     margin-left: 0;

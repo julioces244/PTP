@@ -13,96 +13,269 @@ class SchoolsTableSeeder extends Seeder
     {
       DB::table('schools')->insert([
           'nombre' => 'Bandera del Perú',
-          'ubicacion' => 'Pisco',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'José de San Martín',
-          'ubicacion' => 'Pisco',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'Raúl Porras Barrenechea',
-          'ubicacion' => 'Pisco',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'Renán Elías Olivera',
-          'ubicacion' => 'San Andrés',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'Carlos Noriega Jimenez',
-          'ubicacion' => 'Paracas',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'José C. Mariátegui',
-          'ubicacion' => 'San Clemente',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'Independencia',
-          'ubicacion' => 'Independencia',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'José Quiñones Gonzalez',
-          'ubicacion' => 'Tupac Amarú',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'Fé y Alegría 77',
-          'ubicacion' => 'Tupac Amaru',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'Beatita de Humay',
-          'ubicacion' => 'Humay',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'Juan Velazco Alvarado',
-          'ubicacion' => 'Humay',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'Porsia Senisse de Arriola',
-          'ubicacion' => 'Huancano',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'Miguel Grau Seminario',
-          'ubicacion' => 'Pisco',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'María Prado de Bellido',
-          'ubicacion' => 'Pisco',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'Lazaro Orrego Morales',
-          'ubicacion' => 'Pisco',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'Gerardo Mendoza Escate',
-          'ubicacion' => 'Pisco',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => 'Andres Avelino Caceres',
-          'ubicacion' => 'Pisco',
+          'category_id' => 1,
       ]);
 
       DB::table('schools')->insert([
           'nombre' => '22489 Paracas',
-          'ubicacion' => 'Pisco',
+          'category_id' => 1,
+      ]);
+
+
+      //PISCO DIGITAL
+
+      DB::table('schools')->insert([
+          'nombre' => 'Bandera del Perú',
+          'category_id' => 2,
       ]);
 
       DB::table('schools')->insert([
-          'nombre' => 'General',
+          'nombre' => 'José de San Martín',
+          'category_id' => 2,
       ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Raúl Porras Barrenechea',
+          'category_id' => 2,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Renán Elías Olivera',
+          'category_id' => 2,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Carlos Noriega Jimenez',
+          'category_id' => 2,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'José C. Mariátegui',
+          'category_id' => 2,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Independencia',
+          'category_id' => 2,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'José Quiñones Gonzalez',
+          'category_id' => 2,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Fé y Alegría 77',
+          'category_id' => 2,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Beatita de Humay',
+          'category_id' => 2,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Juan Velazco Alvarado',
+          'category_id' => 2,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Porsia Senisse de Arriola',
+          'category_id' => 2,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Miguel Grau Seminario',
+          'category_id' => 2,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'María Prado de Bellido',
+          'category_id' => 2,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Lazaro Orrego Morales',
+          'category_id' => 2,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Gerardo Mendoza Escate',
+          'category_id' => 2,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Andres Avelino Caceres',
+          'category_id' => 2,
+      ]);
+
+
+
+
+      //PISCO TECNOLOGÍA
+
+
+      DB::table('schools')->insert([
+          'nombre' => 'Bandera del Perú',
+          'category_id' => 3,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'José de San Martín',
+          'category_id' => 3,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Raúl Porras Barrenechea',
+          'category_id' => 3,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Renán Elías Olivera',
+          'category_id' => 3,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Carlos Noriega Jimenez',
+          'category_id' => 3,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'José C. Mariátegui',
+          'category_id' => 3,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Independencia',
+          'category_id' => 3,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'José Quiñones Gonzalez',
+          'category_id' => 3,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Fé y Alegría 77',
+          'category_id' => 3,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Beatita de Humay',
+          'category_id' => 3,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Juan Velazco Alvarado',
+          'category_id' => 3,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Porsia Senisse de Arriola',
+          'category_id' => 3,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Miguel Grau Seminario',
+          'category_id' => 3,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'María Prado de Bellido',
+          'category_id' => 3,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Lazaro Orrego Morales',
+          'category_id' => 3,
+      ]);
+
+      DB::table('schools')->insert([
+          'nombre' => 'Gerardo Mendoza Escate',
+          'category_id' => 3,
+      ]);
+
+
+
     }
 }

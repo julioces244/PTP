@@ -23,7 +23,7 @@
                 </li>
 
                 <li>
-                    <a href="/imgpa_bandera">
+                    <a href="/img_categories">
                         <i class="fas fa-image"></i>
                         Imágenes
                     </a>

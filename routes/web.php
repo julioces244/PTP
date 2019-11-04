@@ -101,32 +101,26 @@ Route::get('logout', 'Auth\LoginController@logout');
 Route::post('login', 'Auth\LoginController@authenticate');
 
 //Paginas intranet Camisea Carga de archivos documentos pisco aprendizaje, digital, tecnologia
-Route::get('/test', 'ArchiveController@index')->name('test');
+Route::get('/filepa', 'ArchiveController@index')->name('test');
 Route::get('/filepd', 'ArchiveController@index2')->name('filepd');
 Route::get('/filept', 'ArchiveController@index3')->name('filept');
 
-  //Imagenes aprendizaje colegios
-Route::get('/imgpa_bandera', 'ImageController@index')->name('imagepa');
-Route::get('/imgpa_sanmartin', 'ImageController@imagepa_sanmartin');
-Route::get('/imgpa_porras', 'ImageController@imagepa_porras');
-Route::get('/imgpa_renan', 'ImageController@imagepa_renan');
-Route::get('/imgpa_carlos', 'ImageController@imagepa_carlos');
-Route::get('/imgpa_mariategui', 'ImageController@imagepa_mariategui');
-Route::get('/imgpa_independencia', 'ImageController@imagepa_independencia');
-Route::get('/imgpa_quiñones', 'ImageController@imagepa_quiñones');
-Route::get('/imgpa_alegria', 'ImageController@imagepa_alegria');
-Route::get('/imgpa_beatita', 'ImageController@imagepa_beatita');
-Route::get('/imgpa_velazco', 'ImageController@imagepa_velazco');
-Route::get('/imgpa_porsia', 'ImageController@imagepa_porsia');
+//Lista colegios aprendizaje, digital y tecnologia
+Route::get('/imgpa_school', 'ImageController@imagepa_school');
+Route::get('/imgpd_school', 'ImageController@imagepd_school');
+Route::get('/imgpt_school', 'ImageController@imagept_school');
 
-  //Imagenes digital colegios
-Route::get('/imgpd_bandera', 'ImageController@imagepd_bandera');
-Route::get('/imgpd_sanmartin', 'ImageController@imagepd_sanmartin');
+//CategoriesIMG
+Route::get('/img_categories', 'ImageController@imagecategories');
 
-  //Imagenes tecnologia colegios
-Route::get('/imgpt_bandera', 'ImageController@imagept_bandera');
+//SchoolsIMG
+Route::get('/img_categories/{categories}', 'ImageController@imageschools');
 
+//TypeIMG
+Route::get('/img_categories/{categories}/{schools}', 'ImageController@imagetypes');
 
+//FilesIMG
+Route::get('/img_categories/{categories}/{schools}/{types}', 'ImageController@imagefiles');
 
 
 Route::resource('admarchive', 'admarchiveController')->names([

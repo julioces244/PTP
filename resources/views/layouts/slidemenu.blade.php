@@ -8,8 +8,8 @@
 <!--
 <link rel="stylesheet" href="assets/css/bootstrap.css">-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-<link rel="stylesheet" href="css/slide.css">
-<link rel="stylesheet" href="css/styleintranet.css">
+<link rel="stylesheet" href="{{asset('css/slide.css')}}">
+<link rel="stylesheet" href="{{asset('css/styleintranet.css')}}">
  <!-- Fonts -->
  <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"></style>

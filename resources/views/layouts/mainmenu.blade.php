@@ -7,8 +7,6 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Programa Talento Pisco</title>
-
-	<link rel="icon" sizes="16x16" href="./images/favicon/favicon.ico" type="ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by QBOOTSTRAP.COM" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -57,17 +55,7 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
-	<link rel="stylesheet" href="plugins/slick/slick.css">
- <!-- themefy-icon -->
- <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
- <!-- animation css -->
- <link rel="stylesheet" href="plugins/animate/animate.css">
- <!-- aos -->
- <link rel="stylesheet" href="plugins/aos/aos.css">
-
-
- <!-- venobox popup -->
- <link rel="stylesheet" href="plugins/venobox/venobox.css">
+	<link rel="stylesheet" href="css/justifiedGallery.min.css">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -98,7 +86,7 @@
    <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
  </div>
 
-	<script src="plugins/jQuery/jquery.min.js"></script>
+
    <!-- jQuery -->
  	<script src="js/jquery.min.js"></script>
  	<!-- jQuery Easing -->
@@ -121,17 +109,10 @@
  	<!-- Sticky Kit -->
  	<script src="js/sticky-kit.min.js"></script>
  	<!-- Main -->
- 	<script src="js/main.js"></script>
- 	<script src="js/menu.js"></script>
+	<script src="js/jquery.justifiedGallery.min.js" language="javascript" type="text/javascript"></script>
 
-
-
-	<!-- Bootstrap JS -->
-
-	<script src="plugins/venobox/venobox.min.js"></script>
-	<script src="plugins/slick/slick.min.js"></script>
-	<!-- aos -->
-	<script src="plugins/aos/aos.js"></script>
+	<!-- Main -->
+<script src="js/main.js"></script>
 
 
  	<script type="text/javascript">
@@ -155,11 +136,8 @@
  		  }
  		}
  	</script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-					$('.venobox').venobox();
-			});
-	</script>
 
-</body>
+
+	<script src="js/menu.js" language="javascript" type="text/javascript"></script>
+	</body>
 </html>

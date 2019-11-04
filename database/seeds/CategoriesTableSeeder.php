@@ -28,9 +28,5 @@ class CategoriesTableSeeder extends Seeder
             'abreviatura' => 'PT',
         ]);
 
-        DB::table('categories')->insert([
-            'nombre' => 'General',
-            'abreviatura' => 'GG',
-        ]);
     }
 }

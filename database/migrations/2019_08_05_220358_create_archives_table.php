@@ -22,10 +22,6 @@ class CreateArchivesTable extends Migration
           //
           $table->string('filename')->nullable();
           $table->string('archive')->nullable();
-
-
-
-
           $table->timestamps();
         });
     }

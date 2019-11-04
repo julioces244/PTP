@@ -14,4 +14,8 @@ class School extends Model
      public function archives(){
        return $this->hasMany('App\Archive','school_id');
      }
+
+     public function category(){
+       return $this->belongsTo('App\Category','category_id');
+     }
 }

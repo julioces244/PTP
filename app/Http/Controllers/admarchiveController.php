@@ -31,7 +31,6 @@ class admarchiveController extends Controller
     public function index()
     {
 
-        //
         $archives = Archive::all();
         return view('showarchives', compact('archives'));
     }
@@ -45,7 +44,7 @@ class admarchiveController extends Controller
     {
         //
         $categories = Category::all();
-        $types = Type_archive::all()->where('modulo','Documento');
+        $types = Type_archive::all();
         return view ('intraplus')->with('categories', $categories)->with('types', $types);
 
     }
@@ -72,7 +71,6 @@ class admarchiveController extends Controller
       $archive->filename = $request->input('filename');
       $archive->category_id = $request->input('category');
       $archive->type_id = $request->input('type');
-      $archive->school_id = 19;
       $archive->archive = $filename;
       $archive->save();
       return redirect()->route('listar');
