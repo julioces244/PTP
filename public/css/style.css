@@ -3007,7 +3007,8 @@ img.zoom {
 
 @media only screen and (max-width:640px) and (min-width:360px) {
   .imglogo1{
-    width: 360px;
+    margin-top: 10px;
+    width: 330px;
     height: 100px;
   }
 
