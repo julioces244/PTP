@@ -24,7 +24,7 @@
 							</div>
 							<div class="col-md-4">
 
-								<img id="imglogo2" class="imglogo1" src="{{asset('images/LogosPTP/logocamisea.jpg')}}" height="150px" width="400px">
+								<img id="imglogo2" class="imglogo2" src="{{asset('images/LogosPTP/logocamisea.jpg')}}" height="150px" width="400px">
 
 							</div>
 						</div>
