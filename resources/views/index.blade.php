@@ -318,7 +318,7 @@
 
 						<div class="col-md-3 col-sm-6 text-center animate-box">
 							<span class="icon"><i class="icon-group-outline"></i></span>
-							<span class="qbootstrap-counter js-counter" data-from="0" data-to="3297" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="qbootstrap-counter js-counter" data-from="0" data-to="7775" data-speed="5000" data-refresh-interval="50"></span>
 							<span class="qbootstrap-counter-label">Estudiantes</span>
 
 						</div>
